@@ -1,10 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\",
+  "WorkspaceRootPath": "C:\\Users\\alilj\\Desktop\\UpravljanjeTroskovima\\VVS-24-25-Projekat\\StedoMedo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|c:\\users\\hp compaq\\desktop\\vvs\\vvs-24-25-projekat\\stedomedo\\stedomedo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|c:\\users\\alilj\\desktop\\upravljanjetroskovima\\vvs-24-25-projekat\\stedomedo\\stedomedo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|solutionrelative:stedomedo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|c:\\users\\alilj\\desktop\\upravljanjetroskovima\\vvs-24-25-projekat\\stedomedo\\stedomedo\\models\\kategorijatroska.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|solutionrelative:stedomedo\\models\\kategorijatroska.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|c:\\users\\alilj\\desktop\\upravljanjetroskovima\\vvs-24-25-projekat\\stedomedo\\stedomedo\\models\\korisnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|solutionrelative:stedomedo\\models\\korisnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|c:\\users\\alilj\\desktop\\upravljanjetroskovima\\vvs-24-25-projekat\\stedomedo\\stedomedo\\services\\statistika\\servisstatistika.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|solutionrelative:stedomedo\\services\\statistika\\servisstatistika.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|c:\\users\\alilj\\desktop\\upravljanjetroskovima\\vvs-24-25-projekat\\stedomedo\\stedomedo\\models\\trosak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|solutionrelative:stedomedo\\models\\trosak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|c:\\users\\alilj\\desktop\\upravljanjetroskovima\\vvs-24-25-projekat\\stedomedo\\stedomedo\\data\\dbclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|solutionrelative:stedomedo\\data\\dbclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|c:\\users\\alilj\\desktop\\upravljanjetroskovima\\vvs-24-25-projekat\\stedomedo\\stedomedo\\services\\statistika\\iservisstatistika.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|solutionrelative:stedomedo\\services\\statistika\\iservisstatistika.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,24 +38,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "KategorijaTroska.cs",
+              "DocumentMoniker": "C:\\Users\\alilj\\Desktop\\UpravljanjeTroskovima\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Models\\KategorijaTroska.cs",
+              "RelativeDocumentMoniker": "StedoMedo\\Models\\KategorijaTroska.cs",
+              "ToolTip": "C:\\Users\\alilj\\Desktop\\UpravljanjeTroskovima\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Models\\KategorijaTroska.cs",
+              "RelativeToolTip": "StedoMedo\\Models\\KategorijaTroska.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T20:41:02.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Korisnik.cs",
+              "DocumentMoniker": "C:\\Users\\alilj\\Desktop\\UpravljanjeTroskovima\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Models\\Korisnik.cs",
+              "RelativeDocumentMoniker": "StedoMedo\\Models\\Korisnik.cs",
+              "ToolTip": "C:\\Users\\alilj\\Desktop\\UpravljanjeTroskovima\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Models\\Korisnik.cs",
+              "RelativeToolTip": "StedoMedo\\Models\\Korisnik.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA5wBIAAAB7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T20:38:06.145Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\alilj\\Desktop\\UpravljanjeTroskovima\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Program.cs",
               "RelativeDocumentMoniker": "StedoMedo\\Program.cs",
-              "ToolTip": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Program.cs",
+              "ToolTip": "C:\\Users\\alilj\\Desktop\\UpravljanjeTroskovima\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Program.cs",
               "RelativeToolTip": "StedoMedo\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAB8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T09:30:12.035Z",
+              "WhenOpened": "2024-11-10T20:36:59.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Trosak.cs",
+              "DocumentMoniker": "C:\\Users\\alilj\\Desktop\\UpravljanjeTroskovima\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Models\\Trosak.cs",
+              "RelativeDocumentMoniker": "StedoMedo\\Models\\Trosak.cs",
+              "ToolTip": "C:\\Users\\alilj\\Desktop\\UpravljanjeTroskovima\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Models\\Trosak.cs",
+              "RelativeToolTip": "StedoMedo\\Models\\Trosak.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBAAAACFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T20:14:38.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ServisStatistika.cs",
+              "DocumentMoniker": "C:\\Users\\alilj\\Desktop\\UpravljanjeTroskovima\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Services\\Statistika\\ServisStatistika.cs",
+              "RelativeDocumentMoniker": "StedoMedo\\Services\\Statistika\\ServisStatistika.cs",
+              "ToolTip": "C:\\Users\\alilj\\Desktop\\UpravljanjeTroskovima\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Services\\Statistika\\ServisStatistika.cs",
+              "RelativeToolTip": "StedoMedo\\Services\\Statistika\\ServisStatistika.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAIAwwHwAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T18:39:49.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IServisStatistika.cs",
+              "DocumentMoniker": "C:\\Users\\alilj\\Desktop\\UpravljanjeTroskovima\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Services\\Statistika\\IServisStatistika.cs",
+              "RelativeDocumentMoniker": "StedoMedo\\Services\\Statistika\\IServisStatistika.cs",
+              "ToolTip": "C:\\Users\\alilj\\Desktop\\UpravljanjeTroskovima\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Services\\Statistika\\IServisStatistika.cs",
+              "RelativeToolTip": "StedoMedo\\Services\\Statistika\\IServisStatistika.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T18:34:27.456Z",
               "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DbClass.cs",
+              "DocumentMoniker": "C:\\Users\\alilj\\Desktop\\UpravljanjeTroskovima\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Data\\DbClass.cs",
+              "RelativeDocumentMoniker": "StedoMedo\\Data\\DbClass.cs",
+              "ToolTip": "C:\\Users\\alilj\\Desktop\\UpravljanjeTroskovima\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Data\\DbClass.cs",
+              "RelativeToolTip": "StedoMedo\\Data\\DbClass.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAYwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T10:41:45.634Z",
+              "EditorCaption": ""
             }
           ]
         }
