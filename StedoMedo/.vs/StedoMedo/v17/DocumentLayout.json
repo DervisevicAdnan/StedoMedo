@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Korisnik\\source\\repos\\VVS-24-25-Projekat\\StedoMedo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|c:\\users\\korisnik\\source\\repos\\vvs-24-25-projekat\\stedomedo\\stedomedo\\services\\servisautentifikacija\\servisautentifikacija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|solutionrelative:stedomedo\\services\\servisautentifikacija\\servisautentifikacija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|c:\\users\\korisnik\\source\\repos\\vvs-24-25-projekat\\stedomedo\\stedomedo\\ui\\konzolastatistika.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|solutionrelative:stedomedo\\ui\\konzolastatistika.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|c:\\users\\korisnik\\source\\repos\\vvs-24-25-projekat\\stedomedo\\stedomedo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|solutionrelative:stedomedo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|c:\\users\\korisnik\\source\\repos\\vvs-24-25-projekat\\stedomedo\\stedomedo\\services\\statistika\\servisstatistika.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|solutionrelative:stedomedo\\services\\statistika\\servisstatistika.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|c:\\users\\korisnik\\source\\repos\\vvs-24-25-projekat\\stedomedo\\stedomedo\\models\\kategorijatroska.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|solutionrelative:stedomedo\\models\\kategorijatroska.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|c:\\users\\korisnik\\source\\repos\\vvs-24-25-projekat\\stedomedo\\stedomedo\\ui\\konzolaautentifikacija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|solutionrelative:stedomedo\\ui\\konzolaautentifikacija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|c:\\users\\korisnik\\source\\repos\\vvs-24-25-projekat\\stedomedo\\stedomedo\\services\\statistika\\iservisstatistika.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|solutionrelative:stedomedo\\services\\statistika\\iservisstatistika.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,28 +42,73 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ServisAutentifikacija.cs",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\source\\repos\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Services\\ServisAutentifikacija\\ServisAutentifikacija.cs",
-              "RelativeDocumentMoniker": "StedoMedo\\Services\\ServisAutentifikacija\\ServisAutentifikacija.cs",
-              "ToolTip": "C:\\Users\\Korisnik\\source\\repos\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Services\\ServisAutentifikacija\\ServisAutentifikacija.cs",
-              "RelativeToolTip": "StedoMedo\\Services\\ServisAutentifikacija\\ServisAutentifikacija.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAuwEQAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "KonzolaAutentifikacija.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\source\\repos\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\UI\\KonzolaAutentifikacija.cs",
+              "RelativeDocumentMoniker": "StedoMedo\\UI\\KonzolaAutentifikacija.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\source\\repos\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\UI\\KonzolaAutentifikacija.cs",
+              "RelativeToolTip": "StedoMedo\\UI\\KonzolaAutentifikacija.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T21:47:55.253Z",
+              "WhenOpened": "2024-11-13T22:16:27.766Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\source\\repos\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Program.cs",
-              "RelativeDocumentMoniker": "StedoMedo\\Program.cs",
-              "ToolTip": "C:\\Users\\Korisnik\\source\\repos\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Program.cs",
-              "RelativeToolTip": "StedoMedo\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAbAAAAAAAAAA==",
+              "Title": "ServisStatistika.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\source\\repos\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Services\\Statistika\\ServisStatistika.cs",
+              "RelativeDocumentMoniker": "StedoMedo\\Services\\Statistika\\ServisStatistika.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\source\\repos\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Services\\Statistika\\ServisStatistika.cs",
+              "RelativeToolTip": "StedoMedo\\Services\\Statistika\\ServisStatistika.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAowCkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T17:48:53.173Z",
+              "WhenOpened": "2024-11-13T22:16:02.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IServisStatistika.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\source\\repos\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Services\\Statistika\\IServisStatistika.cs",
+              "RelativeDocumentMoniker": "StedoMedo\\Services\\Statistika\\IServisStatistika.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\source\\repos\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Services\\Statistika\\IServisStatistika.cs",
+              "RelativeToolTip": "StedoMedo\\Services\\Statistika\\IServisStatistika.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T22:16:01.207Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "KategorijaTroska.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\source\\repos\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Models\\KategorijaTroska.cs",
+              "RelativeDocumentMoniker": "StedoMedo\\Models\\KategorijaTroska.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\source\\repos\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Models\\KategorijaTroska.cs",
+              "RelativeToolTip": "StedoMedo\\Models\\KategorijaTroska.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T22:27:22.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "KonzolaStatistika.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\source\\repos\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\UI\\KonzolaStatistika.cs",
+              "RelativeDocumentMoniker": "StedoMedo\\UI\\KonzolaStatistika.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\source\\repos\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\UI\\KonzolaStatistika.cs",
+              "RelativeToolTip": "StedoMedo\\UI\\KonzolaStatistika.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T22:16:19.624Z",
               "EditorCaption": ""
             }
           ]
