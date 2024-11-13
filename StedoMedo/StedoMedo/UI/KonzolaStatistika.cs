@@ -20,6 +20,64 @@ namespace StedoMedo.UI
             Korisnik = korisnik;
         }
 
+        public void PokreniInterakcijuKonzole()
+        {
+            while (true)
+            {
+                Console.WriteLine("\n--- Upravljanje Statistikom ---");
+                Console.WriteLine("1. Prikaži najveći trošak");
+                Console.WriteLine("2. Prikaži prosječnu potrošnju");
+                Console.WriteLine("3. Prikaži raspodjelu po kategorijama");
+                Console.WriteLine("4. Prikaži ukupni trošak");
+                Console.WriteLine("5. Prikaži varijansu troškova");
+                Console.WriteLine("6. Povratak na početni meni");
+                Console.Write("Izaberite opciju: ");
+
+                string izbor = Console.ReadLine() ?? "";
+                DateTime odDatuma, doDatuma;
+                List<KategorijaTroska> kategorije;
+
+                switch (izbor)
+                {
+                    case "1":
+                        odDatuma = UnosDatuma();
+                        doDatuma = UnosDatuma();
+                        kategorije = UnosKategorija();
+                        PrikaziNajveciTrosak(Korisnik, odDatuma, doDatuma, kategorije);
+                        break;
+                    case "2":
+                        odDatuma = UnosDatuma();
+                        doDatuma = UnosDatuma();
+                        kategorije = UnosKategorija();
+                        PrikaziProsjecnuPotrosnju(Korisnik, odDatuma, doDatuma, kategorije);
+                        break;
+                    case "3":
+                        odDatuma = UnosDatuma();
+                        doDatuma = UnosDatuma();
+                        PrikaziRaspodjeluPoKategorijama(Korisnik, odDatuma, doDatuma);
+                        break;
+                    case "4":
+                        odDatuma = UnosDatuma();
+                        doDatuma = UnosDatuma();
+                        kategorije = UnosKategorija();
+                        PrikaziUkupniTrosak(Korisnik, odDatuma, doDatuma, kategorije);
+                        break;
+                    case "5":
+                        odDatuma = UnosDatuma();
+                        doDatuma = UnosDatuma();
+                        PrikaziVarijansuTroskova(Korisnik, odDatuma, doDatuma);
+                        break;
+                    case "6":
+                        Console.WriteLine("Povratak na početni meni.");
+                        return;
+                    default:
+                        Console.WriteLine("Nevažeća opcija. Molimo pokušajte ponovo.");
+                        break;
+                }
+            }
+        }
+
+
         public void StartConsole()
         {
 

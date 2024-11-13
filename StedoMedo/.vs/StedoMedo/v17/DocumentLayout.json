@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|c:\\users\\hp compaq\\desktop\\vvs\\vvs-24-25-projekat\\stedomedo\\stedomedo\\services\\servisautentifikacija\\servisautentifikacija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|solutionrelative:stedomedo\\services\\servisautentifikacija\\servisautentifikacija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|c:\\users\\hp compaq\\desktop\\vvs\\vvs-24-25-projekat\\stedomedo\\stedomedo\\services\\servisautentifikacija\\iservisautentifikacija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|solutionrelative:stedomedo\\services\\servisautentifikacija\\iservisautentifikacija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|c:\\users\\hp compaq\\desktop\\vvs\\vvs-24-25-projekat\\stedomedo\\stedomedo\\services\\upravljanjetroskovima\\servisupravljanjetroskovima.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|solutionrelative:stedomedo\\services\\upravljanjetroskovima\\servisupravljanjetroskovima.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|c:\\users\\hp compaq\\desktop\\vvs\\vvs-24-25-projekat\\stedomedo\\stedomedo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|solutionrelative:stedomedo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|c:\\users\\hp compaq\\desktop\\vvs\\vvs-24-25-projekat\\stedomedo\\stedomedo\\ui\\konzolastatistika.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|solutionrelative:stedomedo\\ui\\konzolastatistika.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|c:\\users\\hp compaq\\desktop\\vvs\\vvs-24-25-projekat\\stedomedo\\stedomedo\\ui\\konzolaupravljanjetroskovima.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|solutionrelative:stedomedo\\ui\\konzolaupravljanjetroskovima.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|c:\\users\\hp compaq\\desktop\\vvs\\vvs-24-25-projekat\\stedomedo\\stedomedo\\ui\\konzolabudzet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,63 +26,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ServisAutentifikacija.cs",
-              "DocumentMoniker": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Services\\ServisAutentifikacija\\ServisAutentifikacija.cs",
-              "RelativeDocumentMoniker": "StedoMedo\\Services\\ServisAutentifikacija\\ServisAutentifikacija.cs",
-              "ToolTip": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Services\\ServisAutentifikacija\\ServisAutentifikacija.cs",
-              "RelativeToolTip": "StedoMedo\\Services\\ServisAutentifikacija\\ServisAutentifikacija.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAUwEcAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "KonzolaUpravljanjeTroskovima.cs",
+              "DocumentMoniker": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\UI\\KonzolaUpravljanjeTroskovima.cs",
+              "RelativeDocumentMoniker": "StedoMedo\\UI\\KonzolaUpravljanjeTroskovima.cs",
+              "ToolTip": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\UI\\KonzolaUpravljanjeTroskovima.cs",
+              "RelativeToolTip": "StedoMedo\\UI\\KonzolaUpravljanjeTroskovima.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAIwCgAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T22:40:44.972Z",
+              "WhenOpened": "2024-11-13T23:34:09.148Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IServisAutentifikacija.cs",
-              "DocumentMoniker": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Services\\ServisAutentifikacija\\IServisAutentifikacija.cs",
-              "RelativeDocumentMoniker": "StedoMedo\\Services\\ServisAutentifikacija\\IServisAutentifikacija.cs",
-              "ToolTip": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Services\\ServisAutentifikacija\\IServisAutentifikacija.cs",
-              "RelativeToolTip": "StedoMedo\\Services\\ServisAutentifikacija\\IServisAutentifikacija.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Title": "KonzolaStatistika.cs",
+              "DocumentMoniker": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\UI\\KonzolaStatistika.cs",
+              "RelativeDocumentMoniker": "StedoMedo\\UI\\KonzolaStatistika.cs",
+              "ToolTip": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\UI\\KonzolaStatistika.cs",
+              "RelativeToolTip": "StedoMedo\\UI\\KonzolaStatistika.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAAE4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T22:40:42.69Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ServisUpravljanjeTroskovima.cs",
-              "DocumentMoniker": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Services\\UpravljanjeTroskovima\\ServisUpravljanjeTroskovima.cs",
-              "RelativeDocumentMoniker": "StedoMedo\\Services\\UpravljanjeTroskovima\\ServisUpravljanjeTroskovima.cs",
-              "ToolTip": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Services\\UpravljanjeTroskovima\\ServisUpravljanjeTroskovima.cs",
-              "RelativeToolTip": "StedoMedo\\Services\\UpravljanjeTroskovima\\ServisUpravljanjeTroskovima.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAowCYAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T22:39:55.436Z",
+              "WhenOpened": "2024-11-13T23:33:11.548Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Program.cs",
-              "RelativeDocumentMoniker": "StedoMedo\\Program.cs",
-              "ToolTip": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Program.cs",
-              "RelativeToolTip": "StedoMedo\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T22:01:20.753Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "KonzolaBudzet.cs",
               "DocumentMoniker": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\UI\\KonzolaBudzet.cs",
               "RelativeDocumentMoniker": "StedoMedo\\UI\\KonzolaBudzet.cs",
@@ -94,7 +64,42 @@
               "RelativeToolTip": "StedoMedo\\UI\\KonzolaBudzet.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAUwGcAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T21:03:24.61Z"
+              "WhenOpened": "2024-11-13T21:03:24.61Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "634a7292-a42e-4480-90a0-5ee5fb58654f",
+        "Display": 0,
+        "X": 550,
+        "Y": 59,
+        "Width": 938,
+        "Height": 751,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Program.cs",
+              "RelativeDocumentMoniker": "StedoMedo\\Program.cs",
+              "ToolTip": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Program.cs",
+              "RelativeToolTip": "StedoMedo\\Program.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAAC4AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T22:01:20.753Z",
+              "EditorCaption": ""
             }
           ]
         }

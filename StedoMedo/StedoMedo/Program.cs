@@ -2,6 +2,7 @@
 using StedoMedo.Models;
 using StedoMedo.Services;
 using StedoMedo.Services.ServisAutentifikacija;
+using StedoMedo.Services.Statistika;
 using StedoMedo.Services.UpravljanjeTroskovima;
 using StedoMedo.UI;
 
@@ -41,7 +42,9 @@ while (true)
                 konzolaBudzet.PokreniInterakcijuKonzole();
                 break;
             case "3":
-
+                IServisStatistika servisStatistika = new ServisStatistika(db);
+                KonzolaStatistika konzolaStatistika = new KonzolaStatistika(servisStatistika, korisnik);
+                konzolaStatistika.PokreniInterakcijuKonzole();
                 break;
             case "4":
                 try
