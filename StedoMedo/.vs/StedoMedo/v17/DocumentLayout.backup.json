@@ -1,10 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\",
+  "WorkspaceRootPath": "C:\\Users\\Korisnik\\source\\repos\\VVS-24-25-Projekat\\StedoMedo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|c:\\users\\hp compaq\\desktop\\vvs\\vvs-24-25-projekat\\stedomedo\\stedomedo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|c:\\users\\korisnik\\source\\repos\\vvs-24-25-projekat\\stedomedo\\stedomedo\\ui\\konzolaautentifikacija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|solutionrelative:stedomedo\\ui\\konzolaautentifikacija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|c:\\users\\korisnik\\source\\repos\\vvs-24-25-projekat\\stedomedo\\stedomedo\\services\\servisautentifikacija\\servisautentifikacija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|solutionrelative:stedomedo\\services\\servisautentifikacija\\servisautentifikacija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|c:\\users\\korisnik\\source\\repos\\vvs-24-25-projekat\\stedomedo\\stedomedo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|solutionrelative:stedomedo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|c:\\users\\korisnik\\source\\repos\\vvs-24-25-projekat\\stedomedo\\stedomedo\\models\\korisnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|solutionrelative:stedomedo\\models\\korisnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,24 +26,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Program.cs",
-              "RelativeDocumentMoniker": "StedoMedo\\Program.cs",
-              "ToolTip": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Program.cs",
-              "RelativeToolTip": "StedoMedo\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T09:30:12.035Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Korisnik.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\source\\repos\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Models\\Korisnik.cs",
+              "RelativeDocumentMoniker": "StedoMedo\\Models\\Korisnik.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\source\\repos\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Models\\Korisnik.cs",
+              "RelativeToolTip": "StedoMedo\\Models\\Korisnik.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T17:32:35.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\source\\repos\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Program.cs",
+              "RelativeDocumentMoniker": "StedoMedo\\Program.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\source\\repos\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Program.cs",
+              "RelativeToolTip": "StedoMedo\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T16:43:57.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ServisAutentifikacija.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\source\\repos\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Services\\ServisAutentifikacija\\ServisAutentifikacija.cs",
+              "RelativeDocumentMoniker": "StedoMedo\\Services\\ServisAutentifikacija\\ServisAutentifikacija.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\source\\repos\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Services\\ServisAutentifikacija\\ServisAutentifikacija.cs",
+              "RelativeToolTip": "StedoMedo\\Services\\ServisAutentifikacija\\ServisAutentifikacija.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAiwEUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T15:30:07.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "KonzolaAutentifikacija.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\source\\repos\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\UI\\KonzolaAutentifikacija.cs",
+              "RelativeDocumentMoniker": "StedoMedo\\UI\\KonzolaAutentifikacija.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\source\\repos\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\UI\\KonzolaAutentifikacija.cs",
+              "RelativeToolTip": "StedoMedo\\UI\\KonzolaAutentifikacija.cs",
+              "ViewState": "AgIAAK4AAAAAAAAAAAAqwD0AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T15:31:19.866Z",
+              "EditorCaption": ""
             }
           ]
         }
