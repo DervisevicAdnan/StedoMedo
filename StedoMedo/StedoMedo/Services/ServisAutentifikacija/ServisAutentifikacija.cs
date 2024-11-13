@@ -54,6 +54,7 @@ namespace StedoMedo.Services.ServisAutentifikacija
         }
 
 
+
         private static readonly uint[] k = {
         0x428a2f98, 0x71374491, 0xb5c0fbcf, 0xe9b5dba5,
         0x3956c25b, 0x59f111f1, 0x923f82a4, 0xab1c5ed5,
@@ -156,6 +157,35 @@ namespace StedoMedo.Services.ServisAutentifikacija
                 result[i] = (uint)(padded[i * 4] << 24 | padded[i * 4 + 1] << 16 | padded[i * 4 + 2] << 8 | padded[i * 4 + 3]);
             }
             return result;
+        }
+        public bool ObrisiKorisnika(Korisnik user)
+        {
+            try
+            {
+                while (true)
+                {
+                    var trosak = _db.Troskovi.FirstOrDefault(t => t.Korisnik == user);
+                    if (trosak == null) break;
+
+                    _db.Troskovi.Remove(trosak);
+                }
+
+                while (true)
+                {
+                    var budzet = _db.Budzeti.FirstOrDefault(b => b.Korisnik == user);
+                    if (budzet == null) break;
+
+                    _db.Budzeti.Remove(budzet);
+                }
+                _db.Korisnici.Remove(user);
+                return true;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Greska prilikom brisanja troska!");
+                Console.WriteLine(ex.ToString());
+            }
+            return false;
         }
     }
 

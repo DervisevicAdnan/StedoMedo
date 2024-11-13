@@ -28,7 +28,7 @@ namespace StedoMedo.UI
                 Console.WriteLine("2. Prikaži troškove");
                 Console.WriteLine("3. Izmijeni trošak");
                 Console.WriteLine("4. Obriši trošak");
-                Console.WriteLine("5. Izlaz");
+                Console.WriteLine("5. Pocetni meni");
                 Console.Write("Izaberite opciju: ");
 
                 string izbor = Console.ReadLine() ?? "";
@@ -47,7 +47,7 @@ namespace StedoMedo.UI
                         ObrisiTrosakKonzola();
                         break;
                     case "5":
-                        Console.WriteLine("Izlaz iz programa.");
+                        Console.WriteLine("Povratak na pocetni meni.");
                         return;
                     default:
                         Console.WriteLine("Nevažeća opcija. Molimo pokušajte ponovo.");
@@ -151,7 +151,7 @@ namespace StedoMedo.UI
                 {
                     int index = kriterijImena.IndexOf(kriterij);
                     var smjerSortiranja = SmjerSortiranja.Rastuci;
-                    // Pitajte korisnika za smer sortiranja
+                    
                     Console.WriteLine($"Želite li sortirati po {kriterij} rastuće (R) ili opadajuće (O)?");
                     string smjer = Console.ReadLine().Trim().ToUpper();
 
