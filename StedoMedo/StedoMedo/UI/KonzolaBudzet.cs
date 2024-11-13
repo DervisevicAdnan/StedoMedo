@@ -11,8 +11,51 @@ namespace StedoMedo.UI
 {
     public class KonzolaBudzet
     {
-        DbClass _db = new DbClass();
-        public static void DodajBudzet(BudzetService budzetService, Korisnik korisnik)
+        IBudzetService budzetService;
+        Korisnik korisnik;
+        public KonzolaBudzet(IBudzetService _budzetService, Korisnik _korisnik) 
+        {
+            budzetService = _budzetService;
+            korisnik = _korisnik;
+        }
+        public void PokreniInterakcijuKonzole()
+        {
+            while (true)
+            {
+                Console.WriteLine("\n--- Upravljanje Budžetom ---");
+                Console.WriteLine("1. Dodaj budžet");
+                Console.WriteLine("2. Obriši budžet");
+                Console.WriteLine("3. Izmijeni budžet");
+                Console.WriteLine("4. Prikaži preostalo stanje budžeta");
+                Console.WriteLine("5. Pocetni meni");
+                Console.Write("Izaberite opciju: ");
+
+                string izbor = Console.ReadLine() ?? "";
+                switch (izbor)
+                {
+                    case "1":
+                        DodajBudzet(budzetService, korisnik);
+                        break;
+                    case "2":
+                        ObrisiBudzet(budzetService, korisnik);
+                        break;
+                    case "3":
+                        IzmjeniBudzet(budzetService, korisnik);
+                        break;
+                    case "4":
+                        PrikaziPreostaloStanje(budzetService, korisnik);
+                        break;
+                    case "5":
+                        Console.WriteLine("Povratak na početni meni.");
+                        return;
+                    default:
+                        Console.WriteLine("Nevažeća opcija. Molimo pokušajte ponovo.");
+                        break;
+                }
+            }
+        }
+
+        public static void DodajBudzet(IBudzetService budzetService, Korisnik korisnik)
         {
             Console.WriteLine("Dodavanje novog budžeta:");
             Console.Write("Unesite početak budžeta (YYYY-MM-DD): ");
@@ -26,7 +69,7 @@ namespace StedoMedo.UI
             Console.WriteLine("Budžet je uspješno dodan.");
         }
 
-        public static void ObrisiBudzet(BudzetService budzetService, Korisnik korisnik)
+        public static void ObrisiBudzet(IBudzetService budzetService, Korisnik korisnik)
         {
             Console.WriteLine("Brisanje budžeta:");
             Console.Write("Unesite ID budžeta za brisanje: ");
@@ -37,7 +80,7 @@ namespace StedoMedo.UI
         }
 
 
-        public static void IzmjeniBudzet(BudzetService budzetService, Korisnik korisnik)
+        public static void IzmjeniBudzet(IBudzetService budzetService, Korisnik korisnik)
         {
             Console.WriteLine("Izmjena budžeta:");
 
@@ -70,7 +113,7 @@ namespace StedoMedo.UI
         }
 
 
-        public static void PrikaziPreostaloStanje(BudzetService budzetService, Korisnik korisnik)
+        public static void PrikaziPreostaloStanje(IBudzetService budzetService, Korisnik korisnik)
         {
             Console.WriteLine("Prikaz preostalog stanja budžeta:");
             Console.Write("Unesite datum do kojeg želite izračunati stanje (YYYY-MM-DD): ");
