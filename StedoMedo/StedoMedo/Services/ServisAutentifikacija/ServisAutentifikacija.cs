@@ -53,6 +53,36 @@ namespace StedoMedo.Services.ServisAutentifikacija
             return _db.Korisnici.Contains(user);
         }
 
+        public bool ObrisiKorisnika(Korisnik user)
+        {
+            try
+            {
+                while (true)
+                {
+                    var trosak = _db.Troskovi.FirstOrDefault(t => t.Korisnik == user);
+                    if (trosak == null) break;
+
+                    _db.Troskovi.Remove(trosak);
+                }
+
+                while (true)
+                {
+                    var budzet = _db.Budzeti.FirstOrDefault(b => b.Korisnik == user);
+                    if (budzet == null) break;
+
+                    _db.Budzeti.Remove(budzet);
+                }
+                _db.Korisnici.Remove(user);
+                return true;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Greska prilikom brisanja troska!");
+                Console.WriteLine(ex.ToString());
+            }
+            return false;
+        }
+
         public string Hash(string sifra)
         {
             using (SHA256 sha256 = SHA256.Create())

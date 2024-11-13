@@ -15,7 +15,7 @@ namespace StedoMedo.UI
     {
 
         private readonly IServisAutentifikacija _servis;
-        private readonly Korisnik Korisnik;
+
         public KonzolaAutentifikacija(IServisAutentifikacija servis)
         {
             _servis = servis;
@@ -23,6 +23,32 @@ namespace StedoMedo.UI
 
         public Korisnik StartConsole()
         {
+
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("Dobrodošli u");
+            Thread.Sleep(500);
+
+
+            string welcomeText = "$TEDOMEDO";
+            ConsoleColor[] colors = {
+            ConsoleColor.Red, ConsoleColor.DarkYellow, ConsoleColor.Green,
+            ConsoleColor.Cyan, ConsoleColor.Blue, ConsoleColor.Magenta,
+            ConsoleColor.DarkGreen, ConsoleColor.DarkCyan, ConsoleColor.DarkRed
+        };
+
+            for (int i = 0; i < welcomeText.Length; i++)
+            {
+                Console.ForegroundColor = colors[i % colors.Length];
+                Console.Write(welcomeText[i]);
+                Thread.Sleep(200);
+            }
+
+            Console.ResetColor();
+            Console.WriteLine("\nHvala što ste sa nama!");
+            Console.WriteLine();
+
+            Thread.Sleep(600);
+
             Korisnik korisnik = null;
             while (true)
             {
@@ -178,26 +204,32 @@ namespace StedoMedo.UI
             return Regex.IsMatch(password, pattern);
         }
 
-        private void BrisanjeKorisnika()
+        public bool BrisanjeKorisnika(Korisnik korisnik)
         {
             try
             {
                 Console.WriteLine("Za potvrdu brisanja korisničkog naloga unesite vašu lozinku: ");
-                string password = GetPasswordInput();
-                /*
-                 * 
-                 * OVO NIJE IMPLEMENTIRANO U SKLOPU SERVISA SAMO SAM POCELA KAKO BI TO U KONZOLI IZGLEDALO
-                 * 
-                    bool success = ObrisiKorisnika(password);
-                    Console.WriteLine(success ? "\nRegistracija uspješna\n" : "\nRegistracija neuspješna. Molimo pokušajte ponovo.\n");
-
-                */
-
+                string password = _servis.Hash(GetPasswordInput());
+                if (password == korisnik.SifraHash)
+                {
+                    bool obrisano = _servis.ObrisiKorisnika(korisnik);
+                    if (obrisano)
+                    {
+                        Console.WriteLine("Profil uspješno obrisan");
+                        return true;
+                    }
+                    Console.WriteLine("Brisanje profila nije uspjelo. Pokušajte ponovo.");
+                }
+                else
+                {
+                    Console.WriteLine("Pogrešna lozinka!");
+                }
             }
             catch (Exception ex)
             {
                 Console.WriteLine($"Greška: {ex.Message}");
             }
+            return false;
         }
 
         private string Lozinka()
