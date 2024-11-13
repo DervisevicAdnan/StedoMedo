@@ -26,5 +26,13 @@ namespace StedoMedo.Data
         public void AddBudzet(Budzet budzet) {
             Budzeti.Add(budzet);
         }
+        public int GetNextKorisnikId()
+        {
+            if (Korisnici.Count == 0)
+                return 1;
+
+            int maxId = Korisnici.Max(k => k.Id);
+            return maxId + 1;
+        }
     }
 }

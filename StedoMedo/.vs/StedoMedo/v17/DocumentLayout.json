@@ -9,6 +9,22 @@
     {
       "AbsoluteMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|c:\\users\\adidr\\desktop\\vvsprojekat\\vvs-24-25-projekat\\stedomedo\\stedomedo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|solutionrelative:stedomedo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|c:\\users\\adidr\\desktop\\vvsprojekat\\vvs-24-25-projekat\\stedomedo\\stedomedo\\ui\\konzolabudzet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|solutionrelative:stedomedo\\ui\\konzolabudzet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|c:\\users\\adidr\\desktop\\vvsprojekat\\vvs-24-25-projekat\\stedomedo\\stedomedo\\services\\ibudzetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|solutionrelative:stedomedo\\services\\ibudzetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|c:\\users\\adidr\\desktop\\vvsprojekat\\vvs-24-25-projekat\\stedomedo\\stedomedo\\data\\dbclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|solutionrelative:stedomedo\\data\\dbclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|c:\\users\\adidr\\desktop\\vvsprojekat\\vvs-24-25-projekat\\stedomedo\\stedomedo\\models\\korisnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|solutionrelative:stedomedo\\models\\korisnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +34,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IBudzetService.cs",
+              "DocumentMoniker": "C:\\Users\\AdiDr\\Desktop\\VVSprojekat\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Services\\IBudzetService.cs",
+              "RelativeDocumentMoniker": "StedoMedo\\Services\\IBudzetService.cs",
+              "ToolTip": "C:\\Users\\AdiDr\\Desktop\\VVSprojekat\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Services\\IBudzetService.cs",
+              "RelativeToolTip": "StedoMedo\\Services\\IBudzetService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T17:40:13.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DbClass.cs",
+              "DocumentMoniker": "C:\\Users\\AdiDr\\Desktop\\VVSprojekat\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Data\\DbClass.cs",
+              "RelativeDocumentMoniker": "StedoMedo\\Data\\DbClass.cs",
+              "ToolTip": "C:\\Users\\AdiDr\\Desktop\\VVSprojekat\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Data\\DbClass.cs",
+              "RelativeToolTip": "StedoMedo\\Data\\DbClass.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T17:37:46.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Korisnik.cs",
+              "DocumentMoniker": "C:\\Users\\AdiDr\\Desktop\\VVSprojekat\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Models\\Korisnik.cs",
+              "RelativeDocumentMoniker": "StedoMedo\\Models\\Korisnik.cs",
+              "ToolTip": "C:\\Users\\AdiDr\\Desktop\\VVSprojekat\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Models\\Korisnik.cs",
+              "RelativeToolTip": "StedoMedo\\Models\\Korisnik.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T17:37:37.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "KonzolaBudzet.cs",
+              "DocumentMoniker": "C:\\Users\\AdiDr\\Desktop\\VVSprojekat\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\UI\\KonzolaBudzet.cs",
+              "RelativeDocumentMoniker": "StedoMedo\\UI\\KonzolaBudzet.cs",
+              "ToolTip": "C:\\Users\\AdiDr\\Desktop\\VVSprojekat\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\UI\\KonzolaBudzet.cs",
+              "RelativeToolTip": "StedoMedo\\UI\\KonzolaBudzet.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwDMAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T17:23:21.6Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -28,7 +96,7 @@
               "RelativeDocumentMoniker": "StedoMedo\\Program.cs",
               "ToolTip": "C:\\Users\\AdiDr\\Desktop\\VVSprojekat\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Program.cs",
               "RelativeToolTip": "StedoMedo\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAADcAAAAAAAAAAAAQwA0AAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-10T13:33:49.024Z",
               "EditorCaption": ""
@@ -41,7 +109,7 @@
               "RelativeDocumentMoniker": "StedoMedo\\Services\\BudzetService.cs",
               "ToolTip": "C:\\Users\\AdiDr\\Desktop\\VVSprojekat\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Services\\BudzetService.cs",
               "RelativeToolTip": "StedoMedo\\Services\\BudzetService.cs",
-              "ViewState": "AgIAAG0AAAAAAAAAAAAkwIQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-10T13:33:07.243Z",
               "EditorCaption": ""

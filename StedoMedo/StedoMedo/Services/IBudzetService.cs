@@ -13,5 +13,7 @@ namespace StedoMedo.Services
         Korisnik DodajBudzet(Korisnik korisnik, DateOnly pocetak, DateOnly kraj, double iznos);
         bool ObrisiBudzet(Korisnik korisnik, int idBudzeta);
         bool IzmjeniBudzet(Korisnik korisnik, int idBudzeta, DateOnly noviPocetak, DateOnly noviKraj, double noviIznos);
+        bool ProvjeraPostojanja(Korisnik korisnik, int idBudzeta);
+
     }
 }
