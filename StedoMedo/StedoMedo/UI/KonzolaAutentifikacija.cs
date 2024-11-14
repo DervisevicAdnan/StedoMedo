@@ -23,7 +23,8 @@ namespace StedoMedo.UI
 
         public Korisnik StartConsole()
         {
-
+            Console.Clear();
+            DrawLogo();
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine("Dobrodošli u");
             Thread.Sleep(500);
@@ -94,12 +95,12 @@ namespace StedoMedo.UI
                 korisnik = _servis.PrijaviKorisnika(username, password);
                 if (korisnik != null)
                 {
-                    Console.WriteLine("Prijava uspješna.");
+                    Console.WriteLine("\nPrijava uspješna.");
                     return true;
                 }
                 else
                 {
-                    Console.WriteLine("Prijava neuspješna. Molimo pokušajte ponovo.");
+                    Console.WriteLine("Prijava neuspješna. Molimo pokušajte ponovo.\n");
                 }
             }
             catch (Exception ex)
@@ -286,6 +287,14 @@ namespace StedoMedo.UI
             Console.WriteLine(); 
 
             return password;
+        }
+
+        private void DrawLogo()
+        {
+            string logo = "" +
+               "             +%=--=*:     :*@=-%+     -=:...:%@             \r\n           #=:.......-#%=:........:*@-:..:--:..-*           \r\n          *-.:=@%*=-..==...........:=-.:=#*+%=..:+          \r\n          ::.=======:..................-=======.:+          \r\n          ::.======.........:-...........=====:.:*          \r\n          -=-:===@=*%%%%@@@%#**#@@@@@@%%%*%+=:-=#           \r\n            *==@@@%===.  :=@@@@@@=--.  .==@@@=#.            \r\n               @@@....  . .+@==@@..--   ..*@@               \r\n               *%@....:==-.@@=-%@::=+-....*@=               \r\n              #-=@-..-@@%@#@==-=@@#%@@=..:@=:#:             \r\n             #=.:#@:....:+@@*###@@@:....:#@:.-#             \r\n             @=..:=#@@@@@=:@@@@@@+.%@@@@%=:..=@             \r\n              %=....-=:      +@      .=-....-@              \r\n               @=-:..=:       =       =:.:-=##:             \r\n            .+=========.      *      ========--==.          \r\n           +:.......:-===.         =+=-:.........-:         \r\n          ::..............=@@#*%@@@=.............:-         \r\n           -:..............-*.   *=..............=+         \r\n           +=-...........==--=- @=-==..........-=+          \r\n            :===.....:==:.===== #===-:==-....===%           \r\n              -@===-..=====@=      *====:.==@@+             \r\n                   #===+@@#         .-#===%                 "
+           ;
+               Console.WriteLine(logo);    
         }
 
     }
