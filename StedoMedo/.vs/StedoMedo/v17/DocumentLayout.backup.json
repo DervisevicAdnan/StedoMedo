@@ -1,22 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Korisnik\\source\\repos\\VVS-24-25-Projekat\\StedoMedo\\",
+  "WorkspaceRootPath": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|c:\\users\\korisnik\\source\\repos\\vvs-24-25-projekat\\stedomedo\\stedomedo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|solutionrelative:stedomedo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6BCE2282-9B98-4285-A59F-B20828DE7041}|StedoMedoTests\\StedoMedoTests.csproj|c:\\users\\hp compaq\\desktop\\vvs\\vvs-24-25-projekat\\stedomedo\\stedomedotests\\servisupravljanjetroskovimatest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BCE2282-9B98-4285-A59F-B20828DE7041}|StedoMedoTests\\StedoMedoTests.csproj|solutionrelative:stedomedotests\\servisupravljanjetroskovimatest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|c:\\users\\korisnik\\source\\repos\\vvs-24-25-projekat\\stedomedo\\stedomedo\\ui\\konzolabudzet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|solutionrelative:stedomedo\\ui\\konzolabudzet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|c:\\users\\korisnik\\source\\repos\\vvs-24-25-projekat\\stedomedo\\stedomedo\\ui\\konzolastatistika.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|solutionrelative:stedomedo\\ui\\konzolastatistika.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|c:\\users\\korisnik\\source\\repos\\vvs-24-25-projekat\\stedomedo\\stedomedo\\ui\\konzolaupravljanjetroskovima.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|solutionrelative:stedomedo\\ui\\konzolaupravljanjetroskovima.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|c:\\users\\hp compaq\\desktop\\vvs\\vvs-24-25-projekat\\stedomedo\\stedomedo\\services\\upravljanjetroskovima\\servisupravljanjetroskovima.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|solutionrelative:stedomedo\\services\\upravljanjetroskovima\\servisupravljanjetroskovima.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,64 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\source\\repos\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Program.cs",
-              "RelativeDocumentMoniker": "StedoMedo\\Program.cs",
-              "ToolTip": "C:\\Users\\Korisnik\\source\\repos\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Program.cs",
-              "RelativeToolTip": "StedoMedo\\Program.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAAEEAAAAfAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ServisUpravljanjeTroskovima.cs",
+              "DocumentMoniker": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Services\\UpravljanjeTroskovima\\ServisUpravljanjeTroskovima.cs",
+              "RelativeDocumentMoniker": "StedoMedo\\Services\\UpravljanjeTroskovima\\ServisUpravljanjeTroskovima.cs",
+              "ToolTip": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Services\\UpravljanjeTroskovima\\ServisUpravljanjeTroskovima.cs",
+              "RelativeToolTip": "StedoMedo\\Services\\UpravljanjeTroskovima\\ServisUpravljanjeTroskovima.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T11:01:38.833Z",
+              "WhenOpened": "2024-11-19T20:22:16.559Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "KonzolaUpravljanjeTroskovima.cs",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\source\\repos\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\UI\\KonzolaUpravljanjeTroskovima.cs",
-              "RelativeDocumentMoniker": "StedoMedo\\UI\\KonzolaUpravljanjeTroskovima.cs",
-              "ToolTip": "C:\\Users\\Korisnik\\source\\repos\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\UI\\KonzolaUpravljanjeTroskovima.cs",
-              "RelativeToolTip": "StedoMedo\\UI\\KonzolaUpravljanjeTroskovima.cs",
-              "ViewState": "AgIAAGUAAAAAAAAAAAAIwCgAAAApAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ServisUpravljanjeTroskovimaTest.cs",
+              "DocumentMoniker": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\StedoMedoTests\\ServisUpravljanjeTroskovimaTest.cs",
+              "RelativeDocumentMoniker": "StedoMedoTests\\ServisUpravljanjeTroskovimaTest.cs",
+              "ToolTip": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\StedoMedoTests\\ServisUpravljanjeTroskovimaTest.cs",
+              "RelativeToolTip": "StedoMedoTests\\ServisUpravljanjeTroskovimaTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T23:34:09.148Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "KonzolaStatistika.cs",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\source\\repos\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\UI\\KonzolaStatistika.cs",
-              "RelativeDocumentMoniker": "StedoMedo\\UI\\KonzolaStatistika.cs",
-              "ToolTip": "C:\\Users\\Korisnik\\source\\repos\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\UI\\KonzolaStatistika.cs",
-              "RelativeToolTip": "StedoMedo\\UI\\KonzolaStatistika.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAAAE4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T23:33:11.548Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "KonzolaBudzet.cs",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\source\\repos\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\UI\\KonzolaBudzet.cs",
-              "RelativeDocumentMoniker": "StedoMedo\\UI\\KonzolaBudzet.cs",
-              "ToolTip": "C:\\Users\\Korisnik\\source\\repos\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\UI\\KonzolaBudzet.cs",
-              "RelativeToolTip": "StedoMedo\\UI\\KonzolaBudzet.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAUwGcAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T21:03:24.61Z",
+              "WhenOpened": "2024-11-19T20:19:22.58Z",
               "EditorCaption": ""
             }
           ]
