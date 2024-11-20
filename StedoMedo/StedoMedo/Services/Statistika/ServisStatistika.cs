@@ -16,9 +16,29 @@ namespace StedoMedo.Services.Statistika
             this.db = db;
         }
 
-
         public double NajveciTrosak(Korisnik korisnik, DateTime odDatuma, DateTime doDatuma, List<KategorijaTroska> poKategorijama)
         {
+            if (korisnik == null)
+            {
+                throw new ArgumentNullException(nameof(korisnik), "Korisnik ne smije biti null");
+            }
+
+            
+            if (odDatuma > doDatuma)
+            {
+                throw new ArgumentException("Datum doDatuma mora biti poslije doDatuma ");
+            }
+
+            if (odDatuma < new DateTime(2000, 1, 1) || doDatuma > DateTime.Now)
+            {
+                throw new ArgumentOutOfRangeException(nameof(odDatuma), "Datumi moraju biti u odgvarajućem opsegu.");
+            }
+
+            if (poKategorijama == null || poKategorijama.Count == 0)
+            {
+                throw new ArgumentException("Lista kategorija ne smije biti prazna");
+            }
+
             double najveciTrosak = 0;
             try
             {
@@ -42,22 +62,64 @@ namespace StedoMedo.Services.Statistika
         }
         public double ProsjecnaPotrosnja(Korisnik korisnik, DateTime odDatuma, DateTime doDatuma, List<KategorijaTroska> poKategorijama)
         {
+            if (korisnik == null)
+            {
+                throw new ArgumentNullException(nameof(korisnik), "Korisnik ne smije biti null");
+            }
+
+
+            if (odDatuma > doDatuma)
+            {
+                throw new ArgumentException("Datum doDatuma mora biti poslije doDatuma ");
+            }
+
+            if (odDatuma < new DateTime(2000, 1, 1) || doDatuma > DateTime.Now)
+            {
+                throw new ArgumentOutOfRangeException(nameof(odDatuma), "Datumi moraju biti u odgvarajućem opsegu.");
+            }
+
+            if (poKategorijama == null || poKategorijama.Count == 0)
+            {
+                throw new ArgumentException("Lista kategorija ne smije biti prazna");
+            }
+
             double ukupniTrosak = 0;
             double brojTroskova = 0;
-            foreach (Trosak trosak in db.Troskovi)
-            {
-                if (trosak != null && trosak.Korisnik == korisnik && trosak.DatumIVrijeme >= odDatuma && trosak.DatumIVrijeme <= doDatuma && poKategorijama.Contains(trosak.KategorijaTroska))
+            
+                foreach (Trosak trosak in db.Troskovi)
                 {
-                    ukupniTrosak += trosak.Iznos;
-                    brojTroskova++;
+                    if (trosak != null && trosak.Korisnik == korisnik && trosak.DatumIVrijeme >= odDatuma && trosak.DatumIVrijeme <= doDatuma && poKategorijama.Contains(trosak.KategorijaTroska))
+                    {
+                        ukupniTrosak += trosak.Iznos;
+                        brojTroskova++;
+                    }
                 }
-            }
+            
+           
+               
+            
             return ukupniTrosak / brojTroskova;
         }
 
         public Dictionary<KategorijaTroska, double> RaspodjelaPoKategorijama(Korisnik korisnik, DateTime odDatuma, DateTime doDatuma)
         {
+            if (korisnik == null)
+            {
+                throw new ArgumentNullException(nameof(korisnik), "Korisnik ne smije biti null");
+            }
+
+
+            if (odDatuma > doDatuma)
+            {
+                throw new ArgumentException("Datum doDatuma mora biti poslije doDatuma ");
+            }
+
+            if (odDatuma < new DateTime(2000, 1, 1) || doDatuma > DateTime.Now)
+            {
+                throw new ArgumentOutOfRangeException(nameof(odDatuma), "Datumi moraju biti u odgvarajućem opsegu.");
+            }
             Dictionary<KategorijaTroska, double> mapaTroskova = new Dictionary<KategorijaTroska, double>();
+
             foreach (Trosak trosak in db.Troskovi)
             {
 
@@ -88,6 +150,26 @@ namespace StedoMedo.Services.Statistika
 
         public double UkupniTrosak(Korisnik korisnik, DateTime odDatuma, DateTime doDatuma, List<KategorijaTroska> poKategorijama)
         {
+            if (korisnik == null)
+            {
+                throw new ArgumentNullException(nameof(korisnik), "Korisnik ne smije biti null");
+            }
+
+
+            if (odDatuma > doDatuma)
+            {
+                throw new ArgumentException("Datum doDatuma mora biti poslije doDatuma ");
+            }
+
+            if (odDatuma < new DateTime(2000, 1, 1) || doDatuma > DateTime.Now)
+            {
+                throw new ArgumentOutOfRangeException(nameof(odDatuma), "Datumi moraju biti u odgvarajućem opsegu.");
+            }
+
+            if (poKategorijama == null || poKategorijama.Count == 0)
+            {
+                throw new ArgumentException("Lista kategorija ne smije biti prazna");
+            }
             double ukupniTrosak = 0;
             foreach (Trosak trosak in db.Troskovi)
             {
@@ -103,6 +185,22 @@ namespace StedoMedo.Services.Statistika
 
         public double VarijansaTroskova(Korisnik korisnik, DateTime odDatuma, DateTime doDatuma)
         {
+            if (korisnik == null)
+            {
+                throw new ArgumentNullException(nameof(korisnik), "Korisnik ne smije biti null");
+            }
+
+
+            if (odDatuma > doDatuma)
+            {
+                throw new ArgumentException("Datum doDatuma mora biti poslije doDatuma ");
+            }
+
+            if (odDatuma < new DateTime(2000, 1, 1) || doDatuma > DateTime.Now)
+            {
+                throw new ArgumentOutOfRangeException(nameof(odDatuma), "Datumi moraju biti u odgvarajućem opsegu.");
+            }
+
             double ukupanTrosak = 0;
             double brojTroskova = 0;
             foreach (Trosak trosak in db.Troskovi)
