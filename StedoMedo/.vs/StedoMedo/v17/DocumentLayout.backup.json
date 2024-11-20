@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{6BCE2282-9B98-4285-A59F-B20828DE7041}|StedoMedoTests\\StedoMedoTests.csproj|c:\\users\\anatomicall\\desktop\\fax\\vvs-24-25-projekat\\stedomedo\\stedomedotests\\servispredvidjanjetroskovatest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6BCE2282-9B98-4285-A59F-B20828DE7041}|StedoMedoTests\\StedoMedoTests.csproj|solutionrelative:stedomedotests\\servispredvidjanjetroskovatest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|c:\\users\\anatomicall\\desktop\\fax\\vvs-24-25-projekat\\stedomedo\\stedomedo\\services\\servispredvidjanjetroskova.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|solutionrelative:stedomedo\\services\\servispredvidjanjetroskova.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +18,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ServisPredvidjanjeTroskova.cs",
+              "DocumentMoniker": "C:\\Users\\aNaToMiCaLL\\Desktop\\Fax\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Services\\ServisPredvidjanjeTroskova.cs",
+              "RelativeDocumentMoniker": "StedoMedo\\Services\\ServisPredvidjanjeTroskova.cs",
+              "ToolTip": "C:\\Users\\aNaToMiCaLL\\Desktop\\Fax\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Services\\ServisPredvidjanjeTroskova.cs",
+              "RelativeToolTip": "StedoMedo\\Services\\ServisPredvidjanjeTroskova.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T15:55:50.845Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ServisPredvidjanjeTroskovaTest.cs",
               "DocumentMoniker": "C:\\Users\\aNaToMiCaLL\\Desktop\\Fax\\VVS-24-25-Projekat\\StedoMedo\\StedoMedoTests\\ServisPredvidjanjeTroskovaTest.cs",
               "RelativeDocumentMoniker": "StedoMedoTests\\ServisPredvidjanjeTroskovaTest.cs",
-              "ToolTip": "C:\\Users\\aNaToMiCaLL\\Desktop\\Fax\\VVS-24-25-Projekat\\StedoMedo\\StedoMedoTests\\ServisPredvidjanjeTroskovaTest.cs",
-              "RelativeToolTip": "StedoMedoTests\\ServisPredvidjanjeTroskovaTest.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAwDgAAAA9AAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\aNaToMiCaLL\\Desktop\\Fax\\VVS-24-25-Projekat\\StedoMedo\\StedoMedoTests\\ServisPredvidjanjeTroskovaTest.cs*",
+              "RelativeToolTip": "StedoMedoTests\\ServisPredvidjanjeTroskovaTest.cs*",
+              "ViewState": "AgIAADEAAAAAAAAAAAA1wFkAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-20T15:05:40.793Z",
               "EditorCaption": ""

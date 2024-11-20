@@ -59,5 +59,38 @@ namespace ServisPredvidjanjeTroskovaTest
         {
             var procijena = servis.ProcijeniTroskove(korisnik1, -1);
         }
+
+        [TestMethod]
+        public void TestNesortrianihDatuma()
+        {
+            dt1= new DateTime(2023, 12, 11, 5, 10, 20);
+            for (int i = 0; i < 4; i++)
+            {
+                db.AddTrosak(new Trosak(i, korisnik1, dt1, i  / 3.0, KategorijaTroska.Hrana, "Voće"));
+                dt1 = dt1.AddHours(-6);
+            }
+            var procijena = servis.ProcijeniTroskove(korisnik1, 1);
+            var ocekivanaVrijednost = 212.67;
+            bool tacnost = Math.Abs(procijena - ocekivanaVrijednost) <= 1e-16;
+            Assert.IsTrue(tacnost);
+        }
+        [TestMethod]
+        public void TestPrevelikogVariranjaTroškova()
+        {
+            dt1 = new DateTime(2023, 12, 11, 5, 10, 20);
+            for (int i = 0; i < 10; i++)
+            {
+                db.AddTrosak(new Trosak(i, korisnik1, dt1, i *4.0/ 3.0, KategorijaTroska.Hrana, "Voće"));
+                dt1 = dt1.AddHours(-6);
+            }
+            var procijena = servis.ProcijeniTroskove(korisnik1, 5);
+            Assert.AreEqual(procijena, -1);
+        }
+        [TestMethod]
+        [ExpectedException(typeof(ArgumentNullException))]
+        public void TestSlanjeNullKorisnika()
+        {
+            servis.ProcijeniTroskove(null, 1);
+        }
     }
 }
