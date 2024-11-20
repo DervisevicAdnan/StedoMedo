@@ -24,18 +24,18 @@ namespace StedoMedoTests
 
 
         [TestInitialize]
-         public void BudzetSetup()
-         {
+        public void BudzetSetup()
+        {
             _db = new DbClass();
             _mockDb = new Mock<DbClass>();
-            _budzetService= new BudzetService(_db);
+            _budzetService = new BudzetService(_db);
             _mockBudzetService = new Mock<IBudzetService>();
         }
 
         [TestMethod]
 
         [ExpectedException(typeof(ArgumentNullException))]
-        public void TestDodavanjaBudzeta_KorisnikNePostoji()
+        public void DodavanjaBudzeta_KorisnikNePostoji_Exception()
         {
             Korisnik korisnik = null;
             var pocetak = DateOnly.Parse("2024-11-11");
@@ -46,7 +46,7 @@ namespace StedoMedoTests
 
         [TestMethod]
         [ExpectedException(typeof(ArgumentException))]
-        public void TestDodavanjaBudzeta_NegativanIznos()
+        public void DodavanjaBudzeta_NegativanIznos_Exception()
         {
             Korisnik korisnik = new Korisnik(1, "adi", "Adi", "Drakovac", "062009537", "adrakovac2@etf.unsa.ba", "passhash");
             var pocetak = DateOnly.Parse("2024-11-11");
@@ -56,7 +56,7 @@ namespace StedoMedoTests
         }
 
         [TestMethod]
-        public void TestDodavanjaBudzeta_UspjesnoDodan()
+        public void DodavanjaBudzeta_UspjesnoDodan_VracaKorisnika()
         {
             Korisnik korisnik = new Korisnik(1, "adi", "Adi", "Drakovac", "062009537", "adrakovac2@etf.unsa.ba", "passhash");
             var pocetak = DateOnly.Parse("2024-11-11");
@@ -69,7 +69,7 @@ namespace StedoMedoTests
 
         [TestMethod]
         [ExpectedException(typeof(ArgumentNullException))]
-        public void TestBrisanjeBudzeta_KorisnikNePostoji()
+        public void BrisanjeBudzeta_KorisnikNePostoji_Exception()
         {
             Korisnik korisnik = null;
             var id = 1;
@@ -77,7 +77,7 @@ namespace StedoMedoTests
         }
 
         [TestMethod]
-        public void TestBrisanjeBudzeta_BudzetNePostoji()
+        public void BrisanjeBudzeta_BudzetNePostoji_False()
         {
             Korisnik korisnik = new Korisnik(1, "adi", "Adi", "Drakovac", "062009537", "adrakovac2@etf.unsa.ba", "passhash");
             var id = 55;
@@ -86,8 +86,8 @@ namespace StedoMedoTests
         }
 
         [TestMethod]
-        public void TestBrisanjeBudzeta_BudzetPostoji()
-        {            
+        public void BrisanjeBudzeta_BudzetPostoji_True()
+        {
             Korisnik korisnik = new Korisnik(1, "adi", "Adi", "Drakovac", "062009537", "adrakovac2@etf.unsa.ba", "passhash");
             var pocetak = DateOnly.Parse("2024-11-11");
             var kraj = DateOnly.Parse("2024-11-30");
@@ -100,7 +100,7 @@ namespace StedoMedoTests
 
         [TestMethod]
         [ExpectedException(typeof(ArgumentNullException))]
-        public void TestIzmjeneBudzeta_KorisnikNePostoji()
+        public void IzmjeneBudzeta_KorisnikNePostoji_Exception()
         {
             Korisnik korisnik = null;
             var pocetak = DateOnly.Parse("2024-11-11");
@@ -112,7 +112,7 @@ namespace StedoMedoTests
 
         [TestMethod]
         [ExpectedException(typeof(ArgumentException))]
-        public void TestIzmjeneBudzeta_NegativanIznos()
+        public void IzmjeneBudzeta_NegativanIznos_Exception()
         {
             Korisnik korisnik = new Korisnik(1, "adi", "Adi", "Drakovac", "062009537", "adrakovac2@etf.unsa.ba", "passhash");
             var pocetak = DateOnly.Parse("2024-11-11");
@@ -123,7 +123,7 @@ namespace StedoMedoTests
         }
 
         [TestMethod]
-        public void TestIzmjeneBudzeta_NePostojiBudzet()
+        public void IzmjeneBudzeta_NePostojiBudzet_False()
         {
             Korisnik korisnik = new Korisnik(1, "adi", "Adi", "Drakovac", "062009537", "adrakovac2@etf.unsa.ba", "passhash");
             var pocetak = DateOnly.Parse("2024-11-11");
@@ -135,7 +135,7 @@ namespace StedoMedoTests
         }
 
         [TestMethod]
-        public void TestIzmjeneBudzeta_BudzetPostoji()
+        public void IzmjeneBudzeta_BudzetPostoji_True()
         {
             Korisnik korisnik = new Korisnik(1, "adi", "Adi", "Drakovac", "062009537", "adrakovac2@etf.unsa.ba", "passhash");
             var pocetak = DateOnly.Parse("2024-11-11");
@@ -152,7 +152,7 @@ namespace StedoMedoTests
 
         [TestMethod]
         [ExpectedException(typeof(ArgumentNullException))]
-        public void TestPreostalogStanjaBudzeta_KorisnikNePostoji()
+        public void PreostalogStanjaBudzeta_KorisnikNePostoji_Exception()
         {
             Korisnik korisnik = null;
             var datum = DateOnly.Parse("2024-12-12");
@@ -161,7 +161,7 @@ namespace StedoMedoTests
 
         [TestMethod]
         [ExpectedException(typeof(InvalidOperationException))]
-        public void TestPreostalogStanjaBudzeta_BudzetNePostoji()
+        public void PreostalogStanjaBudzeta_BudzetNePostoji_Exception()
         {
             Korisnik korisnik = new Korisnik(1, "adi", "Adi", "Drakovac", "062009537", "adrakovac2@etf.unsa.ba", "passhash");
             _budzetService.PreostaloStanjeBudzeta(korisnik, DateOnly.Parse("2024-12-11"));
@@ -170,7 +170,7 @@ namespace StedoMedoTests
 
         [TestMethod]
         [ExpectedException(typeof(ArgumentOutOfRangeException))]
-        public void TestPreostalogStanjaBudzeta_DatumNijeValidan()
+        public void PreostalogStanjaBudzeta_DatumNijeValidan_Exception()
         {
             Korisnik korisnik = new Korisnik(1, "adi", "Adi", "Drakovac", "062009537", "adrakovac2@etf.unsa.ba", "passhash");
             var pocetak = DateOnly.Parse("2024-11-11");
@@ -181,7 +181,7 @@ namespace StedoMedoTests
         }
 
         [TestMethod]
-        public void TestProvjeraPostojanja_Postoji()
+        public void ProvjeraPostojanja_PostojiKorisnikBudetom_True()
         {
             Korisnik korisnik = new Korisnik(1, "adi", "Adi", "Drakovac", "062009537", "adrakovac2@etf.unsa.ba", "passhash");
             var pocetak = DateOnly.Parse("2024-11-11");
@@ -193,7 +193,7 @@ namespace StedoMedoTests
         }
 
         [TestMethod]
-        public void TestProvjeraPostojanja_NePostoji()
+        public void ProvjeraPostojanja_NePostojiKorisnikBudzetom_False()
         {
             Korisnik korisnik = new Korisnik(1, "adi", "Adi", "Drakovac", "062009537", "adrakovac2@etf.unsa.ba", "passhash");
             var pocetak = DateOnly.Parse("2024-11-11");
@@ -206,16 +206,16 @@ namespace StedoMedoTests
 
         [TestMethod]
         [DataRow(3000, 300, "2024-11-13", 2700)]
-        [DataRow(3000, 450, "2024-11-18", 2550)] 
-        [DataRow(3000, 550, "2024-11-30", 2450)] 
-        public void TestPreostaloStanjeBudzeta_JedanBudzet(double ukupniBudzet, double ukupniTrosak, string doDanaStr, double expected)
+        [DataRow(3000, 450, "2024-11-18", 2550)]
+        [DataRow(3000, 550, "2024-11-30", 2450)]
+        public void PreostaloStanjeBudzeta_JedanBudzet(double ukupniBudzet, double ukupniTrosak, string doDanaStr, double expected)
         {
             ServisUpravljanjeTroskovima _trosakService = new ServisUpravljanjeTroskovima(_db);
             Korisnik korisnik = new Korisnik(1, "adi", "Adi", "Drakovac", "062009537", "adrakovac2@etf.unsa.ba", "passhash");
             DateOnly doDana = DateOnly.Parse(doDanaStr);
-         
-            _budzetService.DodajBudzet(korisnik, DateOnly.Parse("2024-11-01"), DateOnly.Parse("2024-11-30"),ukupniBudzet);
-            _trosakService.DodajTrosak(korisnik, 300, KategorijaTroska.Hrana, "Kupovina hrane.",new DateTime(2024,11,12));
+
+            _budzetService.DodajBudzet(korisnik, DateOnly.Parse("2024-11-01"), DateOnly.Parse("2024-11-30"), ukupniBudzet);
+            _trosakService.DodajTrosak(korisnik, 300, KategorijaTroska.Hrana, "Kupovina hrane.", new DateTime(2024, 11, 12));
             _trosakService.DodajTrosak(korisnik, 150, KategorijaTroska.Rezije, "Placanje rezija.", new DateTime(2024, 11, 17));
             _trosakService.DodajTrosak(korisnik, 100, KategorijaTroska.Prijevoz, "Placanje prevoza", new DateTime(2024, 11, 28));
             var actual = _budzetService.PreostaloStanjeBudzeta(korisnik, doDana);
@@ -227,7 +227,7 @@ namespace StedoMedoTests
         [DataRow(3000, 300, "2024-11-13", 2700)]
         [DataRow(6000, 450, "2024-11-18", 5550)]
         [DataRow(6000, 550, "2024-11-30", 5450)]
-        public void TestPreostaloStanjeBudzeta_ViseBudeta(double ukupniBudzet, double ukupniTrosak, string doDanaStr, double expected)
+        public void PreostaloStanjeBudzeta_ViseBudeta(double ukupniBudzet, double ukupniTrosak, string doDanaStr, double expected)
         {
             ServisUpravljanjeTroskovima _trosakService = new ServisUpravljanjeTroskovima(_db);
             Korisnik korisnik = new Korisnik(1, "adi", "Adi", "Drakovac", "062009537", "adrakovac2@etf.unsa.ba", "passhash");
@@ -258,7 +258,7 @@ namespace StedoMedoTests
         [TestMethod]
         [DynamicData(nameof(BudzetData))]
 
-        public void TestPreostalogStanjaBudzeta_DynamicData(double ukupniBudzet, double ukupniTrosak, string doDanaStr, double expected)
+        public void PreostalogStanjaBudzeta_DynamicData(double ukupniBudzet, double ukupniTrosak, string doDanaStr, double expected)
         {
             ServisUpravljanjeTroskovima _trosakService = new ServisUpravljanjeTroskovima(_db);
             Korisnik korisnik = new Korisnik(1, "adi", "Adi", "Drakovac", "062009537", "adrakovac2@etf.unsa.ba", "passhash");
@@ -272,7 +272,7 @@ namespace StedoMedoTests
         }
 
         [TestMethod]
-        public void TestDodavanjaBudzeta_ZamjenskiObjekat()
+        public void DodavanjaBudzeta_ZamjenskiObjekat()
         {
             var korisnik = new Korisnik(1, "adi", "Adi", "Drakovac", "062009537", "adrakovac2@etf.unsa.ba", "passhash");
             var pocetak = DateOnly.Parse("2024-11-11");
@@ -287,7 +287,16 @@ namespace StedoMedoTests
             Assert.AreEqual(korisnik, result);
             _mockBudzetService.Verify(service => service.DodajBudzet(korisnik, pocetak, kraj, iznos), Times.Once);
         }
+        [TestMethod]
+        public void DodavanjeBudzeta_IspravanIspis_True()
+        {
+
+            var korisnik = new Korisnik(1, "adi", "Adi", "Drakovac", "062009537", "adrakovac2@etf.unsa.ba", "passhash");
+            var pocetak = DateOnly.Parse("2024-11-11");
+            var kraj = DateOnly.Parse("2024-11-30");
+            var iznos = 2000;
+            Budzet test = new Budzet(1,korisnik, pocetak, kraj, iznos);
+            Assert.AreEqual("1 1 11.11.2024. 30.11.2024. 2000", test.ToString());
+        }
     }
 }
-
-

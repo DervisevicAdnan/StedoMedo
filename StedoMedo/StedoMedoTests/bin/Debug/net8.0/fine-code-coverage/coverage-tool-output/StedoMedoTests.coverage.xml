@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<coverage line-rate="0.2322" branch-rate="0.10490000000000001" version="1.9" timestamp="1732110657" lines-covered="331" lines-valid="1425" branches-covered="47" branches-valid="448">
+<coverage line-rate="0.23929999999999998" branch-rate="0.10490000000000001" version="1.9" timestamp="1732131907" lines-covered="343" lines-valid="1433" branches-covered="47" branches-valid="448">
   <sources>
     <source>C:\Users\AdiDr\</source>
   </sources>
   <packages>
-    <package name="StedoMedo" line-rate="0.125" branch-rate="0.1008" complexity="507">
+    <package name="StedoMedo" line-rate="0.1282" branch-rate="0.1008" complexity="507">
       <classes>
         <class name="Program" filename="Desktop\VVSprojekat\VVS-24-25-Projekat\StedoMedo\StedoMedo\Program.cs" line-rate="0" branch-rate="0" complexity="18">
           <methods>
@@ -2082,10 +2082,10 @@
             </method>
             <method name=".ctor" signature="(StedoMedo.Data.DbClass)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="18" hits="24" branch="False" />
-                <line number="19" hits="24" branch="False" />
-                <line number="20" hits="24" branch="False" />
-                <line number="21" hits="24" branch="False" />
+                <line number="18" hits="25" branch="False" />
+                <line number="19" hits="25" branch="False" />
+                <line number="20" hits="25" branch="False" />
+                <line number="21" hits="25" branch="False" />
               </lines>
             </method>
           </methods>
@@ -2248,10 +2248,10 @@
               </conditions>
             </line>
             <line number="119" hits="2" branch="False" />
-            <line number="18" hits="24" branch="False" />
-            <line number="19" hits="24" branch="False" />
-            <line number="20" hits="24" branch="False" />
-            <line number="21" hits="24" branch="False" />
+            <line number="18" hits="25" branch="False" />
+            <line number="19" hits="25" branch="False" />
+            <line number="20" hits="25" branch="False" />
+            <line number="21" hits="25" branch="False" />
           </lines>
         </class>
         <class name="StedoMedo.Services.ServisPredvidjanjeTroskova" filename="Desktop\VVSprojekat\VVS-24-25-Projekat\StedoMedo\StedoMedo\Services\ServisPredvidjanjeTroskova.cs" line-rate="0" branch-rate="0" complexity="40">
@@ -3896,109 +3896,109 @@
             <line number="75" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="StedoMedo.Models.Budzet" filename="Desktop\VVSprojekat\VVS-24-25-Projekat\StedoMedo\StedoMedo\Models\Budzet.cs" line-rate="0.7646999999999999" branch-rate="1" complexity="7">
+        <class name="StedoMedo.Models.Budzet" filename="Desktop\VVSprojekat\VVS-24-25-Projekat\StedoMedo\StedoMedo\Models\Budzet.cs" line-rate="1" branch-rate="1" complexity="7">
           <methods>
             <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="11" hits="22" branch="False" />
+                <line number="11" hits="24" branch="False" />
               </lines>
             </method>
             <method name="get_Korisnik" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="12" hits="49" branch="False" />
+                <line number="12" hits="51" branch="False" />
               </lines>
             </method>
             <method name="get_PocetakPerioda" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="13" hits="29" branch="False" />
+                <line number="13" hits="31" branch="False" />
               </lines>
             </method>
             <method name="get_KrajPerioda" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="14" hits="37" branch="False" />
+                <line number="14" hits="39" branch="False" />
               </lines>
             </method>
             <method name="get_Iznos" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="15" hits="28" branch="False" />
+                <line number="15" hits="30" branch="False" />
               </lines>
             </method>
-            <method name="ToString" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="ToString" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="25" hits="0" branch="False" />
-                <line number="26" hits="0" branch="False" />
-                <line number="27" hits="0" branch="False" />
-                <line number="28" hits="0" branch="False" />
+                <line number="25" hits="1" branch="False" />
+                <line number="26" hits="1" branch="False" />
+                <line number="27" hits="1" branch="False" />
+                <line number="28" hits="1" branch="False" />
               </lines>
             </method>
             <method name=".ctor" signature="(System.Int32,StedoMedo.Models.Korisnik,System.DateOnly,System.DateOnly,System.Double)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="16" hits="17" branch="False" />
-                <line number="17" hits="17" branch="False" />
-                <line number="18" hits="17" branch="False" />
-                <line number="19" hits="17" branch="False" />
-                <line number="20" hits="17" branch="False" />
-                <line number="21" hits="17" branch="False" />
-                <line number="22" hits="17" branch="False" />
-                <line number="23" hits="17" branch="False" />
+                <line number="16" hits="18" branch="False" />
+                <line number="17" hits="18" branch="False" />
+                <line number="18" hits="18" branch="False" />
+                <line number="19" hits="18" branch="False" />
+                <line number="20" hits="18" branch="False" />
+                <line number="21" hits="18" branch="False" />
+                <line number="22" hits="18" branch="False" />
+                <line number="23" hits="18" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="11" hits="22" branch="False" />
-            <line number="12" hits="49" branch="False" />
-            <line number="13" hits="29" branch="False" />
-            <line number="14" hits="37" branch="False" />
-            <line number="15" hits="28" branch="False" />
-            <line number="25" hits="0" branch="False" />
-            <line number="26" hits="0" branch="False" />
-            <line number="27" hits="0" branch="False" />
-            <line number="28" hits="0" branch="False" />
-            <line number="16" hits="17" branch="False" />
-            <line number="17" hits="17" branch="False" />
-            <line number="18" hits="17" branch="False" />
-            <line number="19" hits="17" branch="False" />
-            <line number="20" hits="17" branch="False" />
-            <line number="21" hits="17" branch="False" />
-            <line number="22" hits="17" branch="False" />
-            <line number="23" hits="17" branch="False" />
+            <line number="11" hits="24" branch="False" />
+            <line number="12" hits="51" branch="False" />
+            <line number="13" hits="31" branch="False" />
+            <line number="14" hits="39" branch="False" />
+            <line number="15" hits="30" branch="False" />
+            <line number="25" hits="1" branch="False" />
+            <line number="26" hits="1" branch="False" />
+            <line number="27" hits="1" branch="False" />
+            <line number="28" hits="1" branch="False" />
+            <line number="16" hits="18" branch="False" />
+            <line number="17" hits="18" branch="False" />
+            <line number="18" hits="18" branch="False" />
+            <line number="19" hits="18" branch="False" />
+            <line number="20" hits="18" branch="False" />
+            <line number="21" hits="18" branch="False" />
+            <line number="22" hits="18" branch="False" />
+            <line number="23" hits="18" branch="False" />
           </lines>
         </class>
         <class name="StedoMedo.Models.Korisnik" filename="Desktop\VVSprojekat\VVS-24-25-Projekat\StedoMedo\StedoMedo\Models\Korisnik.cs" line-rate="1" branch-rate="1" complexity="9">
           <methods>
             <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="13" hits="130" branch="False" />
+                <line number="13" hits="132" branch="False" />
               </lines>
             </method>
             <method name="get_Username" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="17" hits="22" branch="False" />
+                <line number="17" hits="23" branch="False" />
               </lines>
             </method>
             <method name="get_Ime" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="21" hits="22" branch="False" />
+                <line number="21" hits="23" branch="False" />
               </lines>
             </method>
             <method name="get_Prezime" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="25" hits="22" branch="False" />
+                <line number="25" hits="23" branch="False" />
               </lines>
             </method>
             <method name="get_Telefon" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="29" hits="22" branch="False" />
+                <line number="29" hits="23" branch="False" />
               </lines>
             </method>
             <method name="get_Email" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="33" hits="22" branch="False" />
+                <line number="33" hits="23" branch="False" />
               </lines>
             </method>
             <method name="get_SifraHash" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="34" hits="21" branch="False" />
+                <line number="34" hits="22" branch="False" />
               </lines>
             </method>
             <method name="ToString" signature="()" line-rate="1" branch-rate="1" complexity="1">
@@ -4010,40 +4010,40 @@
             </method>
             <method name=".ctor" signature="(System.Int32,System.String,System.String,System.String,System.String,System.String,System.String)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="36" hits="21" branch="False" />
-                <line number="37" hits="21" branch="False" />
-                <line number="38" hits="21" branch="False" />
-                <line number="39" hits="21" branch="False" />
-                <line number="40" hits="21" branch="False" />
-                <line number="41" hits="21" branch="False" />
-                <line number="42" hits="21" branch="False" />
-                <line number="43" hits="21" branch="False" />
-                <line number="44" hits="21" branch="False" />
-                <line number="45" hits="21" branch="False" />
+                <line number="36" hits="22" branch="False" />
+                <line number="37" hits="22" branch="False" />
+                <line number="38" hits="22" branch="False" />
+                <line number="39" hits="22" branch="False" />
+                <line number="40" hits="22" branch="False" />
+                <line number="41" hits="22" branch="False" />
+                <line number="42" hits="22" branch="False" />
+                <line number="43" hits="22" branch="False" />
+                <line number="44" hits="22" branch="False" />
+                <line number="45" hits="22" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="13" hits="130" branch="False" />
-            <line number="17" hits="22" branch="False" />
-            <line number="21" hits="22" branch="False" />
-            <line number="25" hits="22" branch="False" />
-            <line number="29" hits="22" branch="False" />
-            <line number="33" hits="22" branch="False" />
-            <line number="34" hits="21" branch="False" />
+            <line number="13" hits="132" branch="False" />
+            <line number="17" hits="23" branch="False" />
+            <line number="21" hits="23" branch="False" />
+            <line number="25" hits="23" branch="False" />
+            <line number="29" hits="23" branch="False" />
+            <line number="33" hits="23" branch="False" />
+            <line number="34" hits="22" branch="False" />
             <line number="47" hits="1" branch="False" />
             <line number="48" hits="1" branch="False" />
             <line number="49" hits="1" branch="False" />
-            <line number="36" hits="21" branch="False" />
-            <line number="37" hits="21" branch="False" />
-            <line number="38" hits="21" branch="False" />
-            <line number="39" hits="21" branch="False" />
-            <line number="40" hits="21" branch="False" />
-            <line number="41" hits="21" branch="False" />
-            <line number="42" hits="21" branch="False" />
-            <line number="43" hits="21" branch="False" />
-            <line number="44" hits="21" branch="False" />
-            <line number="45" hits="21" branch="False" />
+            <line number="36" hits="22" branch="False" />
+            <line number="37" hits="22" branch="False" />
+            <line number="38" hits="22" branch="False" />
+            <line number="39" hits="22" branch="False" />
+            <line number="40" hits="22" branch="False" />
+            <line number="41" hits="22" branch="False" />
+            <line number="42" hits="22" branch="False" />
+            <line number="43" hits="22" branch="False" />
+            <line number="44" hits="22" branch="False" />
+            <line number="45" hits="22" branch="False" />
           </lines>
         </class>
         <class name="StedoMedo.Models.MetodeSortiranja" filename="Desktop\VVSprojekat\VVS-24-25-Projekat\StedoMedo\StedoMedo\Models\KriterijSortiranja.cs" line-rate="0" branch-rate="0" complexity="40">
@@ -4360,17 +4360,17 @@
           <methods>
             <method name="get_Korisnici" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="12" hits="26" branch="False" />
+                <line number="12" hits="27" branch="False" />
               </lines>
             </method>
             <method name="get_Troskovi" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="13" hits="96" branch="False" />
+                <line number="13" hits="97" branch="False" />
               </lines>
             </method>
             <method name="get_Budzeti" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="14" hits="94" branch="False" />
+                <line number="14" hits="95" branch="False" />
               </lines>
             </method>
             <method name="AddKorisnik" signature="(StedoMedo.Models.Korisnik)" line-rate="1" branch-rate="1" complexity="1">
@@ -4410,18 +4410,18 @@
             </method>
             <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="15" hits="50" branch="False" />
-                <line number="16" hits="25" branch="False" />
-                <line number="17" hits="25" branch="False" />
-                <line number="18" hits="25" branch="False" />
-                <line number="19" hits="25" branch="False" />
+                <line number="15" hits="52" branch="False" />
+                <line number="16" hits="26" branch="False" />
+                <line number="17" hits="26" branch="False" />
+                <line number="18" hits="26" branch="False" />
+                <line number="19" hits="26" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="12" hits="26" branch="False" />
-            <line number="13" hits="96" branch="False" />
-            <line number="14" hits="94" branch="False" />
+            <line number="12" hits="27" branch="False" />
+            <line number="13" hits="97" branch="False" />
+            <line number="14" hits="95" branch="False" />
             <line number="20" hits="1" branch="False" />
             <line number="21" hits="1" branch="False" />
             <line number="22" hits="1" branch="False" />
@@ -4441,16 +4441,16 @@
             <line number="34" hits="0" branch="False" />
             <line number="35" hits="0" branch="False" />
             <line number="36" hits="0" branch="False" />
-            <line number="15" hits="50" branch="False" />
-            <line number="16" hits="25" branch="False" />
-            <line number="17" hits="25" branch="False" />
-            <line number="18" hits="25" branch="False" />
-            <line number="19" hits="25" branch="False" />
+            <line number="15" hits="52" branch="False" />
+            <line number="16" hits="26" branch="False" />
+            <line number="17" hits="26" branch="False" />
+            <line number="18" hits="26" branch="False" />
+            <line number="19" hits="26" branch="False" />
           </lines>
         </class>
       </classes>
     </package>
-    <package name="StedoMedoTests" line-rate="0.9512999999999999" branch-rate="1" complexity="24">
+    <package name="StedoMedoTests" line-rate="0.9533" branch-rate="1" complexity="25">
       <classes>
         <class name="AutoGeneratedProgram" filename=".nuget\packages\microsoft.net.test.sdk\17.8.0\build\netcoreapp3.1\Microsoft.NET.Test.Sdk.Program.cs" line-rate="0" branch-rate="1" complexity="1">
           <methods>
@@ -4464,19 +4464,19 @@
             <line number="4" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="StedoMedoTests.BudzetServiceTest" filename="Desktop\VVSprojekat\VVS-24-25-Projekat\StedoMedo\StedoMedoTests\BudzetServiceTest.cs" line-rate="0.9540000000000001" branch-rate="1" complexity="22">
+        <class name="StedoMedoTests.BudzetServiceTest" filename="Desktop\VVSprojekat\VVS-24-25-Projekat\StedoMedo\StedoMedoTests\BudzetServiceTest.cs" line-rate="0.956" branch-rate="1" complexity="23">
           <methods>
             <method name="BudzetSetup" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="28" hits="24" branch="False" />
-                <line number="29" hits="24" branch="False" />
-                <line number="30" hits="24" branch="False" />
-                <line number="31" hits="24" branch="False" />
-                <line number="32" hits="24" branch="False" />
-                <line number="33" hits="24" branch="False" />
+                <line number="28" hits="25" branch="False" />
+                <line number="29" hits="25" branch="False" />
+                <line number="30" hits="25" branch="False" />
+                <line number="31" hits="25" branch="False" />
+                <line number="32" hits="25" branch="False" />
+                <line number="33" hits="25" branch="False" />
               </lines>
             </method>
-            <method name="TestDodavanjaBudzeta_KorisnikNePostoji" signature="()" line-rate="0.8571" branch-rate="1" complexity="1">
+            <method name="DodavanjaBudzeta_KorisnikNePostoji_Exception" signature="()" line-rate="0.8571" branch-rate="1" complexity="1">
               <lines>
                 <line number="39" hits="1" branch="False" />
                 <line number="40" hits="1" branch="False" />
@@ -4487,7 +4487,7 @@
                 <line number="45" hits="0" branch="False" />
               </lines>
             </method>
-            <method name="TestDodavanjaBudzeta_NegativanIznos" signature="()" line-rate="0.8571" branch-rate="1" complexity="1">
+            <method name="DodavanjaBudzeta_NegativanIznos_Exception" signature="()" line-rate="0.8571" branch-rate="1" complexity="1">
               <lines>
                 <line number="50" hits="1" branch="False" />
                 <line number="51" hits="1" branch="False" />
@@ -4498,7 +4498,7 @@
                 <line number="56" hits="0" branch="False" />
               </lines>
             </method>
-            <method name="TestDodavanjaBudzeta_UspjesnoDodan" signature="()" line-rate="1" branch-rate="1" complexity="1">
+            <method name="DodavanjaBudzeta_UspjesnoDodan_VracaKorisnika" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
                 <line number="60" hits="1" branch="False" />
                 <line number="61" hits="1" branch="False" />
@@ -4511,7 +4511,7 @@
                 <line number="68" hits="1" branch="False" />
               </lines>
             </method>
-            <method name="TestBrisanjeBudzeta_KorisnikNePostoji" signature="()" line-rate="0.8" branch-rate="1" complexity="1">
+            <method name="BrisanjeBudzeta_KorisnikNePostoji_Exception" signature="()" line-rate="0.8" branch-rate="1" complexity="1">
               <lines>
                 <line number="73" hits="1" branch="False" />
                 <line number="74" hits="1" branch="False" />
@@ -4520,7 +4520,7 @@
                 <line number="77" hits="0" branch="False" />
               </lines>
             </method>
-            <method name="TestBrisanjeBudzeta_BudzetNePostoji" signature="()" line-rate="1" branch-rate="1" complexity="1">
+            <method name="BrisanjeBudzeta_BudzetNePostoji_False" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
                 <line number="81" hits="1" branch="False" />
                 <line number="82" hits="1" branch="False" />
@@ -4530,7 +4530,7 @@
                 <line number="86" hits="1" branch="False" />
               </lines>
             </method>
-            <method name="TestBrisanjeBudzeta_BudzetPostoji" signature="()" line-rate="1" branch-rate="1" complexity="1">
+            <method name="BrisanjeBudzeta_BudzetPostoji_True" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
                 <line number="90" hits="1" branch="False" />
                 <line number="91" hits="1" branch="False" />
@@ -4544,7 +4544,7 @@
                 <line number="99" hits="1" branch="False" />
               </lines>
             </method>
-            <method name="TestIzmjeneBudzeta_KorisnikNePostoji" signature="()" line-rate="0.875" branch-rate="1" complexity="1">
+            <method name="IzmjeneBudzeta_KorisnikNePostoji_Exception" signature="()" line-rate="0.875" branch-rate="1" complexity="1">
               <lines>
                 <line number="104" hits="1" branch="False" />
                 <line number="105" hits="1" branch="False" />
@@ -4556,7 +4556,7 @@
                 <line number="111" hits="0" branch="False" />
               </lines>
             </method>
-            <method name="TestIzmjeneBudzeta_NegativanIznos" signature="()" line-rate="0.875" branch-rate="1" complexity="1">
+            <method name="IzmjeneBudzeta_NegativanIznos_Exception" signature="()" line-rate="0.875" branch-rate="1" complexity="1">
               <lines>
                 <line number="116" hits="1" branch="False" />
                 <line number="117" hits="1" branch="False" />
@@ -4568,7 +4568,7 @@
                 <line number="123" hits="0" branch="False" />
               </lines>
             </method>
-            <method name="TestIzmjeneBudzeta_NePostojiBudzet" signature="()" line-rate="1" branch-rate="1" complexity="1">
+            <method name="IzmjeneBudzeta_NePostojiBudzet_False" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
                 <line number="127" hits="1" branch="False" />
                 <line number="128" hits="1" branch="False" />
@@ -4581,7 +4581,7 @@
                 <line number="135" hits="1" branch="False" />
               </lines>
             </method>
-            <method name="TestIzmjeneBudzeta_BudzetPostoji" signature="()" line-rate="1" branch-rate="1" complexity="1">
+            <method name="IzmjeneBudzeta_BudzetPostoji_True" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
                 <line number="139" hits="1" branch="False" />
                 <line number="140" hits="1" branch="False" />
@@ -4598,7 +4598,7 @@
                 <line number="151" hits="1" branch="False" />
               </lines>
             </method>
-            <method name="TestPreostalogStanjaBudzeta_KorisnikNePostoji" signature="()" line-rate="0.8" branch-rate="1" complexity="1">
+            <method name="PreostalogStanjaBudzeta_KorisnikNePostoji_Exception" signature="()" line-rate="0.8" branch-rate="1" complexity="1">
               <lines>
                 <line number="156" hits="1" branch="False" />
                 <line number="157" hits="1" branch="False" />
@@ -4607,7 +4607,7 @@
                 <line number="160" hits="0" branch="False" />
               </lines>
             </method>
-            <method name="TestPreostalogStanjaBudzeta_BudzetNePostoji" signature="()" line-rate="0.75" branch-rate="1" complexity="1">
+            <method name="PreostalogStanjaBudzeta_BudzetNePostoji_Exception" signature="()" line-rate="0.75" branch-rate="1" complexity="1">
               <lines>
                 <line number="165" hits="1" branch="False" />
                 <line number="166" hits="1" branch="False" />
@@ -4615,7 +4615,7 @@
                 <line number="169" hits="0" branch="False" />
               </lines>
             </method>
-            <method name="TestPreostalogStanjaBudzeta_DatumNijeValidan" signature="()" line-rate="0.875" branch-rate="1" complexity="1">
+            <method name="PreostalogStanjaBudzeta_DatumNijeValidan_Exception" signature="()" line-rate="0.875" branch-rate="1" complexity="1">
               <lines>
                 <line number="174" hits="1" branch="False" />
                 <line number="175" hits="1" branch="False" />
@@ -4627,7 +4627,7 @@
                 <line number="181" hits="0" branch="False" />
               </lines>
             </method>
-            <method name="TestProvjeraPostojanja_Postoji" signature="()" line-rate="1" branch-rate="1" complexity="1">
+            <method name="ProvjeraPostojanja_PostojiKorisnikBudetom_True" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
                 <line number="185" hits="1" branch="False" />
                 <line number="186" hits="1" branch="False" />
@@ -4640,7 +4640,7 @@
                 <line number="193" hits="1" branch="False" />
               </lines>
             </method>
-            <method name="TestProvjeraPostojanja_NePostoji" signature="()" line-rate="1" branch-rate="1" complexity="1">
+            <method name="ProvjeraPostojanja_NePostojiKorisnikBudzetom_False" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
                 <line number="197" hits="1" branch="False" />
                 <line number="198" hits="1" branch="False" />
@@ -4653,7 +4653,7 @@
                 <line number="205" hits="1" branch="False" />
               </lines>
             </method>
-            <method name="TestPreostaloStanjeBudzeta_JedanBudzet" signature="(System.Double,System.Double,System.String,System.Double)" line-rate="1" branch-rate="1" complexity="1">
+            <method name="PreostaloStanjeBudzeta_JedanBudzet" signature="(System.Double,System.Double,System.String,System.Double)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
                 <line number="212" hits="3" branch="False" />
                 <line number="213" hits="3" branch="False" />
@@ -4668,7 +4668,7 @@
                 <line number="224" hits="3" branch="False" />
               </lines>
             </method>
-            <method name="TestPreostaloStanjeBudzeta_ViseBudeta" signature="(System.Double,System.Double,System.String,System.Double)" line-rate="1" branch-rate="1" complexity="1">
+            <method name="PreostaloStanjeBudzeta_ViseBudeta" signature="(System.Double,System.Double,System.String,System.Double)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
                 <line number="231" hits="3" branch="False" />
                 <line number="232" hits="3" branch="False" />
@@ -4695,7 +4695,7 @@
                 <line number="255" hits="1" branch="False" />
               </lines>
             </method>
-            <method name="TestPreostalogStanjaBudzeta_DynamicData" signature="(System.Double,System.Double,System.String,System.Double)" line-rate="1" branch-rate="1" complexity="1">
+            <method name="PreostalogStanjaBudzeta_DynamicData" signature="(System.Double,System.Double,System.String,System.Double)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
                 <line number="262" hits="2" branch="False" />
                 <line number="263" hits="2" branch="False" />
@@ -4709,7 +4709,7 @@
                 <line number="272" hits="2" branch="False" />
               </lines>
             </method>
-            <method name="TestDodavanjaBudzeta_ZamjenskiObjekat" signature="()" line-rate="1" branch-rate="1" complexity="2">
+            <method name="DodavanjaBudzeta_ZamjenskiObjekat" signature="()" line-rate="1" branch-rate="1" complexity="2">
               <lines>
                 <line number="276" hits="1" branch="False" />
                 <line number="277" hits="1" branch="False" />
@@ -4728,14 +4728,26 @@
                 <line number="289" hits="1" branch="False" />
               </lines>
             </method>
+            <method name="DodavanjeBudzeta_IspravanIspis_True" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="292" hits="1" branch="False" />
+                <line number="294" hits="1" branch="False" />
+                <line number="295" hits="1" branch="False" />
+                <line number="296" hits="1" branch="False" />
+                <line number="297" hits="1" branch="False" />
+                <line number="298" hits="1" branch="False" />
+                <line number="299" hits="1" branch="False" />
+                <line number="300" hits="1" branch="False" />
+              </lines>
+            </method>
           </methods>
           <lines>
-            <line number="28" hits="24" branch="False" />
-            <line number="29" hits="24" branch="False" />
-            <line number="30" hits="24" branch="False" />
-            <line number="31" hits="24" branch="False" />
-            <line number="32" hits="24" branch="False" />
-            <line number="33" hits="24" branch="False" />
+            <line number="28" hits="25" branch="False" />
+            <line number="29" hits="25" branch="False" />
+            <line number="30" hits="25" branch="False" />
+            <line number="31" hits="25" branch="False" />
+            <line number="32" hits="25" branch="False" />
+            <line number="33" hits="25" branch="False" />
             <line number="39" hits="1" branch="False" />
             <line number="40" hits="1" branch="False" />
             <line number="41" hits="1" branch="False" />
@@ -4908,6 +4920,14 @@
               </conditions>
             </line>
             <line number="289" hits="1" branch="False" />
+            <line number="292" hits="1" branch="False" />
+            <line number="294" hits="1" branch="False" />
+            <line number="295" hits="1" branch="False" />
+            <line number="296" hits="1" branch="False" />
+            <line number="297" hits="1" branch="False" />
+            <line number="298" hits="1" branch="False" />
+            <line number="299" hits="1" branch="False" />
+            <line number="300" hits="1" branch="False" />
           </lines>
         </class>
         <class name="StedoMedoTests.ServisUpravljanjeTroskovimaTest" filename="Desktop\VVSprojekat\VVS-24-25-Projekat\StedoMedo\StedoMedoTests\ServisUpravljanjeTroskovimaTest.cs" line-rate="1" branch-rate="1" complexity="1">
