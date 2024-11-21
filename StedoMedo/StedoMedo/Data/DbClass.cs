@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace StedoMedo.Data
 {
-    public class DbClass
+    public class DbClass : IDbClass
     {
         public List<Korisnik> Korisnici { get; set; }
         public List<Trosak> Troskovi { get; set; }

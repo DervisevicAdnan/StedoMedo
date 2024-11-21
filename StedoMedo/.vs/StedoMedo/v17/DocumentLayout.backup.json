@@ -3,32 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6BCE2282-9B98-4285-A59F-B20828DE7041}|StedoMedoTests\\StedoMedoTests.csproj|c:\\users\\hp compaq\\desktop\\vvs\\vvs-24-25-projekat\\stedomedo\\stedomedotests\\servisupravljanjetroskovimatest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BCE2282-9B98-4285-A59F-B20828DE7041}|StedoMedoTests\\StedoMedoTests.csproj|solutionrelative:stedomedotests\\servisupravljanjetroskovimatest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BCE2282-9B98-4285-A59F-B20828DE7041}|StedoMedoTests\\StedoMedoTests.csproj|c:\\users\\hp compaq\\desktop\\vvs\\vvs-24-25-projekat\\stedomedo\\stedomedotests\\trosaktest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BCE2282-9B98-4285-A59F-B20828DE7041}|StedoMedoTests\\StedoMedoTests.csproj|solutionrelative:stedomedotests\\trosaktest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BCE2282-9B98-4285-A59F-B20828DE7041}|StedoMedoTests\\StedoMedoTests.csproj|c:\\users\\hp compaq\\desktop\\vvs\\vvs-24-25-projekat\\stedomedo\\stedomedotests\\servisstatistikatest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BCE2282-9B98-4285-A59F-B20828DE7041}|StedoMedoTests\\StedoMedoTests.csproj|solutionrelative:stedomedotests\\servisstatistikatest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|c:\\users\\hp compaq\\desktop\\vvs\\vvs-24-25-projekat\\stedomedo\\stedomedo\\models\\kriterijsortiranja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|solutionrelative:stedomedo\\models\\kriterijsortiranja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|c:\\users\\hp compaq\\desktop\\vvs\\vvs-24-25-projekat\\stedomedo\\stedomedo\\models\\budzet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|solutionrelative:stedomedo\\models\\budzet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|c:\\users\\hp compaq\\desktop\\vvs\\vvs-24-25-projekat\\stedomedo\\stedomedo\\models\\trosak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|solutionrelative:stedomedo\\models\\trosak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6BCE2282-9B98-4285-A59F-B20828DE7041}|StedoMedoTests\\StedoMedoTests.csproj|c:\\users\\hp compaq\\desktop\\vvs\\vvs-24-25-projekat\\stedomedo\\stedomedotests\\tdduredjivanjeprofilatest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6BCE2282-9B98-4285-A59F-B20828DE7041}|StedoMedoTests\\StedoMedoTests.csproj|solutionrelative:stedomedotests\\tdduredjivanjeprofilatest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BCE2282-9B98-4285-A59F-B20828DE7041}|StedoMedoTests\\StedoMedoTests.csproj|c:\\users\\hp compaq\\desktop\\vvs\\vvs-24-25-projekat\\stedomedo\\stedomedotests\\tddispisizvjestajatest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BCE2282-9B98-4285-A59F-B20828DE7041}|StedoMedoTests\\StedoMedoTests.csproj|solutionrelative:stedomedotests\\tddispisizvjestajatest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|c:\\users\\hp compaq\\desktop\\vvs\\vvs-24-25-projekat\\stedomedo\\stedomedo\\data\\idbclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|solutionrelative:stedomedo\\data\\idbclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|c:\\users\\hp compaq\\desktop\\vvs\\vvs-24-25-projekat\\stedomedo\\stedomedo\\data\\dbclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|solutionrelative:stedomedo\\data\\dbclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,102 +26,59 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TrosakTest.cs",
-              "DocumentMoniker": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\StedoMedoTests\\TrosakTest.cs",
-              "RelativeDocumentMoniker": "StedoMedoTests\\TrosakTest.cs",
-              "ToolTip": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\StedoMedoTests\\TrosakTest.cs",
-              "RelativeToolTip": "StedoMedoTests\\TrosakTest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T08:09:40.12Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ServisStatistikaTest.cs",
-              "DocumentMoniker": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\StedoMedoTests\\ServisStatistikaTest.cs",
-              "RelativeDocumentMoniker": "StedoMedoTests\\ServisStatistikaTest.cs",
-              "ToolTip": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\StedoMedoTests\\ServisStatistikaTest.cs",
-              "RelativeToolTip": "StedoMedoTests\\ServisStatistikaTest.cs",
-              "ViewState": "AgIAABgBAAAAAAAAAAAswCgBAAArAAAAAAAAAA==",
+              "Title": "IDbClass.cs",
+              "DocumentMoniker": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Data\\IDbClass.cs",
+              "RelativeDocumentMoniker": "StedoMedo\\Data\\IDbClass.cs",
+              "ToolTip": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Data\\IDbClass.cs*",
+              "RelativeToolTip": "StedoMedo\\Data\\IDbClass.cs*",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T08:07:45.085Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ServisUpravljanjeTroskovimaTest.cs",
-              "DocumentMoniker": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\StedoMedoTests\\ServisUpravljanjeTroskovimaTest.cs",
-              "RelativeDocumentMoniker": "StedoMedoTests\\ServisUpravljanjeTroskovimaTest.cs",
-              "ToolTip": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\StedoMedoTests\\ServisUpravljanjeTroskovimaTest.cs*",
-              "RelativeToolTip": "StedoMedoTests\\ServisUpravljanjeTroskovimaTest.cs*",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAxwA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T08:04:43.398Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Budzet.cs",
-              "DocumentMoniker": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Models\\Budzet.cs",
-              "RelativeDocumentMoniker": "StedoMedo\\Models\\Budzet.cs",
-              "ToolTip": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Models\\Budzet.cs",
-              "RelativeToolTip": "StedoMedo\\Models\\Budzet.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAIwBoAAABfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T08:04:13.613Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Trosak.cs",
-              "DocumentMoniker": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Models\\Trosak.cs",
-              "RelativeDocumentMoniker": "StedoMedo\\Models\\Trosak.cs",
-              "ToolTip": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Models\\Trosak.cs",
-              "RelativeToolTip": "StedoMedo\\Models\\Trosak.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAA4wBkAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T08:03:16.677Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TDDUredjivanjeProfilaTest.cs",
-              "DocumentMoniker": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\StedoMedoTests\\TDDUredjivanjeProfilaTest.cs",
-              "RelativeDocumentMoniker": "StedoMedoTests\\TDDUredjivanjeProfilaTest.cs",
-              "ToolTip": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\StedoMedoTests\\TDDUredjivanjeProfilaTest.cs",
-              "RelativeToolTip": "StedoMedoTests\\TDDUredjivanjeProfilaTest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T07:54:40.304Z",
+              "WhenOpened": "2024-11-21T08:34:32.135Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "KriterijSortiranja.cs",
-              "DocumentMoniker": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Models\\KriterijSortiranja.cs",
-              "RelativeDocumentMoniker": "StedoMedo\\Models\\KriterijSortiranja.cs",
-              "ToolTip": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Models\\KriterijSortiranja.cs",
-              "RelativeToolTip": "StedoMedo\\Models\\KriterijSortiranja.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Title": "DbClass.cs",
+              "DocumentMoniker": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Data\\DbClass.cs",
+              "RelativeDocumentMoniker": "StedoMedo\\Data\\DbClass.cs",
+              "ToolTip": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Data\\DbClass.cs*",
+              "RelativeToolTip": "StedoMedo\\Data\\DbClass.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T07:44:42.438Z",
+              "WhenOpened": "2024-11-21T08:22:47.052Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TDDIspisIzvjestajaTest.cs",
+              "DocumentMoniker": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\StedoMedoTests\\TDDIspisIzvjestajaTest.cs",
+              "RelativeDocumentMoniker": "StedoMedoTests\\TDDIspisIzvjestajaTest.cs",
+              "ToolTip": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\StedoMedoTests\\TDDIspisIzvjestajaTest.cs",
+              "RelativeToolTip": "StedoMedoTests\\TDDIspisIzvjestajaTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T08:18:55.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TDDUredjivanjeProfilaTest.cs",
+              "DocumentMoniker": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\StedoMedoTests\\TDDUredjivanjeProfilaTest.cs",
+              "RelativeDocumentMoniker": "StedoMedoTests\\TDDUredjivanjeProfilaTest.cs",
+              "ToolTip": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\StedoMedoTests\\TDDUredjivanjeProfilaTest.cs*",
+              "RelativeToolTip": "StedoMedoTests\\TDDUredjivanjeProfilaTest.cs*",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA5wBcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T07:54:40.304Z",
+              "EditorCaption": ""
             }
           ]
         }
