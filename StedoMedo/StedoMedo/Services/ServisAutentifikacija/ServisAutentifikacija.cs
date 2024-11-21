@@ -9,9 +9,9 @@ namespace StedoMedo.Services.ServisAutentifikacija
 {
     public class ServisAutentifikacija : IServisAutentifikacija
     {
-        private readonly DbClass _db;
+        private readonly IDbClass _db;
 
-        public ServisAutentifikacija(DbClass db)
+        public ServisAutentifikacija(IDbClass db)
         {
             _db = db;
         }

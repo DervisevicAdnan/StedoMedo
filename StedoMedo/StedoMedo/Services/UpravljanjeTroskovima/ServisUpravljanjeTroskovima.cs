@@ -11,8 +11,8 @@ namespace StedoMedo.Services.UpravljanjeTroskovima
 {
     public class ServisUpravljanjeTroskovima : IServisUpravljanjeTroskovima
     {
-        public DbClass db;
-        public ServisUpravljanjeTroskovima(DbClass db)
+        public IDbClass db;
+        public ServisUpravljanjeTroskovima(IDbClass db)
         {
             this.db = db;
         }

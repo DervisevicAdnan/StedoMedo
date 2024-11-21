@@ -13,9 +13,9 @@ namespace StedoMedo.Services
 {
     public class BudzetService: IBudzetService
     {
-        private readonly DbClass _db;
+        private readonly IDbClass _db;
 
-        public BudzetService(DbClass db)
+        public BudzetService(IDbClass db)
         {
             _db = db;
         }

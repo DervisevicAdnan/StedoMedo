@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<coverage line-rate="0.9618000000000001" branch-rate="0.9179999999999999" version="1.9" timestamp="1732178205" lines-covered="1590" lines-valid="1653" branches-covered="325" branches-valid="354">
+<coverage line-rate="0.9618000000000001" branch-rate="0.9179999999999999" version="1.9" timestamp="1732178411" lines-covered="1590" lines-valid="1653" branches-covered="325" branches-valid="354">
   <sources>
     <source>C:\Users\HP Compaq\</source>
   </sources>
@@ -186,7 +186,7 @@
                 <line number="119" hits="2" branch="False" />
               </lines>
             </method>
-            <method name=".ctor" signature="(StedoMedo.Data.DbClass)" line-rate="1" branch-rate="1" complexity="1">
+            <method name=".ctor" signature="(StedoMedo.Data.IDbClass)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
                 <line number="18" hits="25" branch="False" />
                 <line number="19" hits="25" branch="False" />
@@ -561,7 +561,7 @@
                 <line number="133" hits="3" branch="False" />
               </lines>
             </method>
-            <method name=".ctor" signature="(StedoMedo.Data.DbClass)" line-rate="1" branch-rate="1" complexity="1">
+            <method name=".ctor" signature="(StedoMedo.Data.IDbClass)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
                 <line number="17" hits="6" branch="False" />
                 <line number="18" hits="6" branch="False" />
@@ -985,7 +985,7 @@
                 <line number="160" hits="9" branch="False" />
               </lines>
             </method>
-            <method name=".ctor" signature="(StedoMedo.Data.DbClass)" line-rate="1" branch-rate="1" complexity="1">
+            <method name=".ctor" signature="(StedoMedo.Data.IDbClass)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
                 <line number="15" hits="31" branch="False" />
                 <line number="16" hits="31" branch="False" />
@@ -1523,7 +1523,7 @@
                 <line number="225" hits="1" branch="False" />
               </lines>
             </method>
-            <method name=".ctor" signature="(StedoMedo.Data.DbClass)" line-rate="1" branch-rate="1" complexity="1">
+            <method name=".ctor" signature="(StedoMedo.Data.IDbClass)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
                 <line number="14" hits="40" branch="False" />
                 <line number="15" hits="40" branch="False" />
@@ -2042,7 +2042,7 @@
                 <line number="189" hits="1" branch="False" />
               </lines>
             </method>
-            <method name=".ctor" signature="(StedoMedo.Data.DbClass)" line-rate="1" branch-rate="1" complexity="1">
+            <method name=".ctor" signature="(StedoMedo.Data.IDbClass)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
                 <line number="14" hits="7" branch="False" />
                 <line number="15" hits="7" branch="False" />

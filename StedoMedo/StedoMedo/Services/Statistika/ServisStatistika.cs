@@ -10,8 +10,8 @@ namespace StedoMedo.Services.Statistika
 {
     public class ServisStatistika : IServisStatistika
     {
-        public DbClass db;
-        public ServisStatistika(DbClass db)
+        public IDbClass db;
+        public ServisStatistika(IDbClass db)
         {
             this.db = db;
         }

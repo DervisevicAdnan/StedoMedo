@@ -12,9 +12,9 @@ namespace StedoMedo.Services
 {
     public class ServisPredvidjanjeTroskova:IServisPredvidjanjeTroskova
     {
-        private readonly DbClass _db;
+        private readonly IDbClass _db;
 
-        public ServisPredvidjanjeTroskova(DbClass db)
+        public ServisPredvidjanjeTroskova(IDbClass db)
         {
             _db = db;
         }
