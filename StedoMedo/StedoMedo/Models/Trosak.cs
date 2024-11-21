@@ -25,7 +25,7 @@ namespace StedoMedo.Models
         }
         public override string ToString()
         {
-            return Id.ToString() + " " + Korisnik.Id.ToString() + " " + DatumIVrijeme.ToString("dd/MM/yyyy") + " " + Iznos.ToString() + " " + KategorijaTroska.ToString() + " " + Opis.ToString();
+            return Id.ToString() + " " + Korisnik.Id.ToString() + " " + DatumIVrijeme.ToString("dd'/'MM'/'yyyy") + " " + Iznos.ToString() + " " + KategorijaTroska.ToString() + " " + Opis.ToString();
         }
     }
 }

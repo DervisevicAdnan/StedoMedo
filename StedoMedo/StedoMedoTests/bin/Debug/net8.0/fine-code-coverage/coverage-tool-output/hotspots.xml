@@ -1,2 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Hotspots />
+<Hotspots>
+  <Hotspot>
+    <Assembly>StedoMedo</Assembly>
+    <Class>StedoMedo.UI.KonzolaUpravljanjeTroskovima</Class>
+    <MethodName>PrikaziTroskoveKonzola()</MethodName>
+    <ShortName />
+    <Line>85</Line>
+    <FileIndex>0</FileIndex>
+    <Metrics>
+      <Metric>
+        <Name>Cyclomatic complexity</Name>
+        <Exceeded>true</Exceeded>
+        <Value>34</Value>
+      </Metric>
+    </Metrics>
+  </Hotspot>
+</Hotspots>

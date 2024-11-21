@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Korisnik\\source\\repos\\VVS-24-25-Projekat\\StedoMedo\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|c:\\users\\korisnik\\source\\repos\\vvs-24-25-projekat\\stedomedo\\stedomedo\\models\\budzet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|solutionrelative:stedomedo\\models\\budzet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|c:\\users\\korisnik\\source\\repos\\vvs-24-25-projekat\\stedomedo\\stedomedo\\models\\trosak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|solutionrelative:stedomedo\\models\\trosak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|c:\\users\\korisnik\\source\\repos\\vvs-24-25-projekat\\stedomedo\\stedomedo\\ui\\konzolaupravljanjetroskovima.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|solutionrelative:stedomedo\\ui\\konzolaupravljanjetroskovima.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BCE2282-9B98-4285-A59F-B20828DE7041}|StedoMedoTests\\StedoMedoTests.csproj|c:\\users\\korisnik\\source\\repos\\vvs-24-25-projekat\\stedomedo\\stedomedotests\\trosaktest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BCE2282-9B98-4285-A59F-B20828DE7041}|StedoMedoTests\\StedoMedoTests.csproj|solutionrelative:stedomedotests\\trosaktest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BCE2282-9B98-4285-A59F-B20828DE7041}|StedoMedoTests\\StedoMedoTests.csproj|c:\\users\\korisnik\\source\\repos\\vvs-24-25-projekat\\stedomedo\\stedomedotests\\tddispisizvjestajatest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BCE2282-9B98-4285-A59F-B20828DE7041}|StedoMedoTests\\StedoMedoTests.csproj|solutionrelative:stedomedotests\\tddispisizvjestajatest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|c:\\users\\korisnik\\source\\repos\\vvs-24-25-projekat\\stedomedo\\stedomedo\\services\\upravljanjetroskovima\\servisupravljanjetroskovima.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,16 +35,8 @@
       "RelativeMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|solutionrelative:stedomedo\\services\\upravljanjetroskovima\\iservisupravljanjetroskovima.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6BCE2282-9B98-4285-A59F-B20828DE7041}|StedoMedoTests\\StedoMedoTests.csproj|c:\\users\\korisnik\\source\\repos\\vvs-24-25-projekat\\stedomedo\\stedomedotests\\tddispisizvjestajatest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BCE2282-9B98-4285-A59F-B20828DE7041}|StedoMedoTests\\StedoMedoTests.csproj|solutionrelative:stedomedotests\\tddispisizvjestajatest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6BCE2282-9B98-4285-A59F-B20828DE7041}|StedoMedoTests\\StedoMedoTests.csproj|c:\\users\\korisnik\\source\\repos\\vvs-24-25-projekat\\stedomedo\\stedomedotests\\tdduredjivanjeprofilatest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6BCE2282-9B98-4285-A59F-B20828DE7041}|StedoMedoTests\\StedoMedoTests.csproj|solutionrelative:stedomedotests\\tdduredjivanjeprofilatest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BCE2282-9B98-4285-A59F-B20828DE7041}|StedoMedoTests\\StedoMedoTests.csproj|c:\\users\\korisnik\\source\\repos\\vvs-24-25-projekat\\stedomedo\\stedomedotests\\trosaktest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BCE2282-9B98-4285-A59F-B20828DE7041}|StedoMedoTests\\StedoMedoTests.csproj|solutionrelative:stedomedotests\\trosaktest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -55,6 +63,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Budzet.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\source\\repos\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Models\\Budzet.cs",
+              "RelativeDocumentMoniker": "StedoMedo\\Models\\Budzet.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\source\\repos\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Models\\Budzet.cs",
+              "RelativeToolTip": "StedoMedo\\Models\\Budzet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T10:46:21.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Trosak.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\source\\repos\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Models\\Trosak.cs",
+              "RelativeDocumentMoniker": "StedoMedo\\Models\\Trosak.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\source\\repos\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Models\\Trosak.cs",
+              "RelativeToolTip": "StedoMedo\\Models\\Trosak.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAywBkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T10:41:49.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "KonzolaUpravljanjeTroskovima.cs",
               "DocumentMoniker": "C:\\Users\\Korisnik\\source\\repos\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\UI\\KonzolaUpravljanjeTroskovima.cs",
               "RelativeDocumentMoniker": "StedoMedo\\UI\\KonzolaUpravljanjeTroskovima.cs",
@@ -67,7 +101,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "ServisUpravljanjeTroskovima.cs",
               "DocumentMoniker": "C:\\Users\\Korisnik\\source\\repos\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Services\\UpravljanjeTroskovima\\ServisUpravljanjeTroskovima.cs",
               "RelativeDocumentMoniker": "StedoMedo\\Services\\UpravljanjeTroskovima\\ServisUpravljanjeTroskovima.cs",
@@ -75,12 +109,11 @@
               "RelativeToolTip": "StedoMedo\\Services\\UpravljanjeTroskovima\\ServisUpravljanjeTroskovima.cs",
               "ViewState": "AgIAAFYAAAAAAAAAAAAuwGkAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T09:06:46.223Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T09:06:46.223Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "ServisUpravljanjeTroskovimaTest.cs",
               "DocumentMoniker": "C:\\Users\\Korisnik\\source\\repos\\VVS-24-25-Projekat\\StedoMedo\\StedoMedoTests\\ServisUpravljanjeTroskovimaTest.cs",
               "RelativeDocumentMoniker": "StedoMedoTests\\ServisUpravljanjeTroskovimaTest.cs",
@@ -88,8 +121,7 @@
               "RelativeToolTip": "StedoMedoTests\\ServisUpravljanjeTroskovimaTest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T08:59:43.527Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T08:59:43.527Z"
             },
             {
               "$type": "Document",
@@ -99,13 +131,14 @@
               "RelativeDocumentMoniker": "StedoMedoTests\\TDDIspisIzvjestajaTest.cs",
               "ToolTip": "C:\\Users\\Korisnik\\source\\repos\\VVS-24-25-Projekat\\StedoMedo\\StedoMedoTests\\TDDIspisIzvjestajaTest.cs",
               "RelativeToolTip": "StedoMedoTests\\TDDIspisIzvjestajaTest.cs",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAgwG0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAgwFMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T08:55:54.597Z"
+              "WhenOpened": "2024-11-21T08:55:54.597Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "IServisUpravljanjeTroskovima.cs",
               "DocumentMoniker": "C:\\Users\\Korisnik\\source\\repos\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Services\\UpravljanjeTroskovima\\IServisUpravljanjeTroskovima.cs",
               "RelativeDocumentMoniker": "StedoMedo\\Services\\UpravljanjeTroskovima\\IServisUpravljanjeTroskovima.cs",
@@ -117,7 +150,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "TDDUredjivanjeProfilaTest.cs",
               "DocumentMoniker": "C:\\Users\\Korisnik\\source\\repos\\VVS-24-25-Projekat\\StedoMedo\\StedoMedoTests\\TDDUredjivanjeProfilaTest.cs",
               "RelativeDocumentMoniker": "StedoMedoTests\\TDDUredjivanjeProfilaTest.cs",
@@ -129,15 +162,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "TrosakTest.cs",
               "DocumentMoniker": "C:\\Users\\Korisnik\\source\\repos\\VVS-24-25-Projekat\\StedoMedo\\StedoMedoTests\\TrosakTest.cs",
               "RelativeDocumentMoniker": "StedoMedoTests\\TrosakTest.cs",
               "ToolTip": "C:\\Users\\Korisnik\\source\\repos\\VVS-24-25-Projekat\\StedoMedo\\StedoMedoTests\\TrosakTest.cs",
               "RelativeToolTip": "StedoMedoTests\\TrosakTest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T09:07:31.622Z"
+              "WhenOpened": "2024-11-21T09:07:31.622Z",
+              "EditorCaption": ""
             }
           ]
         }
