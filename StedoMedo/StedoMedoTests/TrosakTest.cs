@@ -14,7 +14,8 @@ namespace StedoMedoTests
         public void ToStringTest()
         {
             Korisnik korisnik = new Korisnik(0, "ado", "Adnan", "Dervisevic", "387600000000", "mail@gmail.com", "nesto");
-            Assert.AreEqual(korisnik.ToString(), "0 ado Adnan Dervisevic 387600000000 mail@gmail.com");
+            Trosak trosak = new Trosak(0, korisnik, DateTime.Parse("01-01-2001"), 50, KategorijaTroska.Rezije, "opis");
+            Assert.AreEqual(trosak.ToString(), "0 0 01/01/2001 00:00:00 50 Rezije opis");
         }
     }
 }

@@ -296,7 +296,7 @@ namespace StedoMedoTests
             var kraj = DateOnly.Parse("2024-11-30");
             var iznos = 2000;
             Budzet test = new Budzet(1,korisnik, pocetak, kraj, iznos);
-            Assert.AreEqual("1 1 11.11.2024. 30.11.2024. 2000", test.ToString());
+            Assert.AreEqual("1 1 11/11/2024 30/11/2024 2000", test.ToString());
         }
     }
 }
