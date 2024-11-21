@@ -187,6 +187,10 @@ namespace StedoMedo.Services.ServisAutentifikacija
             }
             return false;
         }
+        public Korisnik EditovanjeProfila(Korisnik user)
+        {
+            return null;
+        }
     }
 
 }
