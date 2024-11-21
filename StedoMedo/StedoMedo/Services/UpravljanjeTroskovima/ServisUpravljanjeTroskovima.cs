@@ -71,7 +71,7 @@ namespace StedoMedo.Services.UpravljanjeTroskovima
             return false;
         }
         public bool PrikaziTroskove(Korisnik korisnik, DateTime? odDatuma = null, DateTime? doDatuma = null,
-            List<KategorijaTroska>? kategorijeTroskova = null, List<KriterijSortiranja>? kriterijiSortiranja = null)
+            List<KategorijaTroska>? kategorijeTroskova = null, List<KriterijSortiranja>? kriterijiSortiranja = null, bool spasiIzvjestaj = false)
         {
             try
             {
