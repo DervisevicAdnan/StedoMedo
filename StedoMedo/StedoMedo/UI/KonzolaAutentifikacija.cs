@@ -289,6 +289,64 @@ namespace StedoMedo.UI
             return password;
         }
 
+        public bool UredjivanjeProfila(Korisnik korisnik)
+        {
+            Console.WriteLine("Koje parametre želite promijeniti? (unesite odvojeno zarezima, npr. 'username, ime, prezime')");
+            var parametriZaPromjenu = Console.ReadLine()?.Split(',', StringSplitOptions.RemoveEmptyEntries)
+                .Select(p => p.Trim().ToLower()).ToList();
+
+            if (parametriZaPromjenu == null || !parametriZaPromjenu.Any())
+            {
+                Console.WriteLine("Nijedan parametar nije odabran za promjenu.");
+                return false;
+            }
+
+            foreach (var parametar in parametriZaPromjenu)
+            {
+                switch (parametar)
+                {
+                    case "username":
+                        Console.WriteLine("Unesite novi username:");
+                        korisnik.Username = Console.ReadLine();
+                        break;
+                    case "ime":
+                        Console.WriteLine("Unesite novo ime:");
+                        korisnik.Ime = Console.ReadLine();
+                        break;
+                    case "prezime":
+                        Console.WriteLine("Unesite novo prezime:");
+                        korisnik.Prezime = Console.ReadLine();
+                        break;
+                    case "brojtelefona":
+                        Console.WriteLine("Unesite novi broj telefona:");
+                        korisnik.Telefon = Console.ReadLine();
+                        break;
+                    case "email":
+                        Console.WriteLine("Unesite novi email:");
+                        korisnik.Email = Console.ReadLine();
+                        break;
+                    case "password":
+                        Console.WriteLine("Unesite novi password:");
+                        korisnik.SifraHash = _servis.Hash(Console.ReadLine());
+                        break;
+                    default:
+                        Console.WriteLine($"Polje '{parametar}' nije podržano za promjenu.");
+                        break;
+                }
+            }
+            try
+            {
+               var k = _servis.UredjivanjeProfila(korisnik);
+               Console.WriteLine("Sačuvane promjene u korisničkom profilu.");
+            }
+
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Greška: {ex.Message}");
+            }
+            return false;
+        }
+
         private void DrawLogo()
         {
             string logo = "" +

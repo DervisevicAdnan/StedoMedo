@@ -1,26 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\",
+  "WorkspaceRootPath": "C:\\Users\\AdiDr\\Desktop\\VVSprojekat\\VVS-24-25-Projekat\\StedoMedo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6BCE2282-9B98-4285-A59F-B20828DE7041}|StedoMedoTests\\StedoMedoTests.csproj|c:\\users\\hp compaq\\desktop\\vvs\\vvs-24-25-projekat\\stedomedo\\stedomedotests\\korisniktests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BCE2282-9B98-4285-A59F-B20828DE7041}|StedoMedoTests\\StedoMedoTests.csproj|solutionrelative:stedomedotests\\korisniktests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|c:\\users\\adidr\\desktop\\vvsprojekat\\vvs-24-25-projekat\\stedomedo\\stedomedo\\services\\servisautentifikacija\\servisautentifikacija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|solutionrelative:stedomedo\\services\\servisautentifikacija\\servisautentifikacija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6BCE2282-9B98-4285-A59F-B20828DE7041}|StedoMedoTests\\StedoMedoTests.csproj|c:\\users\\hp compaq\\desktop\\vvs\\vvs-24-25-projekat\\stedomedo\\stedomedotests\\tdduredjivanjeprofilatest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6BCE2282-9B98-4285-A59F-B20828DE7041}|StedoMedoTests\\StedoMedoTests.csproj|c:\\users\\adidr\\desktop\\vvsprojekat\\vvs-24-25-projekat\\stedomedo\\stedomedotests\\tdduredjivanjeprofilatest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6BCE2282-9B98-4285-A59F-B20828DE7041}|StedoMedoTests\\StedoMedoTests.csproj|solutionrelative:stedomedotests\\tdduredjivanjeprofilatest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|c:\\users\\hp compaq\\desktop\\vvs\\vvs-24-25-projekat\\stedomedo\\stedomedo\\models\\korisnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|c:\\users\\adidr\\desktop\\vvsprojekat\\vvs-24-25-projekat\\stedomedo\\stedomedo\\models\\korisnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|solutionrelative:stedomedo\\models\\korisnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|c:\\users\\hp compaq\\desktop\\vvs\\vvs-24-25-projekat\\stedomedo\\stedomedo\\models\\trosak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|solutionrelative:stedomedo\\models\\trosak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|c:\\users\\adidr\\desktop\\vvsprojekat\\vvs-24-25-projekat\\stedomedo\\stedomedo\\ui\\konzolaautentifikacija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|solutionrelative:stedomedo\\ui\\konzolaautentifikacija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|c:\\users\\hp compaq\\desktop\\vvs\\vvs-24-25-projekat\\stedomedo\\stedomedo\\services\\servisautentifikacija\\servisautentifikacija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|solutionrelative:stedomedo\\services\\servisautentifikacija\\servisautentifikacija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|c:\\users\\adidr\\desktop\\vvsprojekat\\vvs-24-25-projekat\\stedomedo\\stedomedo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|solutionrelative:stedomedo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BCE2282-9B98-4285-A59F-B20828DE7041}|StedoMedoTests\\StedoMedoTests.csproj|c:\\users\\adidr\\desktop\\vvsprojekat\\vvs-24-25-projekat\\stedomedo\\stedomedotests\\korisniktests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BCE2282-9B98-4285-A59F-B20828DE7041}|StedoMedoTests\\StedoMedoTests.csproj|solutionrelative:stedomedotests\\korisniktests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|c:\\users\\adidr\\desktop\\vvsprojekat\\vvs-24-25-projekat\\stedomedo\\stedomedo\\models\\trosak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|solutionrelative:stedomedo\\models\\trosak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,28 +38,54 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "KonzolaAutentifikacija.cs",
+              "DocumentMoniker": "C:\\Users\\AdiDr\\Desktop\\VVSprojekat\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\UI\\KonzolaAutentifikacija.cs",
+              "RelativeDocumentMoniker": "StedoMedo\\UI\\KonzolaAutentifikacija.cs",
+              "ToolTip": "C:\\Users\\AdiDr\\Desktop\\VVSprojekat\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\UI\\KonzolaAutentifikacija.cs",
+              "RelativeToolTip": "StedoMedo\\UI\\KonzolaAutentifikacija.cs",
+              "ViewState": "AgIAAOYAAAAAAAAAAAAUwCoBAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T11:26:16.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\AdiDr\\Desktop\\VVSprojekat\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Program.cs",
+              "RelativeDocumentMoniker": "StedoMedo\\Program.cs",
+              "ToolTip": "C:\\Users\\AdiDr\\Desktop\\VVSprojekat\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Program.cs",
+              "RelativeToolTip": "StedoMedo\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAEkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T11:25:02.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "KorisnikTests.cs",
-              "DocumentMoniker": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\StedoMedoTests\\KorisnikTests.cs",
+              "DocumentMoniker": "C:\\Users\\AdiDr\\Desktop\\VVSprojekat\\VVS-24-25-Projekat\\StedoMedo\\StedoMedoTests\\KorisnikTests.cs",
               "RelativeDocumentMoniker": "StedoMedoTests\\KorisnikTests.cs",
-              "ToolTip": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\StedoMedoTests\\KorisnikTests.cs",
+              "ToolTip": "C:\\Users\\AdiDr\\Desktop\\VVSprojekat\\VVS-24-25-Projekat\\StedoMedo\\StedoMedoTests\\KorisnikTests.cs",
               "RelativeToolTip": "StedoMedoTests\\KorisnikTests.cs",
-              "ViewState": "AgIAAI0AAAAAAAAAAAAwwJgAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAKAAAAAAAAAAAAAqwJgAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-21T11:09:43.239Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Trosak.cs",
-              "DocumentMoniker": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Models\\Trosak.cs",
+              "DocumentMoniker": "C:\\Users\\AdiDr\\Desktop\\VVSprojekat\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Models\\Trosak.cs",
               "RelativeDocumentMoniker": "StedoMedo\\Models\\Trosak.cs",
-              "ToolTip": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Models\\Trosak.cs",
+              "ToolTip": "C:\\Users\\AdiDr\\Desktop\\VVSprojekat\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Models\\Trosak.cs",
               "RelativeToolTip": "StedoMedo\\Models\\Trosak.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -62,11 +96,11 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Korisnik.cs",
-              "DocumentMoniker": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Models\\Korisnik.cs",
+              "DocumentMoniker": "C:\\Users\\AdiDr\\Desktop\\VVSprojekat\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Models\\Korisnik.cs",
               "RelativeDocumentMoniker": "StedoMedo\\Models\\Korisnik.cs",
-              "ToolTip": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Models\\Korisnik.cs",
+              "ToolTip": "C:\\Users\\AdiDr\\Desktop\\VVSprojekat\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Models\\Korisnik.cs",
               "RelativeToolTip": "StedoMedo\\Models\\Korisnik.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAcwCEAAAB2AAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAcwCcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-21T10:56:37.906Z",
               "EditorCaption": ""
@@ -75,26 +109,27 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "TDDUredjivanjeProfilaTest.cs",
-              "DocumentMoniker": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\StedoMedoTests\\TDDUredjivanjeProfilaTest.cs",
+              "DocumentMoniker": "C:\\Users\\AdiDr\\Desktop\\VVSprojekat\\VVS-24-25-Projekat\\StedoMedo\\StedoMedoTests\\TDDUredjivanjeProfilaTest.cs",
               "RelativeDocumentMoniker": "StedoMedoTests\\TDDUredjivanjeProfilaTest.cs",
-              "ToolTip": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\StedoMedoTests\\TDDUredjivanjeProfilaTest.cs",
+              "ToolTip": "C:\\Users\\AdiDr\\Desktop\\VVSprojekat\\VVS-24-25-Projekat\\StedoMedo\\StedoMedoTests\\TDDUredjivanjeProfilaTest.cs",
               "RelativeToolTip": "StedoMedoTests\\TDDUredjivanjeProfilaTest.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAwwEgAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAIwGQAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-21T10:39:26.111Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "ServisAutentifikacija.cs",
-              "DocumentMoniker": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Services\\ServisAutentifikacija\\ServisAutentifikacija.cs",
+              "DocumentMoniker": "C:\\Users\\AdiDr\\Desktop\\VVSprojekat\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Services\\ServisAutentifikacija\\ServisAutentifikacija.cs",
               "RelativeDocumentMoniker": "StedoMedo\\Services\\ServisAutentifikacija\\ServisAutentifikacija.cs",
-              "ToolTip": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Services\\ServisAutentifikacija\\ServisAutentifikacija.cs",
+              "ToolTip": "C:\\Users\\AdiDr\\Desktop\\VVSprojekat\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Services\\ServisAutentifikacija\\ServisAutentifikacija.cs",
               "RelativeToolTip": "StedoMedo\\Services\\ServisAutentifikacija\\ServisAutentifikacija.cs",
-              "ViewState": "AgIAAL8AAAAAAAAAAAAmwNsAAABAAAAAAAAAAA==",
+              "ViewState": "AgIAAOEAAAAAAAAAAAAIwPYAAABmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T10:43:18.615Z"
+              "WhenOpened": "2024-11-21T10:43:18.615Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -28,6 +28,7 @@ while (true)
         Console.WriteLine("4. Procjena troškova");
         Console.WriteLine("5. Odjava");
         Console.WriteLine("6. Brisanje profila");
+        Console.WriteLine("7. Uređivanje profila");
         string izbor = Console.ReadLine() ?? "";
         switch (izbor)
         {
@@ -67,6 +68,9 @@ while (true)
                 break;
             case "6":
                 petlja = !konzolaAutentifikacija.BrisanjeKorisnika(korisnik);
+                break;
+            case "7":
+                petlja = !konzolaAutentifikacija.UredjivanjeProfila(korisnik);
                 break;
             default:
                 Console.WriteLine("Nevažeća opcija. Molimo pokušajte ponovo.");

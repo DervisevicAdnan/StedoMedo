@@ -245,8 +245,8 @@ namespace StedoMedo.Services.ServisAutentifikacija
             }
 
             if (!string.IsNullOrWhiteSpace(korisnik.SifraHash) && IsValidPassword(korisnik.SifraHash))
-            { 
-                postojećiKorisnik.SifraHash = Hash(korisnik.SifraHash);
+            {
+                postojećiKorisnik.SifraHash = (korisnik.SifraHash);
             }
             else if (!string.IsNullOrWhiteSpace(korisnik.SifraHash))
             {
