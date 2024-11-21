@@ -34,6 +34,12 @@ namespace StedoMedoTests
             servis = new ServisUpravljanjeTroskovima(dbClassMock.Object);
 
             testFolderPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+
+            if (File.Exists(Path.Combine(testFolderPath, korisnik.Ime + korisnik.Prezime + "Izvjestaj.txt")))
+            {
+                // Brisanje fajla
+                File.Delete(Path.Combine(testFolderPath, korisnik.Ime + korisnik.Prezime + "Izvjestaj.txt"));
+            }
         }
 
         [TestMethod]
@@ -85,32 +91,28 @@ namespace StedoMedoTests
         {
             dbClassMock.Setup(db => db.Troskovi).Returns(new List<Trosak> {
                 new Trosak(0,korisnik,DateTime.Now,20,KategorijaTroska.Ostalo,""),
-                new Trosak(0,korisnik,DateTime.Now,20,KategorijaTroska.Izlasci,""),
-                new Trosak(0,korisnik,DateTime.Now,20,KategorijaTroska.Hrana,""),
-                new Trosak(0,korisnik,DateTime.Now,20,KategorijaTroska.Ostalo,""),
-                new Trosak(0,korisnik,DateTime.Now,70,KategorijaTroska.Ostalo,""),
-                new Trosak(0,korisnik,DateTime.Now,50,KategorijaTroska.Prijevoz,"Gorivo"),
-                new Trosak(0,korisnik,DateTime.Now,54,KategorijaTroska.Ostalo,""),
+                new Trosak(1,korisnik,DateTime.Now,20,KategorijaTroska.Izlasci,""),
+                new Trosak(2,korisnik,DateTime.Now,20,KategorijaTroska.Hrana,""),
+                new Trosak(3,korisnik,DateTime.Now,20,KategorijaTroska.Ostalo,""),
+                new Trosak(4,korisnik,DateTime.Now,70,KategorijaTroska.Ostalo,""),
+                new Trosak(5,korisnik,DateTime.Now,50,KategorijaTroska.Prijevoz,"Gorivo"),
+                new Trosak(6,korisnik,DateTime.Now,54,KategorijaTroska.Ostalo,""),
 
             });
-
 
             bool rezultat = servis.PrikaziTroskove(korisnik, null, null, null,
                 [new KriterijSortiranja(MetodeSortiranja.SortirajPoIznosu, SmjerSortiranja.Opadajuci),
                 new KriterijSortiranja(MetodeSortiranja.SortirajPoKategoriji)], true);
 
-            string testFolderPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
             string filePath = Path.Combine(testFolderPath, korisnik.Ime + korisnik.Prezime + "Izvjestaj.txt");
 
             Assert.IsTrue(File.Exists(filePath));
-
-
 
             string content = File.ReadAllText(filePath);
             var linije = content.Split(Environment.NewLine).ToList();
 
             Assert.IsTrue(rezultat);
-            Assert.AreEqual(linije.Count, 10);
+            Assert.AreEqual(linije.Count, 12);
             Assert.IsTrue(content.Contains("Ostalo"));
             Assert.IsTrue(content.Contains("Prijevoz"));
             Assert.IsTrue(content.Contains("Hrana"));
