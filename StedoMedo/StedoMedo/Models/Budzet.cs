@@ -12,7 +12,7 @@ namespace StedoMedo.Models
         public Korisnik Korisnik { get; set; }
         public DateOnly PocetakPerioda { get; set; }
         public DateOnly KrajPerioda { get; set; }
-        public double Iznos {  get; set; }
+        public double Iznos { get; set; }
         public Budzet(int id, Korisnik korisnik, DateOnly pocetakPerioda, DateOnly krajPerioda, double iznos)
         {
             Id = id;
@@ -23,8 +23,8 @@ namespace StedoMedo.Models
         }
         public override string ToString()
         {
-            return Id.ToString() + " " + Korisnik.Id.ToString() + " " + 
-                PocetakPerioda.ToString() + " " + KrajPerioda.ToString() + Iznos.ToString();
+            return Id.ToString() + " " + Korisnik.Id.ToString() + " " +
+                PocetakPerioda.ToString() + " " + KrajPerioda.ToString() + " " + Iznos.ToString();
         }
     }
 }

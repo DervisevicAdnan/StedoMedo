@@ -42,21 +42,6 @@ namespace StedoMedo.Services
                 throw new InvalidOperationException("Za ovog korisnika ne postoji definisan budzet.");
             }
 
-            /*bool imaTrosak = false;
-            foreach (var trosak in _db.Troskovi)
-            {
-                if (trosak.Korisnik.Id == korisnik.Id)
-                {
-                    imaTrosak = true;
-                    break;
-                }
-            }
-
-            if (!imaTrosak)
-            {
-                Console.WriteLine("Za ovog korisnika ne postoje definisani troskovi.");
-            }*/
-
             double ukupnoPotroseno = 0;
             DateTime doDanaDateTime = doDana.ToDateTime(new TimeOnly(0, 0));
 
@@ -83,14 +68,12 @@ namespace StedoMedo.Services
                 }
             }
 
-            double ukupanBudzet = 0;
-            foreach (var budzet in _db.Budzeti)
-            {
-                if (budzet.Korisnik.Id == korisnik.Id && budzet.KrajPerioda >= doDana)
-                {
-                    ukupanBudzet += budzet.Iznos;
-                }
-            }
+            double ukupanBudzet = _db.Budzeti
+     .Where(b => b.Korisnik.Id == korisnik.Id &&
+                 b.PocetakPerioda <= doDana &&
+                 b.KrajPerioda >= doDana)
+     .Sum(b => b.Iznos);
+
 
             return ukupanBudzet - ukupnoPotroseno;
         }
