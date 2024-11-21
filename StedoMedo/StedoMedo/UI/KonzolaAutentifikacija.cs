@@ -181,25 +181,25 @@ namespace StedoMedo.UI
             }
         }
 
-        private bool IsValidPhoneNumber(string phone)
+        public bool IsValidPhoneNumber(string phone)
         {
             string pattern = @"^\+387\d{8,9}$";
             return Regex.IsMatch(phone, pattern);
         }
 
-        private bool IsValidEmail(string email)
+        public bool IsValidEmail(string email)
         {
             string pattern = @"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$";
             return Regex.IsMatch(email, pattern);
         }
 
-        private bool IsValidUsername(string username)
+        public bool IsValidUsername(string username)
         {
             string pattern = @"^[a-zA-Z][a-zA-Z0-9]*$";
             return Regex.IsMatch(username, pattern);
         }
 
-        private bool IsValidPassword(string password)
+        public bool IsValidPassword(string password)
         {
             string pattern = @"^.{8,30}$";
             return Regex.IsMatch(password, pattern);

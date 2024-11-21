@@ -2,10 +2,10 @@
 <Hotspots>
   <Hotspot>
     <Assembly>StedoMedo</Assembly>
-    <Class>StedoMedo.UI.KonzolaUpravljanjeTroskovima</Class>
-    <MethodName>PrikaziTroskoveKonzola()</MethodName>
+    <Class>StedoMedo.Services.ServisAutentifikacija.ServisAutentifikacija</Class>
+    <MethodName>UredjivanjeProfila(...)</MethodName>
     <ShortName />
-    <Line>85</Line>
+    <Line>194</Line>
     <FileIndex>0</FileIndex>
     <Metrics>
       <Metric>

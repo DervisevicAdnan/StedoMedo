@@ -1143,24 +1143,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Korisnik\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\AdiDr\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Korisnik\\Source\\Repos\\VVS-24-25-Projekat\\StedoMedo\\StedoMedoTests\\StedoMedoTests.csproj",
+      "projectUniqueName": "C:\\Users\\AdiDr\\Desktop\\VVSprojekat\\VVS-24-25-Projekat\\StedoMedo\\StedoMedoTests\\StedoMedoTests.csproj",
       "projectName": "StedoMedoTests",
-      "projectPath": "C:\\Users\\Korisnik\\Source\\Repos\\VVS-24-25-Projekat\\StedoMedo\\StedoMedoTests\\StedoMedoTests.csproj",
-      "packagesPath": "C:\\Users\\Korisnik\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Korisnik\\Source\\Repos\\VVS-24-25-Projekat\\StedoMedo\\StedoMedoTests\\obj\\",
+      "projectPath": "C:\\Users\\AdiDr\\Desktop\\VVSprojekat\\VVS-24-25-Projekat\\StedoMedo\\StedoMedoTests\\StedoMedoTests.csproj",
+      "packagesPath": "C:\\Users\\AdiDr\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\AdiDr\\Desktop\\VVSprojekat\\VVS-24-25-Projekat\\StedoMedo\\StedoMedoTests\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Korisnik\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\AdiDr\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1175,8 +1170,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Korisnik\\Source\\Repos\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\StedoMedo.csproj": {
-              "projectPath": "C:\\Users\\Korisnik\\Source\\Repos\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\StedoMedo.csproj"
+            "C:\\Users\\AdiDr\\Desktop\\VVSprojekat\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\StedoMedo.csproj": {
+              "projectPath": "C:\\Users\\AdiDr\\Desktop\\VVSprojekat\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\StedoMedo.csproj"
             }
           }
         }

@@ -138,24 +138,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Korisnik\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\AdiDr\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Korisnik\\Source\\Repos\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\StedoMedo.csproj",
+      "projectUniqueName": "C:\\Users\\AdiDr\\Desktop\\VVSprojekat\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\StedoMedo.csproj",
       "projectName": "StedoMedo",
-      "projectPath": "C:\\Users\\Korisnik\\Source\\Repos\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\StedoMedo.csproj",
-      "packagesPath": "C:\\Users\\Korisnik\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Korisnik\\Source\\Repos\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\obj\\",
+      "projectPath": "C:\\Users\\AdiDr\\Desktop\\VVSprojekat\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\StedoMedo.csproj",
+      "packagesPath": "C:\\Users\\AdiDr\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\AdiDr\\Desktop\\VVSprojekat\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Korisnik\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\AdiDr\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

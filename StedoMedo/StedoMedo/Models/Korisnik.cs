@@ -17,10 +17,12 @@ namespace StedoMedo.Models
         public string Username { get; set; }
 
         [Required(ErrorMessage = "Ime je obavezno.")]
+        [RegularExpression(@"^[A-Z][a-zA-Z]*$", ErrorMessage = "Ime mora početi velikim slovom i sadržavati samo slova.")]
         [StringLength(30, ErrorMessage = "Ime može imati najviše 30 karaktera.")]
         public string Ime { get; set; }
 
         [Required(ErrorMessage = "Prezime je obavezno.")]
+        [RegularExpression(@"^[A-Z][a-zA-Z]*$", ErrorMessage = "Prezime mora početi velikim slovom i sadržavati samo slova.")]
         [StringLength(30, ErrorMessage = "Prezime može imati najviše 30 karaktera.")]
         public string Prezime { get; set; }
 
