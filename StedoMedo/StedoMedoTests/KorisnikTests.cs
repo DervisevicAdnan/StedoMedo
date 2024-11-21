@@ -23,7 +23,7 @@ namespace StedoMedoTests
                 id: 1,
                 username: "noviUser",
                 ime: "Marko",
-                prezime: "Perić",
+                prezime: "Peric",
                 telefon: "+38761234567",
                 email: "marko.peric@example.com",
                 sifraHash: "hashedpassword"
@@ -63,7 +63,7 @@ namespace StedoMedoTests
                 id: 1,
                 username: "noviUser",
                 ime: "Marko",
-                prezime: "Perić",
+                prezime: "Peric",
                 telefon: "+38761234567",
                 email: "marko.peric@example.com",
                 sifraHash: "hashedpassword"
@@ -84,7 +84,7 @@ namespace StedoMedoTests
                 id: 1,
                 username: "noviUser",
                 ime: "Marko",
-                prezime: "Perić",
+                prezime: "Peric",
                 telefon: "12345",  
                 email: "marko.peric@example.com",
                 sifraHash: "hashedpassword"
@@ -106,7 +106,7 @@ namespace StedoMedoTests
                 id: 1,
                 username: "noviUser",
                 ime: "Marko",
-                prezime: "Perić",
+                prezime: "Peric",
                 telefon: "+38761234567",
                 email: "invalid-email",  
                 sifraHash: "hashedpassword"
@@ -128,7 +128,7 @@ namespace StedoMedoTests
                 id: 1,
                 username: "a",
                 ime: "Marko",
-                prezime: "Perić",
+                prezime: "Peric",
                 telefon: "+38761234567",
                 email: "marko.peric@example.com",
                 sifraHash: "hashedpassword"
@@ -150,7 +150,7 @@ namespace StedoMedoTests
                 id: 1,
                 username: "noviUser",
                 ime: "Marko",
-                prezime: "Perić",
+                prezime: "Peric",
                 telefon: "+38761234567",
                 email: "marko.peric@example.com",
                 sifraHash: "hashedpassword"
@@ -180,7 +180,7 @@ namespace StedoMedoTests
                 id: 1,
                 username: "user1",
                 ime: "Marko",
-                prezime: "Perić",
+                prezime: "Peric",
                 telefon: "+38761234567",
                 email: "marko.peric@example.com",
                 sifraHash: "hashedpassword"
@@ -200,7 +200,7 @@ namespace StedoMedoTests
                 id: 1,
                 username: "user1",
                 ime: "Marko",
-                prezime: "Perić",
+                prezime: "Peric",
                 telefon: "+38761234567",
                 email: "marko.peric@example.com",
                 sifraHash: "hashedpassword"
@@ -219,7 +219,7 @@ namespace StedoMedoTests
                 id: 1,
                 username: "user1",
                 ime: "Marko",
-                prezime: "Perić",
+                prezime: "Peric",
                 telefon: "+38761234567",
                 email: "marko.peric@example.com",
                 sifraHash: "hashedpassword"
@@ -239,7 +239,7 @@ namespace StedoMedoTests
                 id: 1,
                 username: "user1",
                 ime: "Marko",
-                prezime: "Perić",
+                prezime: "Peric",
                 telefon: "+38761234567",
                 email: "marko.peric@example.com",
                 sifraHash: "hashedpassword"
@@ -258,13 +258,13 @@ namespace StedoMedoTests
                 id: 1,
                 username: "noviUser",
                 ime: "Marko",
-                prezime: "Perić",
+                prezime: "Peric",
                 telefon: "+38761234567",
                 email: "marko.peric@example.com",
                 sifraHash: "hashedpassword"
             );
 
-            var expected = "1 noviUser Marko Perić +38761234567 marko.peric@example.com";
+            var expected = "1 noviUser Marko Peric +38761234567 marko.peric@example.com";
 
             var result = korisnik.ToString();
 

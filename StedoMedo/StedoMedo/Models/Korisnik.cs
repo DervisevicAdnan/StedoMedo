@@ -31,7 +31,7 @@ namespace StedoMedo.Models
         public string Telefon { get; set; }
 
         [Required(ErrorMessage = "Email je obavezan.")]
-        [EmailAddress(ErrorMessage = "Email nije validan.")]
+        [RegularExpression(@"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$", ErrorMessage = "Email nije validan.")]
         public string Email { get; set; }
 
         [Required(ErrorMessage = "SifraHash je obavezna.")]
