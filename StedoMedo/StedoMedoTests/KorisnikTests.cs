@@ -19,7 +19,6 @@ namespace StedoMedoTests
         [TestMethod]
         public void KreirajKorisnika_UspjesnoDodajeNovogKorisnika()
         {
-            // Arrange
             var korisnik = new Korisnik(
                 id: 1,
                 username: "noviUser",
@@ -30,10 +29,8 @@ namespace StedoMedoTests
                 sifraHash: "hashedpassword"
             );
 
-            // Act
             _korisnici.Add(korisnik);
 
-            // Assert
             Assert.AreEqual(1, _korisnici.Count);
             Assert.AreEqual("noviUser", _korisnici.First().Username);
         }
@@ -41,31 +38,27 @@ namespace StedoMedoTests
         [TestMethod]
         public void ValidacijaKorisnika_InvalidnaPolja_VracaGreske()
         {
-            // Arrange
             var korisnik = new Korisnik(
-                id: 0,  // Invalid id
-                username: "",  // Invalid username (required)
-                ime: "",  // Invalid ime (required)
-                prezime: "",  // Invalid prezime (required)
-                telefon: "12345",  // Invalid telefon
-                email: "invalid-email",  // Invalid email
-                sifraHash: ""  // Empty password
+                id: 0,  
+                username: "", 
+                ime: "", 
+                prezime: "",  
+                telefon: "12345",
+                email: "invalid-email",  
+                sifraHash: "" 
             );
 
-            // Act
             var results = new List<ValidationResult>();
             var context = new ValidationContext(korisnik);
             bool isValid = Validator.TryValidateObject(korisnik, context, results, true);
 
-            // Assert
             Assert.IsFalse(isValid);
-            Assert.AreEqual(6, results.Count);  // Expecting 6 validation errors
+            Assert.AreEqual(6, results.Count); 
         }
 
         [TestMethod]
         public void ValidacijaKorisnika_ValidnaPolja_VracaBezGresaka()
         {
-            // Arrange
             var korisnik = new Korisnik(
                 id: 1,
                 username: "noviUser",
@@ -76,73 +69,64 @@ namespace StedoMedoTests
                 sifraHash: "hashedpassword"
             );
 
-            // Act
             var results = new List<ValidationResult>();
             var context = new ValidationContext(korisnik);
             bool isValid = Validator.TryValidateObject(korisnik, context, results, true);
 
-            // Assert
             Assert.IsTrue(isValid);
-            Assert.AreEqual(0, results.Count);  // No validation errors
+            Assert.AreEqual(0, results.Count); 
         }
 
         [TestMethod]
         public void TelefonFormat_InvalidanTelefon_VracaGresku()
         {
-            // Arrange
             var korisnik = new Korisnik(
                 id: 1,
                 username: "noviUser",
                 ime: "Marko",
                 prezime: "Perić",
-                telefon: "12345",  // Invalid phone format
+                telefon: "12345",  
                 email: "marko.peric@example.com",
                 sifraHash: "hashedpassword"
             );
 
-            // Act
             var results = new List<ValidationResult>();
             var context = new ValidationContext(korisnik);
             bool isValid = Validator.TryValidateObject(korisnik, context, results, true);
 
-            // Assert
             Assert.IsFalse(isValid);
-            Assert.AreEqual(1, results.Count);  // Expecting a phone format error
+            Assert.AreEqual(1, results.Count);  
             Assert.AreEqual("Telefon mora biti u formatu +387xxxxxxxx ili +387xxxxxxxxx.", results[0].ErrorMessage);
         }
 
         [TestMethod]
         public void EmailFormat_InvalidanEmail_VracaGresku()
         {
-            // Arrange
             var korisnik = new Korisnik(
                 id: 1,
                 username: "noviUser",
                 ime: "Marko",
                 prezime: "Perić",
                 telefon: "+38761234567",
-                email: "invalid-email",  // Invalid email
+                email: "invalid-email",  
                 sifraHash: "hashedpassword"
             );
 
-            // Act
             var results = new List<ValidationResult>();
             var context = new ValidationContext(korisnik);
             bool isValid = Validator.TryValidateObject(korisnik, context, results, true);
 
-            // Assert
             Assert.IsFalse(isValid);
-            Assert.AreEqual(1, results.Count);  // Expecting an email format error
+            Assert.AreEqual(1, results.Count); 
             Assert.AreEqual("Email nije validan.", results[0].ErrorMessage);
         }
 
         [TestMethod]
         public void UsernameLength_InvalidUsernameLength_VracaGresku()
         {
-            // Arrange
             var korisnik = new Korisnik(
                 id: 1,
-                username: "a",  // Too short username
+                username: "a",
                 ime: "Marko",
                 prezime: "Perić",
                 telefon: "+38761234567",
@@ -150,21 +134,18 @@ namespace StedoMedoTests
                 sifraHash: "hashedpassword"
             );
 
-            // Act
             var results = new List<ValidationResult>();
             var context = new ValidationContext(korisnik);
             bool isValid = Validator.TryValidateObject(korisnik, context, results, true);
 
-            // Assert
             Assert.IsFalse(isValid);
-            Assert.AreEqual(1, results.Count);  // Expecting a username length error
+            Assert.AreEqual(1, results.Count);  
             Assert.AreEqual("Username mora imati između 3 i 50 karaktera.", results[0].ErrorMessage);
         }
 
         [TestMethod]
         public void KreirajKorisnika_VecPostojiUsername_VracaFalse()
         {
-            // Arrange
             var korisnik1 = new Korisnik(
                 id: 1,
                 username: "noviUser",
@@ -186,18 +167,15 @@ namespace StedoMedoTests
                 sifraHash: "hashedpassword"
             );
 
-            // Act
             bool postoji = _korisnici.Any(k => k.Username == korisnik2.Username);
 
-            // Assert
             Assert.IsTrue(postoji);
-            Assert.AreEqual(1, _korisnici.Count);  // Nema duplikata
+            Assert.AreEqual(1, _korisnici.Count); 
         }
 
         [TestMethod]
         public void PrijaviKorisnika_IspravanUsernameISifra_VracaKorisnika()
         {
-            // Arrange
             var korisnik = new Korisnik(
                 id: 1,
                 username: "user1",
@@ -209,10 +187,8 @@ namespace StedoMedoTests
             );
             _korisnici.Add(korisnik);
 
-            // Act
             Korisnik prijavljenKorisnik = _korisnici.FirstOrDefault(k => k.Username == "user1" && k.SifraHash == "hashedpassword");
 
-            // Assert
             Assert.IsNotNull(prijavljenKorisnik);
             Assert.AreEqual("user1", prijavljenKorisnik.Username);
         }
@@ -220,7 +196,6 @@ namespace StedoMedoTests
         [TestMethod]
         public void PrijaviKorisnika_NeispravanUsernameISifra_VracaNull()
         {
-            // Arrange
             var korisnik = new Korisnik(
                 id: 1,
                 username: "user1",
@@ -232,17 +207,14 @@ namespace StedoMedoTests
             );
             _korisnici.Add(korisnik);
 
-            // Act
             Korisnik prijavljenKorisnik = _korisnici.FirstOrDefault(k => k.Username == "user1" && k.SifraHash == "pogresnaSifra");
 
-            // Assert
             Assert.IsNull(prijavljenKorisnik);
         }
 
         [TestMethod]
         public void ObrisiKorisnika_UspjesnoBriseKorisnikaIVezanePodatke()
         {
-            // Arrange
             var korisnik = new Korisnik(
                 id: 1,
                 username: "user1",
@@ -254,10 +226,8 @@ namespace StedoMedoTests
             );
             _korisnici.Add(korisnik);
 
-            // Act
             bool obrisan = _korisnici.Remove(korisnik);
 
-            // Assert
             Assert.IsTrue(obrisan);
             Assert.AreEqual(0, _korisnici.Count);
         }
@@ -265,7 +235,6 @@ namespace StedoMedoTests
         [TestMethod]
         public void ObrisiKorisnika_NePostojiKorisnik_VracaFalse()
         {
-            // Arrange
             var korisnik = new Korisnik(
                 id: 1,
                 username: "user1",
@@ -276,12 +245,73 @@ namespace StedoMedoTests
                 sifraHash: "hashedpassword"
             );
 
-            // Act
             bool obrisan = _korisnici.Remove(korisnik);
 
-            // Assert
             Assert.IsFalse(obrisan);
             Assert.AreEqual(0, _korisnici.Count);
         }
+
+        [TestMethod]
+        public void ToString_ValidanKorisnik_VracaIspravanString()
+        {
+            var korisnik = new Korisnik(
+                id: 1,
+                username: "noviUser",
+                ime: "Marko",
+                prezime: "Perić",
+                telefon: "+38761234567",
+                email: "marko.peric@example.com",
+                sifraHash: "hashedpassword"
+            );
+
+            var expected = "1 noviUser Marko Perić +38761234567 marko.peric@example.com";
+
+            var result = korisnik.ToString();
+
+            Assert.AreEqual(expected, result);
+        }
+
+        [TestMethod]
+        public void ToString_PraznaPolja_VracaIspravanString()
+        {
+            var korisnik = new Korisnik(
+                id: 2,
+                username: "",
+                ime: "",
+                prezime: "",
+                telefon: "+38761234567",
+                email: "",
+                sifraHash: "hashedpassword"
+            );
+
+            var expected = "2    +38761234567 ";
+
+            var result = korisnik.ToString();
+
+            Assert.AreEqual(expected, result);
+        }
+
+        [TestMethod]
+        public void ToString_NullVrijednosti_VracaIspravanString()
+        {
+            var korisnik = new Korisnik(
+                id: 3,
+                username: null,
+                ime: null,
+                prezime: null,
+                telefon: "+38761234567",
+                email: null,
+                sifraHash: "hashedpassword"
+            );
+
+            var expected = "3    +38761234567 ";
+
+            var result = korisnik.ToString();
+
+            Assert.AreEqual(expected, result);
+        }
+
+
+
     }
 }
