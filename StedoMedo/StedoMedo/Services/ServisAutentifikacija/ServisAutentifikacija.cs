@@ -4,6 +4,8 @@ using System;
 using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
+using StedoMedo.UI;
+using System.Text.RegularExpressions;
 
 namespace StedoMedo.Services.ServisAutentifikacija
 {
@@ -187,10 +189,96 @@ namespace StedoMedo.Services.ServisAutentifikacija
             }
             return false;
         }
-        public Korisnik EditovanjeProfila(Korisnik user)
+
+        public Korisnik UredjivanjeProfila(Korisnik korisnik)
         {
-            return null;
+            var postojećiKorisnik = _db.Korisnici.FirstOrDefault(k => k.Id == korisnik.Id);
+
+            if (postojećiKorisnik == null)
+            {
+                throw new ArgumentException("Korisnik s datim ID-jem nije pronađen.");
+            }
+
+            if (!string.IsNullOrWhiteSpace(korisnik.Username) && IsValidUsername(korisnik.Username))
+            {
+                postojećiKorisnik.Username = korisnik.Username;
+            }
+            else if (!string.IsNullOrWhiteSpace(korisnik.Username))
+            {
+                throw new ArgumentException("Neispravan username.");
+            }
+
+            if (!string.IsNullOrWhiteSpace(korisnik.Ime))
+            {
+                postojećiKorisnik.Ime = korisnik.Ime;
+            }
+            else
+            {
+                throw new ArgumentException("Neispravno ime");
+            }
+
+            if (!string.IsNullOrWhiteSpace(korisnik.Prezime))
+            {
+                postojećiKorisnik.Prezime = korisnik.Prezime;
+            }
+            else
+            {
+                throw new ArgumentException("Neispravno prezime");
+            }
+
+            if (!string.IsNullOrWhiteSpace(korisnik.Telefon) && IsValidPhoneNumber(korisnik.Telefon))
+            {
+                postojećiKorisnik.Telefon = korisnik.Telefon;
+            }
+            else if (!string.IsNullOrWhiteSpace(korisnik.Telefon))
+            {
+                throw new ArgumentException("Neispravan broj telefona.");
+            }
+
+            if (!string.IsNullOrWhiteSpace(korisnik.Email) && IsValidEmail(korisnik.Email))
+            {
+                postojećiKorisnik.Email = korisnik.Email;
+            }
+            else if (!string.IsNullOrWhiteSpace(korisnik.Email))
+            {
+                throw new ArgumentException("Neispravan email.");
+            }
+
+            if (!string.IsNullOrWhiteSpace(korisnik.SifraHash) && IsValidPassword(korisnik.SifraHash))
+            { 
+                postojećiKorisnik.SifraHash = Hash(korisnik.SifraHash);
+            }
+            else if (!string.IsNullOrWhiteSpace(korisnik.SifraHash))
+            {
+                throw new ArgumentException("Neispravan password.");
+            }
+
+            return postojećiKorisnik;
         }
+        public bool IsValidPhoneNumber(string phone)
+        {
+            string pattern = @"^\+387\d{8,9}$";
+            return Regex.IsMatch(phone, pattern);
+        }
+
+        public bool IsValidEmail(string email)
+        {
+            string pattern = @"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$";
+            return Regex.IsMatch(email, pattern);
+        }
+
+        public bool IsValidUsername(string username)
+        {
+            string pattern = @"^[a-zA-Z][a-zA-Z0-9]*$";
+            return Regex.IsMatch(username, pattern);
+        }
+
+        public bool IsValidPassword(string password)
+        {
+            string pattern = @"^.{8,30}$";
+            return Regex.IsMatch(password, pattern);
+        }
+
     }
 
 }
