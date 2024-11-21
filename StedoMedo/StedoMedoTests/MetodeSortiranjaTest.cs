@@ -27,18 +27,29 @@ namespace StedoMedoTests
             };
         }
 
+        public static IEnumerable<object[]> UcitajPodatkeIzFajla()
+        {
+            var linije = File.ReadAllLines("SortirajPodIdPodaci.csv");
+            foreach (var linija in linije[1..]) 
+            {
+                var podaci = linija.Split(',');
+                yield return new object[]
+                {
+                int.Parse(podaci[0]),
+                int.Parse(podaci[1]),          
+                Enum.Parse<SmjerSortiranja>(podaci[2]), 
+                int.Parse(podaci[3])           
+                };
+            }
+        }
+
         [TestMethod]
-        [DataRow(0, 0, SmjerSortiranja.Rastuci,0)]
-        [DataRow(0, 0, SmjerSortiranja.Opadajuci,0)]
-        [DataRow(0, 1, SmjerSortiranja.Rastuci,1)]
-        [DataRow(1, 0, SmjerSortiranja.Rastuci,-1)]
-        [DataRow(0, 1, SmjerSortiranja.Opadajuci, -1)]
-        [DataRow(1, 0, SmjerSortiranja.Opadajuci, 1)]
+        [DynamicData(nameof(UcitajPodatkeIzFajla), DynamicDataSourceType.Method)]
         public void SortirajPoIdTest(int indeks1, int indeks2, SmjerSortiranja smjer, int rezultat)
         {
             int rez = MetodeSortiranja.SortirajPoId(troskovi[indeks1], troskovi[indeks2], smjer);
 
-            Assert.AreEqual(rez, rezultat);
+            Assert.AreEqual(rezultat, rez);
         }
 
         [TestMethod]

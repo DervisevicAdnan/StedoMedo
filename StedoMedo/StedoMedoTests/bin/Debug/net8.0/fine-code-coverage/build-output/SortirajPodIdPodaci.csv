@@ -1,0 +1,7 @@
+indeks1,indeks2,smjer,rezultat
+0,0,Rastuci,0
+0,0,Opadajuci,0
+0,1,Rastuci,1
+1,0,Rastuci,-1
+0,1,Opadajuci,-1
+1,0,Opadajuci,1

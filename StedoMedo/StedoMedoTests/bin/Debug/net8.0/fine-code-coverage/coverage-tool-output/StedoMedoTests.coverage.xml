@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<coverage line-rate="0.7142000000000001" branch-rate="0.5912" version="1.9" timestamp="1732191241" lines-covered="1795" lines-valid="2513" branches-covered="363" branches-valid="614">
+<coverage line-rate="0.7158" branch-rate="0.5925" version="1.9" timestamp="1732202843" lines-covered="1809" lines-valid="2527" branches-covered="365" branches-valid="616">
   <sources>
-    <source>C:\Users\AdiDr\</source>
+    <source>C:\Users\Korisnik\</source>
   </sources>
   <packages>
     <package name="StedoMedo" line-rate="0.5302" branch-rate="0.5724" complexity="647">
       <classes>
-        <class name="Program" filename="Desktop\VVSprojekat\VVS-24-25-Projekat\StedoMedo\StedoMedo\Program.cs" line-rate="0" branch-rate="0" complexity="38">
+        <class name="Program" filename="Source\Repos\VVS-24-25-Projekat\StedoMedo\StedoMedo\Program.cs" line-rate="0" branch-rate="0" complexity="38">
           <methods>
             <method name="&lt;Main&gt;$" signature="(System.String[])" line-rate="0" branch-rate="0" complexity="38">
               <lines>
@@ -190,7 +190,7 @@
             <line number="80" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="StedoMedo.UI.KonzolaAutentifikacija" filename="Desktop\VVSprojekat\VVS-24-25-Projekat\StedoMedo\StedoMedo\UI\KonzolaAutentifikacija.cs" line-rate="0" branch-rate="0" complexity="75">
+        <class name="StedoMedo.UI.KonzolaAutentifikacija" filename="Source\Repos\VVS-24-25-Projekat\StedoMedo\StedoMedo\UI\KonzolaAutentifikacija.cs" line-rate="0" branch-rate="0" complexity="75">
           <methods>
             <method name="StartConsole" signature="()" line-rate="0" branch-rate="0" complexity="10">
               <lines>
@@ -968,7 +968,7 @@
             <line number="22" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="StedoMedo.UI.KonzolaBudzet" filename="Desktop\VVSprojekat\VVS-24-25-Projekat\StedoMedo\StedoMedo\UI\KonzolaBudzet.cs" line-rate="0" branch-rate="0" complexity="21">
+        <class name="StedoMedo.UI.KonzolaBudzet" filename="Source\Repos\VVS-24-25-Projekat\StedoMedo\StedoMedo\UI\KonzolaBudzet.cs" line-rate="0" branch-rate="0" complexity="21">
           <methods>
             <method name="PokreniInterakcijuKonzole" signature="()" line-rate="0" branch-rate="0" complexity="12">
               <lines>
@@ -1218,7 +1218,7 @@
             <line number="20" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="StedoMedo.UI.KonzolaStatistika" filename="Desktop\VVSprojekat\VVS-24-25-Projekat\StedoMedo\StedoMedo\UI\KonzolaStatistika.cs" line-rate="0" branch-rate="0" complexity="28">
+        <class name="StedoMedo.UI.KonzolaStatistika" filename="Source\Repos\VVS-24-25-Projekat\StedoMedo\StedoMedo\UI\KonzolaStatistika.cs" line-rate="0" branch-rate="0" complexity="28">
           <methods>
             <method name="PokreniInterakcijuKonzole" signature="()" line-rate="0" branch-rate="0" complexity="14">
               <lines>
@@ -1542,7 +1542,7 @@
             <line number="21" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="StedoMedo.UI.KonzolaUpravljanjeTroskovima" filename="Desktop\VVSprojekat\VVS-24-25-Projekat\StedoMedo\StedoMedo\UI\KonzolaUpravljanjeTroskovima.cs" line-rate="0" branch-rate="0" complexity="69">
+        <class name="StedoMedo.UI.KonzolaUpravljanjeTroskovima" filename="Source\Repos\VVS-24-25-Projekat\StedoMedo\StedoMedo\UI\KonzolaUpravljanjeTroskovima.cs" line-rate="0" branch-rate="0" complexity="69">
           <methods>
             <method name="PokreniInterakcijuKonzole" signature="()" line-rate="0" branch-rate="0" complexity="12">
               <lines>
@@ -2088,7 +2088,7 @@
             <line number="20" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="StedoMedo.Services.BudzetService" filename="Desktop\VVSprojekat\VVS-24-25-Projekat\StedoMedo\StedoMedo\Services\BudzetService.cs" line-rate="0.9873000000000001" branch-rate="0.8913" complexity="47">
+        <class name="StedoMedo.Services.BudzetService" filename="Source\Repos\VVS-24-25-Projekat\StedoMedo\StedoMedo\Services\BudzetService.cs" line-rate="0.9873000000000001" branch-rate="0.8913" complexity="47">
           <methods>
             <method name="PreostaloStanjeBudzeta" signature="(StedoMedo.Models.Korisnik,System.DateOnly)" line-rate="0.9761" branch-rate="0.8845999999999999" complexity="26">
               <lines>
@@ -2442,7 +2442,7 @@
             <line number="21" hits="25" branch="False" />
           </lines>
         </class>
-        <class name="StedoMedo.Services.ServisPredvidjanjeTroskova" filename="Desktop\VVSprojekat\VVS-24-25-Projekat\StedoMedo\StedoMedo\Services\ServisPredvidjanjeTroskova.cs" line-rate="0.9417" branch-rate="0.9209999999999999" complexity="40">
+        <class name="StedoMedo.Services.ServisPredvidjanjeTroskova" filename="Source\Repos\VVS-24-25-Projekat\StedoMedo\StedoMedo\Services\ServisPredvidjanjeTroskova.cs" line-rate="0.9417" branch-rate="0.9209999999999999" complexity="40">
           <methods>
             <method name="troskoviKorisnika" signature="(StedoMedo.Models.Korisnik)" line-rate="1" branch-rate="1" complexity="8">
               <lines>
@@ -2834,7 +2834,7 @@
             <line number="20" hits="6" branch="False" />
           </lines>
         </class>
-        <class name="StedoMedo.Services.UpravljanjeTroskovima.ServisUpravljanjeTroskovima" filename="Desktop\VVSprojekat\VVS-24-25-Projekat\StedoMedo\StedoMedo\Services\UpravljanjeTroskovima\ServisUpravljanjeTroskovima.cs" line-rate="1" branch-rate="0.9666" complexity="62">
+        <class name="StedoMedo.Services.UpravljanjeTroskovima.ServisUpravljanjeTroskovima" filename="Source\Repos\VVS-24-25-Projekat\StedoMedo\StedoMedo\Services\UpravljanjeTroskovima\ServisUpravljanjeTroskovima.cs" line-rate="1" branch-rate="0.9666" complexity="62">
           <methods>
             <method name="DodajTrosak" signature="(StedoMedo.Models.Korisnik,System.Double,StedoMedo.Models.KategorijaTroska,System.String,System.Nullable`1&lt;System.DateTime&gt;)" line-rate="1" branch-rate="1" complexity="4">
               <lines>
@@ -3352,7 +3352,7 @@
             <line number="18" hits="34" branch="False" />
           </lines>
         </class>
-        <class name="StedoMedo.Services.Statistika.ServisStatistika" filename="Desktop\VVSprojekat\VVS-24-25-Projekat\StedoMedo\StedoMedo\Services\Statistika\ServisStatistika.cs" line-rate="0.9054000000000001" branch-rate="0.9016" complexity="123">
+        <class name="StedoMedo.Services.Statistika.ServisStatistika" filename="Source\Repos\VVS-24-25-Projekat\StedoMedo\StedoMedo\Services\Statistika\ServisStatistika.cs" line-rate="0.9054000000000001" branch-rate="0.9016" complexity="123">
           <methods>
             <method name="NajveciTrosak" signature="(StedoMedo.Models.Korisnik,System.DateTime,System.DateTime,System.Collections.Generic.List`1&lt;StedoMedo.Models.KategorijaTroska&gt;)" line-rate="0.875" branch-rate="0.9615" complexity="26">
               <lines>
@@ -3992,7 +3992,7 @@
             <line number="17" hits="40" branch="False" />
           </lines>
         </class>
-        <class name="StedoMedo.Services.ServisAutentifikacija.ServisAutentifikacija" filename="Desktop\VVSprojekat\VVS-24-25-Projekat\StedoMedo\StedoMedo\Services\ServisAutentifikacija\ServisAutentifikacija.cs" line-rate="0.9389" branch-rate="0.8" complexity="70">
+        <class name="StedoMedo.Services.ServisAutentifikacija.ServisAutentifikacija" filename="Source\Repos\VVS-24-25-Projekat\StedoMedo\StedoMedo\Services\ServisAutentifikacija\ServisAutentifikacija.cs" line-rate="0.9389" branch-rate="0.8" complexity="70">
           <methods>
             <method name="KreirajKorisnika" signature="(System.String,System.String,System.String,System.String,System.String,System.String)" line-rate="1" branch-rate="0.75" complexity="4">
               <lines>
@@ -4692,7 +4692,7 @@
             <line number="77" hits="1" branch="False" />
           </lines>
         </class>
-        <class name="StedoMedo.Models.Budzet" filename="Desktop\VVSprojekat\VVS-24-25-Projekat\StedoMedo\StedoMedo\Models\Budzet.cs" line-rate="1" branch-rate="1" complexity="7">
+        <class name="StedoMedo.Models.Budzet" filename="Source\Repos\VVS-24-25-Projekat\StedoMedo\StedoMedo\Models\Budzet.cs" line-rate="1" branch-rate="1" complexity="7">
           <methods>
             <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -4760,7 +4760,7 @@
             <line number="23" hits="18" branch="False" />
           </lines>
         </class>
-        <class name="StedoMedo.Models.Korisnik" filename="Desktop\VVSprojekat\VVS-24-25-Projekat\StedoMedo\StedoMedo\Models\Korisnik.cs" line-rate="1" branch-rate="1" complexity="9">
+        <class name="StedoMedo.Models.Korisnik" filename="Source\Repos\VVS-24-25-Projekat\StedoMedo\StedoMedo\Models\Korisnik.cs" line-rate="1" branch-rate="1" complexity="9">
           <methods>
             <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -4842,7 +4842,7 @@
             <line number="50" hits="176" branch="False" />
           </lines>
         </class>
-        <class name="StedoMedo.Models.MetodeSortiranja" filename="Desktop\VVSprojekat\VVS-24-25-Projekat\StedoMedo\StedoMedo\Models\KriterijSortiranja.cs" line-rate="1" branch-rate="1" complexity="40">
+        <class name="StedoMedo.Models.MetodeSortiranja" filename="Source\Repos\VVS-24-25-Projekat\StedoMedo\StedoMedo\Models\KriterijSortiranja.cs" line-rate="1" branch-rate="1" complexity="40">
           <methods>
             <method name="SortirajPoId" signature="(StedoMedo.Models.Trosak,StedoMedo.Models.Trosak,StedoMedo.Models.SmjerSortiranja)" line-rate="1" branch-rate="1" complexity="10">
               <lines>
@@ -5048,7 +5048,7 @@
             <line number="55" hits="14" branch="False" />
           </lines>
         </class>
-        <class name="StedoMedo.Models.KriterijSortiranja" filename="Desktop\VVSprojekat\VVS-24-25-Projekat\StedoMedo\StedoMedo\Models\KriterijSortiranja.cs" line-rate="1" branch-rate="1" complexity="3">
+        <class name="StedoMedo.Models.KriterijSortiranja" filename="Source\Repos\VVS-24-25-Projekat\StedoMedo\StedoMedo\Models\KriterijSortiranja.cs" line-rate="1" branch-rate="1" complexity="3">
           <methods>
             <method name="get_KriterijPoredjenja" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -5078,7 +5078,7 @@
             <line number="64" hits="5" branch="False" />
           </lines>
         </class>
-        <class name="StedoMedo.Models.Trosak" filename="Desktop\VVSprojekat\VVS-24-25-Projekat\StedoMedo\StedoMedo\Models\Trosak.cs" line-rate="1" branch-rate="1" complexity="8">
+        <class name="StedoMedo.Models.Trosak" filename="Source\Repos\VVS-24-25-Projekat\StedoMedo\StedoMedo\Models\Trosak.cs" line-rate="1" branch-rate="1" complexity="8">
           <methods>
             <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -5152,7 +5152,7 @@
             <line number="25" hits="600" branch="False" />
           </lines>
         </class>
-        <class name="StedoMedo.Data.DbClass" filename="Desktop\VVSprojekat\VVS-24-25-Projekat\StedoMedo\StedoMedo\Data\DbClass.cs" line-rate="1" branch-rate="1" complexity="7">
+        <class name="StedoMedo.Data.DbClass" filename="Source\Repos\VVS-24-25-Projekat\StedoMedo\StedoMedo\Data\DbClass.cs" line-rate="1" branch-rate="1" complexity="7">
           <methods>
             <method name="get_Korisnici" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -5222,7 +5222,7 @@
         </class>
       </classes>
     </package>
-    <package name="StedoMedoTests" line-rate="0.96" branch-rate="0.9117000000000001" complexity="146">
+    <package name="StedoMedoTests" line-rate="0.9605" branch-rate="0.9166" complexity="148">
       <classes>
         <class name="AutoGeneratedProgram" filename=".nuget\packages\microsoft.net.test.sdk\17.8.0\build\netcoreapp3.1\Microsoft.NET.Test.Sdk.Program.cs" line-rate="0" branch-rate="1" complexity="1">
           <methods>
@@ -5236,7 +5236,7 @@
             <line number="4" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="ServisPredvidjanjeTroskovaTest.ServisPredvidjanjeTroskovaTest" filename="Desktop\VVSprojekat\VVS-24-25-Projekat\StedoMedo\StedoMedoTests\ServisPredvidjanjeTroskovaTest.cs" line-rate="0.9444" branch-rate="1" complexity="12">
+        <class name="ServisPredvidjanjeTroskovaTest.ServisPredvidjanjeTroskovaTest" filename="Source\Repos\VVS-24-25-Projekat\StedoMedo\StedoMedoTests\ServisPredvidjanjeTroskovaTest.cs" line-rate="0.9444" branch-rate="1" complexity="12">
           <methods>
             <method name="TestSetup" signature="()" line-rate="1" branch-rate="1" complexity="4">
               <lines>
@@ -5410,7 +5410,7 @@
             <line number="94" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="StedoMedoTests.BudzetServiceTest" filename="Desktop\VVSprojekat\VVS-24-25-Projekat\StedoMedo\StedoMedoTests\BudzetServiceTest.cs" line-rate="0.956" branch-rate="1" complexity="23">
+        <class name="StedoMedoTests.BudzetServiceTest" filename="Source\Repos\VVS-24-25-Projekat\StedoMedo\StedoMedoTests\BudzetServiceTest.cs" line-rate="0.956" branch-rate="1" complexity="23">
           <methods>
             <method name="BudzetSetup" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -5876,7 +5876,7 @@
             <line number="300" hits="1" branch="False" />
           </lines>
         </class>
-        <class name="StedoMedoTests.KorisnikTests" filename="Desktop\VVSprojekat\VVS-24-25-Projekat\StedoMedo\StedoMedoTests\KorisnikTests.cs" line-rate="1" branch-rate="0.5" complexity="17">
+        <class name="StedoMedoTests.KorisnikTests" filename="Source\Repos\VVS-24-25-Projekat\StedoMedo\StedoMedoTests\KorisnikTests.cs" line-rate="1" branch-rate="0.5" complexity="17">
           <methods>
             <method name="Postavi" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -6406,7 +6406,7 @@
             <line number="312" hits="1" branch="False" />
           </lines>
         </class>
-        <class name="StedoMedoTests.MetodeSortiranjaTest" filename="Desktop\VVSprojekat\VVS-24-25-Projekat\StedoMedo\StedoMedoTests\MetodeSortiranjaTest.cs" line-rate="1" branch-rate="1" complexity="5">
+        <class name="StedoMedoTests.MetodeSortiranjaTest" filename="Source\Repos\VVS-24-25-Projekat\StedoMedo\StedoMedoTests\MetodeSortiranjaTest.cs" line-rate="1" branch-rate="1" complexity="5">
           <methods>
             <method name="Postavi" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -6425,34 +6425,34 @@
             </method>
             <method name="SortirajPoIdTest" signature="(System.Int32,System.Int32,StedoMedo.Models.SmjerSortiranja,System.Int32)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="38" hits="6" branch="False" />
-                <line number="39" hits="6" branch="False" />
-                <line number="41" hits="6" branch="False" />
-                <line number="42" hits="6" branch="False" />
+                <line number="49" hits="6" branch="False" />
+                <line number="50" hits="6" branch="False" />
+                <line number="52" hits="6" branch="False" />
+                <line number="53" hits="6" branch="False" />
               </lines>
             </method>
             <method name="SortirajPoDatumuTest" signature="(System.Int32,System.Int32,StedoMedo.Models.SmjerSortiranja,System.Int32)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="52" hits="6" branch="False" />
-                <line number="53" hits="6" branch="False" />
-                <line number="55" hits="6" branch="False" />
-                <line number="56" hits="6" branch="False" />
+                <line number="63" hits="6" branch="False" />
+                <line number="64" hits="6" branch="False" />
+                <line number="66" hits="6" branch="False" />
+                <line number="67" hits="6" branch="False" />
               </lines>
             </method>
             <method name="SortirajPoIznosuTest" signature="(System.Int32,System.Int32,StedoMedo.Models.SmjerSortiranja,System.Int32)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="66" hits="6" branch="False" />
-                <line number="67" hits="6" branch="False" />
-                <line number="69" hits="6" branch="False" />
-                <line number="70" hits="6" branch="False" />
+                <line number="77" hits="6" branch="False" />
+                <line number="78" hits="6" branch="False" />
+                <line number="80" hits="6" branch="False" />
+                <line number="81" hits="6" branch="False" />
               </lines>
             </method>
             <method name="SortirajPoKategorijiTest" signature="(System.Int32,System.Int32,StedoMedo.Models.SmjerSortiranja,System.Int32)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="80" hits="6" branch="False" />
-                <line number="81" hits="6" branch="False" />
-                <line number="83" hits="6" branch="False" />
-                <line number="84" hits="6" branch="False" />
+                <line number="91" hits="6" branch="False" />
+                <line number="92" hits="6" branch="False" />
+                <line number="94" hits="6" branch="False" />
+                <line number="95" hits="6" branch="False" />
               </lines>
             </method>
           </methods>
@@ -6468,25 +6468,71 @@
             <line number="26" hits="24" branch="False" />
             <line number="27" hits="24" branch="False" />
             <line number="28" hits="24" branch="False" />
-            <line number="38" hits="6" branch="False" />
-            <line number="39" hits="6" branch="False" />
-            <line number="41" hits="6" branch="False" />
-            <line number="42" hits="6" branch="False" />
+            <line number="49" hits="6" branch="False" />
+            <line number="50" hits="6" branch="False" />
             <line number="52" hits="6" branch="False" />
             <line number="53" hits="6" branch="False" />
-            <line number="55" hits="6" branch="False" />
-            <line number="56" hits="6" branch="False" />
+            <line number="63" hits="6" branch="False" />
+            <line number="64" hits="6" branch="False" />
             <line number="66" hits="6" branch="False" />
             <line number="67" hits="6" branch="False" />
-            <line number="69" hits="6" branch="False" />
-            <line number="70" hits="6" branch="False" />
+            <line number="77" hits="6" branch="False" />
+            <line number="78" hits="6" branch="False" />
             <line number="80" hits="6" branch="False" />
             <line number="81" hits="6" branch="False" />
-            <line number="83" hits="6" branch="False" />
-            <line number="84" hits="6" branch="False" />
+            <line number="91" hits="6" branch="False" />
+            <line number="92" hits="6" branch="False" />
+            <line number="94" hits="6" branch="False" />
+            <line number="95" hits="6" branch="False" />
           </lines>
         </class>
-        <class name="StedoMedoTests.ServisAutentifikacijaTest" filename="Desktop\VVSprojekat\VVS-24-25-Projekat\StedoMedo\StedoMedoTests\ServisAutentifikacijaTest.cs" line-rate="1" branch-rate="1" complexity="8">
+        <class name="StedoMedoTests.MetodeSortiranjaTest/&lt;UcitajPodatkeIzFajla&gt;d__3" filename="Source\Repos\VVS-24-25-Projekat\StedoMedo\StedoMedoTests\MetodeSortiranjaTest.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="31" hits="2" branch="False" />
+                <line number="32" hits="2" branch="False" />
+                <line number="33" hits="19" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="287" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="34" hits="7" branch="False" />
+                <line number="35" hits="7" branch="False" />
+                <line number="36" hits="7" branch="False" />
+                <line number="37" hits="7" branch="False" />
+                <line number="38" hits="7" branch="False" />
+                <line number="39" hits="7" branch="False" />
+                <line number="40" hits="7" branch="False" />
+                <line number="41" hits="7" branch="False" />
+                <line number="42" hits="7" branch="False" />
+                <line number="43" hits="6" branch="False" />
+                <line number="44" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="31" hits="2" branch="False" />
+            <line number="32" hits="2" branch="False" />
+            <line number="33" hits="19" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="287" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="34" hits="7" branch="False" />
+            <line number="35" hits="7" branch="False" />
+            <line number="36" hits="7" branch="False" />
+            <line number="37" hits="7" branch="False" />
+            <line number="38" hits="7" branch="False" />
+            <line number="39" hits="7" branch="False" />
+            <line number="40" hits="7" branch="False" />
+            <line number="41" hits="7" branch="False" />
+            <line number="42" hits="7" branch="False" />
+            <line number="43" hits="6" branch="False" />
+            <line number="44" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="StedoMedoTests.ServisAutentifikacijaTest" filename="Source\Repos\VVS-24-25-Projekat\StedoMedo\StedoMedoTests\ServisAutentifikacijaTest.cs" line-rate="1" branch-rate="1" complexity="8">
           <methods>
             <method name="Postavi" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -6620,7 +6666,7 @@
             <line number="94" hits="1" branch="False" />
           </lines>
         </class>
-        <class name="StedoMedoTests.ServisStatistikaTests" filename="Desktop\VVSprojekat\VVS-24-25-Projekat\StedoMedo\StedoMedoTests\ServisStatistikaTest.cs" line-rate="0.8692" branch-rate="1" complexity="30">
+        <class name="StedoMedoTests.ServisStatistikaTests" filename="Source\Repos\VVS-24-25-Projekat\StedoMedo\StedoMedoTests\ServisStatistikaTest.cs" line-rate="0.8692" branch-rate="1" complexity="30">
           <methods>
             <method name="TestInitialize" signature="()" line-rate="1" branch-rate="1" complexity="2">
               <lines>
@@ -7064,7 +7110,7 @@
             <line number="354" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="StedoMedoTests.ServisUpravljanjeTroskovimaTest" filename="Desktop\VVSprojekat\VVS-24-25-Projekat\StedoMedo\StedoMedoTests\ServisUpravljanjeTroskovimaTest.cs" line-rate="1" branch-rate="0.875" complexity="26">
+        <class name="StedoMedoTests.ServisUpravljanjeTroskovimaTest" filename="Source\Repos\VVS-24-25-Projekat\StedoMedo\StedoMedoTests\ServisUpravljanjeTroskovimaTest.cs" line-rate="1" branch-rate="0.875" complexity="26">
           <methods>
             <method name="Initialize" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -7674,7 +7720,7 @@
             <line number="362" hits="1" branch="False" />
           </lines>
         </class>
-        <class name="StedoMedoTests.TDDIspisIzvjestajaTest" filename="Desktop\VVSprojekat\VVS-24-25-Projekat\StedoMedo\StedoMedoTests\TDDIspisIzvjestajaTest.cs" line-rate="1" branch-rate="1" complexity="8">
+        <class name="StedoMedoTests.TDDIspisIzvjestajaTest" filename="Source\Repos\VVS-24-25-Projekat\StedoMedo\StedoMedoTests\TDDIspisIzvjestajaTest.cs" line-rate="1" branch-rate="1" complexity="8">
           <methods>
             <method name="Initialize" signature="()" line-rate="1" branch-rate="1" complexity="2">
               <lines>
@@ -7854,7 +7900,7 @@
             <line number="127" hits="1" branch="False" />
           </lines>
         </class>
-        <class name="StedoMedoTests.TDDEditovanjeProfilaTest" filename="Desktop\VVSprojekat\VVS-24-25-Projekat\StedoMedo\StedoMedoTests\TDDUredjivanjeProfilaTest.cs" line-rate="0.8306999999999999" branch-rate="1" complexity="15">
+        <class name="StedoMedoTests.TDDEditovanjeProfilaTest" filename="Source\Repos\VVS-24-25-Projekat\StedoMedo\StedoMedoTests\TDDUredjivanjeProfilaTest.cs" line-rate="0.8306999999999999" branch-rate="1" complexity="15">
           <methods>
             <method name="Setup" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -8050,7 +8096,7 @@
             <line number="153" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="StedoMedoTests.TrosakTest" filename="Desktop\VVSprojekat\VVS-24-25-Projekat\StedoMedo\StedoMedoTests\TrosakTest.cs" line-rate="1" branch-rate="1" complexity="1">
+        <class name="StedoMedoTests.TrosakTest" filename="Source\Repos\VVS-24-25-Projekat\StedoMedo\StedoMedoTests\TrosakTest.cs" line-rate="1" branch-rate="1" complexity="1">
           <methods>
             <method name="ToStringTest" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
