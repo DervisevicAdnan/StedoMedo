@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "4wro2i7hlrk=",
+  "dgSpecHash": "fbYLxaq1oXo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\aNaToMiCaLL\\Desktop\\Fax\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\StedoMedo.csproj",
+  "projectFilePath": "C:\\Users\\AdiDr\\Desktop\\VVSprojekat\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\StedoMedo.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\aNaToMiCaLL\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
-    "C:\\Users\\aNaToMiCaLL\\.nuget\\packages\\moq\\4.20.72\\moq.4.20.72.nupkg.sha512",
-    "C:\\Users\\aNaToMiCaLL\\.nuget\\packages\\system.diagnostics.eventlog\\6.0.0\\system.diagnostics.eventlog.6.0.0.nupkg.sha512"
+    "C:\\Users\\AdiDr\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
+    "C:\\Users\\AdiDr\\.nuget\\packages\\moq\\4.20.72\\moq.4.20.72.nupkg.sha512",
+    "C:\\Users\\AdiDr\\.nuget\\packages\\system.diagnostics.eventlog\\6.0.0\\system.diagnostics.eventlog.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

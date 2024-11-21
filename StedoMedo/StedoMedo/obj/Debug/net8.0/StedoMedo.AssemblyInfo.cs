@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StedoMedo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1d9ee8e685373231bd76a93fbe2d0aaa2063ac15")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c67c9d8b35eacfd644e44dc56d149aabaa12d5bd")]
 [assembly: System.Reflection.AssemblyProductAttribute("StedoMedo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StedoMedo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

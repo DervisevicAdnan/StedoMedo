@@ -208,7 +208,7 @@ namespace StedoMedo.Services.ServisAutentifikacija
                 throw new ArgumentException("Neispravan username.");
             }
 
-            if (!string.IsNullOrWhiteSpace(korisnik.Ime))
+            if (!string.IsNullOrWhiteSpace(korisnik.Ime) && IsValidIme(korisnik.Ime))
             {
                 postojećiKorisnik.Ime = korisnik.Ime;
             }
@@ -217,7 +217,7 @@ namespace StedoMedo.Services.ServisAutentifikacija
                 throw new ArgumentException("Neispravno ime");
             }
 
-            if (!string.IsNullOrWhiteSpace(korisnik.Prezime))
+            if (!string.IsNullOrWhiteSpace(korisnik.Prezime) && IsValidPrezime(korisnik.Prezime))
             {
                 postojećiKorisnik.Prezime = korisnik.Prezime;
             }
@@ -277,6 +277,17 @@ namespace StedoMedo.Services.ServisAutentifikacija
         {
             string pattern = @"^.{8,30}$";
             return Regex.IsMatch(password, pattern);
+        }
+        
+        public bool IsValidIme(string ime)
+        {
+            string pattern = @"^[A-Z][a-zA-Z]*$";
+            return Regex.IsMatch(ime, pattern);
+        }
+        public bool IsValidPrezime(string prezime)
+        {
+            string pattern = @"^[A-Z][a-zA-Z]*$";
+            return Regex.IsMatch(prezime, pattern);
         }
 
     }

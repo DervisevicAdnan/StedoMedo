@@ -21,7 +21,7 @@ namespace StedoMedoTests
         public void Setup()
         {
 
-            testKorisnik = new Korisnik(1, "dandadan", "Adnan", "Pršut", "+387123456", "adnan_prsut@hotmail.com", "sifra123");
+            testKorisnik = new Korisnik(1, "dandadan", "Adnan", "Pršut", "+38762123456", "adnan_prsut@hotmail.com", "sifra123");
 
             dbClassMock = new Mock<IDbClass>();
 
@@ -32,8 +32,8 @@ namespace StedoMedoTests
         [TestMethod]
         public void TestPromjeneBrojaTelefona()
         {
-            Korisnik korisnik = new Korisnik(1, "dandadan", "Adnan", "Pršut", "+387654321", "adnan_prsut@hotmail.com", "sifra123");
-            servis.EditovanjeProfila(korisnik);
+            Korisnik korisnik = new Korisnik(1, "dandadan", "Adnan", "Pršut", "+38762654321", "adnan_prsut@hotmail.com", "sifra123");
+            servis.UredjivanjeProfila(korisnik);
             Assert.AreEqual(testKorisnik.Telefon, korisnik.Telefon);
         }
 
@@ -42,7 +42,7 @@ namespace StedoMedoTests
         public void TestNevalidniBrojTelefona()
         {
             Korisnik korisnik = new Korisnik(1, "dandadan", "Adnan", "Pršut", "+387abcdefg", "adnan_prsut@hotmail.com", "sifra123");
-            servis.EditovanjeProfila(korisnik);
+            servis.UredjivanjeProfila(korisnik);
         }
 
         [TestMethod]
@@ -50,15 +50,15 @@ namespace StedoMedoTests
         public void TestLosFormatBrojTelefona()
         {
             Korisnik korisnik = new Korisnik(1, "dandadan", "Adnan", "Pršut", "061123456", "adnan_prsut@hotmail.com", "sifra123");
-            servis.EditovanjeProfila(korisnik);
+            servis.UredjivanjeProfila(korisnik);
         }
 
         [TestMethod]
         [ExpectedException(typeof(ArgumentException))]
         public void TestPredugBrojTelefona()
         {
-            Korisnik korisnik = new Korisnik(1, "dandadan", "Adnan", "Pršut", "+387123456789", "adnan_prsut@hotmail.com", "sifra123");
-            servis.EditovanjeProfila(korisnik);
+            Korisnik korisnik = new Korisnik(1, "dandadan", "Adnan", "Pršut", "+38712345612789", "adnan_prsut@hotmail.com", "sifra123");
+            servis.UredjivanjeProfila(korisnik);
         }
 
         [TestMethod]
@@ -66,14 +66,14 @@ namespace StedoMedoTests
         public void TestPrekratakBrojTelefona()
         {
             Korisnik korisnik = new Korisnik(1, "dandadan", "Adnan", "Pršut", "+387123", "adnan_prsut@hotmail.com", "sifra123");
-            servis.EditovanjeProfila(korisnik);
+            servis.UredjivanjeProfila(korisnik);
         }
 
         [TestMethod]
         public void TestPromjeneEmailAdrese()
         {
-            Korisnik korisnik = new Korisnik(1, "dandadan", "Adnan", "Pršut", "+387654321", "adnan_prsut123@hotmail.com", "sifra123");
-            servis.EditovanjeProfila(korisnik);
+            Korisnik korisnik = new Korisnik(1, "dandadan", "Adnan", "Pršut", "+38762654321", "adnan_prsut123@hotmail.com", "sifra123");
+            servis.UredjivanjeProfila(korisnik);
             Assert.AreEqual(testKorisnik.Email,korisnik.Email);
         }
 
@@ -82,7 +82,7 @@ namespace StedoMedoTests
         public void TestNevalidnaEmailAdresa()
         {
             Korisnik korisnik = new Korisnik(1, "dandadan", "Adnan", "Pršut", "+387654321", "adnan_prsut123hotmail.com", "sifra123");
-            servis.EditovanjeProfila(korisnik);
+            servis.UredjivanjeProfila(korisnik);
         }
 
         [TestMethod]
@@ -94,16 +94,15 @@ namespace StedoMedoTests
             
 
             Korisnik korisnik = new Korisnik(1, "dandadan", "Adnan", "Pršut", "+387654321", "adnan_prsut123@hotmail", "sifra123");
-            servis.EditovanjeProfila(korisnik);
+            servis.UredjivanjeProfila(korisnik);
         }
 
-           
              [TestMethod]
             public void UredjivanjeKorisnika_ValidniPodaci_Prolazi()
             {
-                Korisnik noviKorisnik = new Korisnik(1, "adnan", "Adnan", "Pršut", "+387123456", "adnan_prsut@gmail.com", "sifra123");
+                Korisnik noviKorisnik = new Korisnik(1, "adnan", "Adnan", "Pršut", "+38762123456", "adnan_prsut@gmail.com", "sifra123");
                 Korisnik rez = servis.UredjivanjeProfila(noviKorisnik);
-                Assert.AreEqual(noviKorisnik, rez);
+                Assert.AreEqual(noviKorisnik.ToString(), rez.ToString());
 
             }
 
@@ -111,7 +110,7 @@ namespace StedoMedoTests
             [ExpectedException(typeof(ArgumentException))]
             public void UredjivanjeKorisnika_NeispravanID_DizeException()
             {
-                Korisnik noviKorisnik = new Korisnik(55, "adnan", "Adnan", "Pršut", "+387123456", "adnan_prsut@gmail.com", "sifra123");
+                Korisnik noviKorisnik = new Korisnik(55, "adnan", "Adnan", "Pršut", "+38762123456", "adnan_prsut@gmail.com", "sifra123");
                 Korisnik rez = servis.UredjivanjeProfila(noviKorisnik);
 
             }
@@ -123,7 +122,7 @@ namespace StedoMedoTests
             
             {
 
-                Korisnik noviKorisnik = new Korisnik(1, "1adnan", "Adnan", "Pršut", "+387123456", "adnan_prsut@gmail.com", "sifra123");
+                Korisnik noviKorisnik = new Korisnik(1, "1adnan", "Adnan", "Pršut", "+38762123456", "adnan_prsut@gmail.com", "sifra123");
                 Korisnik rez = servis.UredjivanjeProfila(noviKorisnik);
             }
 
@@ -131,42 +130,27 @@ namespace StedoMedoTests
             [ExpectedException(typeof(ArgumentException))]
             public void UredjivanjeKorisnika_NeispravanoIme_DizeException()
             {
-                Korisnik noviKorisnik = new Korisnik(1, "adnan", "1Adnan", "Pršut", "+387123456", "adnan_prsut@gmail.com", "sifra123");
+                Korisnik noviKorisnik = new Korisnik(1, "adnan", "1Adnan", "Pršut", "+38762123456", "adnan_prsut@gmail.com", "sifra123");
                 Korisnik rez = servis.UredjivanjeProfila(noviKorisnik);
             }
 
-
-            
-         public void TestPromjeneSifre()
-        {
-            Korisnik korisnik = new Korisnik(1, "dandadan", "Adnan", "Pršut", "+387654321", "adnan_prsut123@hotmail.com", "sifra321");
-            servis.EditovanjeProfila(korisnik);
-            Assert.AreEqual(testKorisnik.SifraHash, korisnik.SifraHash);
-        }
         
             [TestMethod]
             [ExpectedException(typeof(ArgumentException))]
             public void UredjivanjeKorisnika_NeispravanoPrezime_DizeException()
             {
 
-                Korisnik noviKorisnik = new Korisnik(1, "adnan", "Adnan", "1Pršut", "+387123456", "adnan_prsut@gmail.com", "sifra123");
+                Korisnik noviKorisnik = new Korisnik(1, "adnan", "Adnan", "1Pršut", "+38762123456", "adnan_prsut@gmail.com", "sifra123");
                 Korisnik rez = servis.UredjivanjeProfila(noviKorisnik);
             }
 
             [TestMethod]
-        [ExpectedException(typeof(ArgumentException))]
-        public void TestPrekratkaSifre()
+            [ExpectedException(typeof(ArgumentException))]
+            public void TestPrekratkaSifre(){
+                Korisnik korisnik = new Korisnik(1, "dandadan", "Adnan", "Pršut", "+38762654321", "adnan_prsut123@hotmail.com", "sif");
+                servis.UredjivanjeProfila(korisnik);
 
-        {
-
-            Korisnik korisnik = new Korisnik(1, "dandadan", "Adnan", "Pršut", "+387654321", "adnan_prsut123@hotmail.com", "sif");
-            servis.EditovanjeProfila(korisnik);
-
-
-
-        }
-
-
+            }
     }
 }
     
