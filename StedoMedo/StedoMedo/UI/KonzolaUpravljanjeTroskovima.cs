@@ -171,8 +171,23 @@ namespace StedoMedo.UI
                 }
             }
 
+            Console.WriteLine("Da li želite da Vam se ivzještaj ispiše i u datoteku? (Y/N)");
+            bool spasiIzvjestaj = false;
+            string izvjestaj = Console.ReadLine();
+            switch (izvjestaj)
+            {
+                case "Y":
+                    spasiIzvjestaj = true;
+                    break;
+                case "N":  
+                    spasiIzvjestaj = false;
+                    break;
+                default:
+                    Console.WriteLine("Nepostojeća opcija! Neće biti upisano u datoteku!\n");
+                    break;
+            }
 
-            bool prikazano = _servis.PrikaziTroskove(Korisnik, odDatuma, doDatuma, kategorijeTroskova, kriterijSortiranja);
+            bool prikazano = _servis.PrikaziTroskove(Korisnik, odDatuma, doDatuma, kategorijeTroskova, kriterijSortiranja, spasiIzvjestaj);
             if (!prikazano) Console.WriteLine("Prikaz troškova nije uspio.");
         }
 

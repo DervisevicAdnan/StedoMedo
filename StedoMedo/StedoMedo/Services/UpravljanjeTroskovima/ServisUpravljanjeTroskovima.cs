@@ -71,7 +71,7 @@ namespace StedoMedo.Services.UpravljanjeTroskovima
             return false;
         }
         public bool PrikaziTroskove(Korisnik korisnik, DateTime? odDatuma = null, DateTime? doDatuma = null,
-            List<KategorijaTroska>? kategorijeTroskova = null, List<KriterijSortiranja>? kriterijiSortiranja = null)
+            List<KategorijaTroska>? kategorijeTroskova = null, List<KriterijSortiranja>? kriterijiSortiranja = null, bool spasiIzvjestaj = false)
         {
             try
             {
@@ -88,6 +88,37 @@ namespace StedoMedo.Services.UpravljanjeTroskovima
                 Console.WriteLine();
                 foreach (var trosak in troskovi) {
                     Console.WriteLine($"{trosak.Id,15}|{trosak.Iznos,10:F2}|{trosak.KategorijaTroska,25}|{trosak.DatumIVrijeme.ToShortDateString(),15}|{trosak.Opis}");
+                }
+
+                if (spasiIzvjestaj)
+                {
+                    string documentsPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+
+                    // Kreiraj putanju za novu datoteku
+                    string filePath = Path.Combine(documentsPath, korisnik.Ime + korisnik.Prezime + "Izvjestaj.txt");
+
+                    using (StreamWriter writer = new StreamWriter(filePath))
+                    {
+                        // Preusmjeravanje Console.Out na datoteku
+                        Console.SetOut(writer);
+
+                        // Sve što bi inače išlo na konzolu sada ide u datoteku
+                        Console.WriteLine(korisnik.Ime + " " + korisnik.Prezime + " " + DateTime.Now.ToString("dd/MM/yyyy"));
+                        Console.WriteLine("Izvjestaj");
+                        Console.WriteLine($"{"Id",15}|{"Iznos",10:F2}|{"Kategorija troska",25}|{"Datum",15}|Opis");
+                        for (int i = 0; i < 70; i++)
+                        {
+                            Console.Write("-");
+                        
+                        }
+                        Console.WriteLine();
+                        foreach (var trosak in troskovi)
+                        {
+                            Console.WriteLine($"{trosak.Id,15}|{trosak.Iznos,10:F2}|{trosak.KategorijaTroska,25}|{trosak.DatumIVrijeme.ToShortDateString(),15}|{trosak.Opis}");
+                        }
+                    }
+                    Console.SetOut(new StreamWriter(Console.OpenStandardOutput()) { AutoFlush = true });
+                    Console.WriteLine($"Datoteka kreirana na lokaciji: {filePath}");
                 }
 
                 return true;
