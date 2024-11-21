@@ -18,5 +18,7 @@ namespace StedoMedo.Services.ServisAutentifikacija
         public bool ObrisiKorisnika(Korisnik user);
 
         public string Hash(string password);
+
+        public Korisnik UredjivanjeProfila(Korisnik user);
     }
 }
