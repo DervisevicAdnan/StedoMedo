@@ -31,6 +31,9 @@ namespace StedoMedo.Models
         [Required(ErrorMessage = "Email je obavezan.")]
         [EmailAddress(ErrorMessage = "Email nije validan.")]
         public string Email { get; set; }
+
+        [Required(ErrorMessage = "SifraHash je obavezna.")]
+
         public string SifraHash { get; set; }
 
         public Korisnik(int id, string username, string ime, string prezime, string telefon, string email, string sifraHash)
