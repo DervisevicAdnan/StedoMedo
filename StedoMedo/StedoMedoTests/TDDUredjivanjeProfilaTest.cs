@@ -35,7 +35,7 @@ namespace StedoMedoTests
             {
                 Korisnik noviKorisnik = new Korisnik(1, "adnan", "Adnan", "Pršut", "+387123456", "adnan_prsut@gmail.com", "sifra123");
                 Korisnik rez = servis.UredjivanjeProfila(noviKorisnik);
-                Assert.AreEqual(novi, rez);
+                Assert.AreEqual(noviKorisnik, rez);
 
             }
             [TestMethod]
