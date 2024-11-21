@@ -394,6 +394,9 @@
       },
       "System.Reflection.Metadata/1.6.0": {},
       "StedoMedo/1.0.0": {
+        "dependencies": {
+          "Moq": "4.20.72"
+        },
         "runtime": {
           "StedoMedo.dll": {
             "assemblyVersion": "1.0.0",

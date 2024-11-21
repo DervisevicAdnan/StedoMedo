@@ -1,10 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\AdiDr\\Desktop\\VVSprojekat\\VVS-24-25-Projekat\\StedoMedo\\",
+  "WorkspaceRootPath": "C:\\Users\\alilj\\Desktop\\StedoMedo\\VVS-24-25-Projekat\\StedoMedo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6BCE2282-9B98-4285-A59F-B20828DE7041}|StedoMedoTests\\StedoMedoTests.csproj|c:\\users\\adidr\\desktop\\vvsprojekat\\vvs-24-25-projekat\\stedomedo\\stedomedotests\\budzetservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BCE2282-9B98-4285-A59F-B20828DE7041}|StedoMedoTests\\StedoMedoTests.csproj|solutionrelative:stedomedotests\\budzetservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6BCE2282-9B98-4285-A59F-B20828DE7041}|StedoMedoTests\\StedoMedoTests.csproj|c:\\users\\alilj\\desktop\\stedomedo\\vvs-24-25-projekat\\stedomedo\\stedomedotests\\servisstatistikatest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BCE2282-9B98-4285-A59F-B20828DE7041}|StedoMedoTests\\StedoMedoTests.csproj|solutionrelative:stedomedotests\\servisstatistikatest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|c:\\users\\alilj\\desktop\\stedomedo\\vvs-24-25-projekat\\stedomedo\\stedomedo\\services\\statistika\\servisstatistika.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|solutionrelative:stedomedo\\services\\statistika\\servisstatistika.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|c:\\users\\alilj\\desktop\\stedomedo\\vvs-24-25-projekat\\stedomedo\\stedomedo\\services\\upravljanjetroskovima\\servisupravljanjetroskovima.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|solutionrelative:stedomedo\\services\\upravljanjetroskovima\\servisupravljanjetroskovima.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BCE2282-9B98-4285-A59F-B20828DE7041}|StedoMedoTests\\StedoMedoTests.csproj|c:\\users\\alilj\\desktop\\stedomedo\\vvs-24-25-projekat\\stedomedo\\stedomedotests\\servisupravljanjetroskovimatest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BCE2282-9B98-4285-A59F-B20828DE7041}|StedoMedoTests\\StedoMedoTests.csproj|solutionrelative:stedomedotests\\servisupravljanjetroskovimatest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,20 +26,61 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BudzetServiceTest.cs",
-              "DocumentMoniker": "C:\\Users\\AdiDr\\Desktop\\VVSprojekat\\VVS-24-25-Projekat\\StedoMedo\\StedoMedoTests\\BudzetServiceTest.cs",
-              "RelativeDocumentMoniker": "StedoMedoTests\\BudzetServiceTest.cs",
-              "ToolTip": "C:\\Users\\AdiDr\\Desktop\\VVSprojekat\\VVS-24-25-Projekat\\StedoMedo\\StedoMedoTests\\BudzetServiceTest.cs",
-              "RelativeToolTip": "StedoMedoTests\\BudzetServiceTest.cs",
-              "ViewState": "AgIAABABAAAAAAAAAAAwwAwBAAB+AAAAAAAAAA==",
+              "Title": "ServisStatistikaTest.cs",
+              "DocumentMoniker": "C:\\Users\\alilj\\Desktop\\StedoMedo\\VVS-24-25-Projekat\\StedoMedo\\StedoMedoTests\\ServisStatistikaTest.cs",
+              "RelativeDocumentMoniker": "StedoMedoTests\\ServisStatistikaTest.cs",
+              "ToolTip": "C:\\Users\\alilj\\Desktop\\StedoMedo\\VVS-24-25-Projekat\\StedoMedo\\StedoMedoTests\\ServisStatistikaTest.cs",
+              "RelativeToolTip": "StedoMedoTests\\ServisStatistikaTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T12:49:23.273Z",
+              "WhenOpened": "2024-11-20T11:49:36.447Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ServisStatistika.cs",
+              "DocumentMoniker": "C:\\Users\\alilj\\Desktop\\StedoMedo\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Services\\Statistika\\ServisStatistika.cs",
+              "RelativeDocumentMoniker": "StedoMedo\\Services\\Statistika\\ServisStatistika.cs",
+              "ToolTip": "C:\\Users\\alilj\\Desktop\\StedoMedo\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Services\\Statistika\\ServisStatistika.cs",
+              "RelativeToolTip": "StedoMedo\\Services\\Statistika\\ServisStatistika.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T11:50:28.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ServisUpravljanjeTroskovima.cs",
+              "DocumentMoniker": "C:\\Users\\alilj\\Desktop\\StedoMedo\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Services\\UpravljanjeTroskovima\\ServisUpravljanjeTroskovima.cs",
+              "RelativeDocumentMoniker": "StedoMedo\\Services\\UpravljanjeTroskovima\\ServisUpravljanjeTroskovima.cs",
+              "ToolTip": "C:\\Users\\alilj\\Desktop\\StedoMedo\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Services\\UpravljanjeTroskovima\\ServisUpravljanjeTroskovima.cs",
+              "RelativeToolTip": "StedoMedo\\Services\\UpravljanjeTroskovima\\ServisUpravljanjeTroskovima.cs",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAwwA4AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T20:22:16.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ServisUpravljanjeTroskovimaTest.cs",
+              "DocumentMoniker": "C:\\Users\\alilj\\Desktop\\StedoMedo\\VVS-24-25-Projekat\\StedoMedo\\StedoMedoTests\\ServisUpravljanjeTroskovimaTest.cs",
+              "RelativeDocumentMoniker": "StedoMedoTests\\ServisUpravljanjeTroskovimaTest.cs",
+              "ToolTip": "C:\\Users\\alilj\\Desktop\\StedoMedo\\VVS-24-25-Projekat\\StedoMedo\\StedoMedoTests\\ServisUpravljanjeTroskovimaTest.cs",
+              "RelativeToolTip": "StedoMedoTests\\ServisUpravljanjeTroskovimaTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T20:19:22.58Z"
             }
           ]
         }
