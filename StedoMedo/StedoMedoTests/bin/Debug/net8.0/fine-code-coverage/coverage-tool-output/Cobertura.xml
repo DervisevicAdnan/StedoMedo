@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage line-rate="0.710008936550491" branch-rate="0.620229007633588" lines-covered="1589" lines-valid="2238" branches-covered="325" branches-valid="524" complexity="682" version="0" timestamp="1732183412">
+<coverage line-rate="0.714160455940377" branch-rate="0.620229007633588" lines-covered="1629" lines-valid="2281" branches-covered="325" branches-valid="524" complexity="692" version="0" timestamp="1732185987">
   <sources>
     <source>C:\Users\aNaToMiCaLL\</source>
   </sources>
   <packages>
-    <package name="StedoMedo" line-rate="0.520962732919255" branch-rate="0.604838709677419" complexity="557">
+    <package name="StedoMedo" line-rate="0.522075910147173" branch-rate="0.604838709677419" complexity="558">
       <classes>
         <class name="Program" filename="C:\Users\aNaToMiCaLL\Desktop\Fax\VVS-24-25-Projekat\StedoMedo\StedoMedo\Program.cs" line-rate="0" branch-rate="0" complexity="18">
           <methods>
@@ -263,37 +263,37 @@
           <methods>
             <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="13" hits="613" branch="false" />
+                <line number="13" hits="632" branch="false" />
               </lines>
             </method>
             <method name="get_Username" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="17" hits="166" branch="false" />
+                <line number="17" hits="185" branch="false" />
               </lines>
             </method>
             <method name="get_Ime" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="21" hits="156" branch="false" />
+                <line number="21" hits="174" branch="false" />
               </lines>
             </method>
             <method name="get_Prezime" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="25" hits="155" branch="false" />
+                <line number="25" hits="174" branch="false" />
               </lines>
             </method>
             <method name="get_Telefon" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="29" hits="155" branch="false" />
+                <line number="29" hits="176" branch="false" />
               </lines>
             </method>
             <method name="get_Email" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="33" hits="155" branch="false" />
+                <line number="33" hits="176" branch="false" />
               </lines>
             </method>
             <method name="get_SifraHash" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="37" hits="155" branch="false" />
+                <line number="37" hits="176" branch="false" />
               </lines>
             </method>
             <method name="ToString" signature="()" line-rate="1" branch-rate="1" complexity="1">
@@ -305,37 +305,37 @@
             </method>
             <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="39" hits="146" branch="false" />
-                <line number="40" hits="146" branch="false" />
-                <line number="41" hits="146" branch="false" />
-                <line number="42" hits="146" branch="false" />
-                <line number="43" hits="146" branch="false" />
-                <line number="44" hits="146" branch="false" />
-                <line number="45" hits="146" branch="false" />
-                <line number="46" hits="146" branch="false" />
-                <line number="47" hits="146" branch="false" />
-                <line number="48" hits="146" branch="false" />
+                <line number="39" hits="165" branch="false" />
+                <line number="40" hits="165" branch="false" />
+                <line number="41" hits="165" branch="false" />
+                <line number="42" hits="165" branch="false" />
+                <line number="43" hits="165" branch="false" />
+                <line number="44" hits="165" branch="false" />
+                <line number="45" hits="165" branch="false" />
+                <line number="46" hits="165" branch="false" />
+                <line number="47" hits="165" branch="false" />
+                <line number="48" hits="165" branch="false" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="13" hits="613" branch="false" />
-            <line number="17" hits="166" branch="false" />
-            <line number="21" hits="156" branch="false" />
-            <line number="25" hits="155" branch="false" />
-            <line number="29" hits="155" branch="false" />
-            <line number="33" hits="155" branch="false" />
-            <line number="37" hits="155" branch="false" />
-            <line number="39" hits="146" branch="false" />
-            <line number="40" hits="146" branch="false" />
-            <line number="41" hits="146" branch="false" />
-            <line number="42" hits="146" branch="false" />
-            <line number="43" hits="146" branch="false" />
-            <line number="44" hits="146" branch="false" />
-            <line number="45" hits="146" branch="false" />
-            <line number="46" hits="146" branch="false" />
-            <line number="47" hits="146" branch="false" />
-            <line number="48" hits="146" branch="false" />
+            <line number="13" hits="632" branch="false" />
+            <line number="17" hits="185" branch="false" />
+            <line number="21" hits="174" branch="false" />
+            <line number="25" hits="174" branch="false" />
+            <line number="29" hits="176" branch="false" />
+            <line number="33" hits="176" branch="false" />
+            <line number="37" hits="176" branch="false" />
+            <line number="39" hits="165" branch="false" />
+            <line number="40" hits="165" branch="false" />
+            <line number="41" hits="165" branch="false" />
+            <line number="42" hits="165" branch="false" />
+            <line number="43" hits="165" branch="false" />
+            <line number="44" hits="165" branch="false" />
+            <line number="45" hits="165" branch="false" />
+            <line number="46" hits="165" branch="false" />
+            <line number="47" hits="165" branch="false" />
+            <line number="48" hits="165" branch="false" />
             <line number="50" hits="4" branch="false" />
             <line number="51" hits="4" branch="false" />
             <line number="52" hits="4" branch="false" />
@@ -727,7 +727,7 @@
             <line number="119" hits="2" branch="false" />
           </lines>
         </class>
-        <class name="StedoMedo.Services.ServisAutentifikacija.ServisAutentifikacija" filename="C:\Users\aNaToMiCaLL\Desktop\Fax\VVS-24-25-Projekat\StedoMedo\StedoMedo\Services\ServisAutentifikacija\ServisAutentifikacija.cs" line-rate="0.929577464788732" branch-rate="0.846153846153846" complexity="30">
+        <class name="StedoMedo.Services.ServisAutentifikacija.ServisAutentifikacija" filename="C:\Users\aNaToMiCaLL\Desktop\Fax\VVS-24-25-Projekat\StedoMedo\StedoMedo\Services\ServisAutentifikacija\ServisAutentifikacija.cs" line-rate="0.931034482758621" branch-rate="0.846153846153846" complexity="31">
           <methods>
             <method name="KreirajKorisnika" signature="(...)" line-rate="1" branch-rate="0.75" complexity="4">
               <lines>
@@ -877,12 +877,19 @@
                 <line number="189" hits="1" branch="false" />
               </lines>
             </method>
+            <method name="EditovanjeProfila" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="191" hits="10" branch="false" />
+                <line number="192" hits="10" branch="false" />
+                <line number="193" hits="10" branch="false" />
+              </lines>
+            </method>
             <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="14" hits="7" branch="false" />
-                <line number="15" hits="7" branch="false" />
-                <line number="16" hits="7" branch="false" />
-                <line number="17" hits="7" branch="false" />
+                <line number="14" hits="17" branch="false" />
+                <line number="15" hits="17" branch="false" />
+                <line number="16" hits="17" branch="false" />
+                <line number="17" hits="17" branch="false" />
               </lines>
             </method>
             <method name=".cctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
@@ -909,10 +916,10 @@
             </method>
           </methods>
           <lines>
-            <line number="14" hits="7" branch="false" />
-            <line number="15" hits="7" branch="false" />
-            <line number="16" hits="7" branch="false" />
-            <line number="17" hits="7" branch="false" />
+            <line number="14" hits="17" branch="false" />
+            <line number="15" hits="17" branch="false" />
+            <line number="16" hits="17" branch="false" />
+            <line number="17" hits="17" branch="false" />
             <line number="20" hits="6" branch="false" />
             <line number="21" hits="7" branch="true" condition-coverage="100% (2/2)" />
             <line number="22" hits="1" branch="false" />
@@ -1051,6 +1058,9 @@
             <line number="187" hits="0" branch="false" />
             <line number="188" hits="0" branch="false" />
             <line number="189" hits="1" branch="false" />
+            <line number="191" hits="10" branch="false" />
+            <line number="192" hits="10" branch="false" />
+            <line number="193" hits="10" branch="false" />
           </lines>
         </class>
         <class name="StedoMedo.Services.ServisPredvidjanjeTroskova" filename="C:\Users\aNaToMiCaLL\Desktop\Fax\VVS-24-25-Projekat\StedoMedo\StedoMedo\Services\ServisPredvidjanjeTroskova.cs" line-rate="0.941747572815534" branch-rate="0.921052631578947" complexity="40">
@@ -3125,7 +3135,7 @@
         </class>
       </classes>
     </package>
-    <package name="StedoMedoTests" line-rate="0.966315789473684" branch-rate="0.892857142857143" complexity="125">
+    <package name="StedoMedoTests" line-rate="0.964646464646465" branch-rate="0.892857142857143" complexity="134">
       <classes>
         <class name="AutoGeneratedProgram" filename="C:\Users\aNaToMiCaLL\.nuget\packages\microsoft.net.test.sdk\17.8.0\build\netcoreapp3.1\Microsoft.NET.Test.Sdk.Program.cs" line-rate="0" branch-rate="1" complexity="1">
           <methods>
@@ -5471,36 +5481,152 @@
             <line number="362" hits="1" branch="false" />
           </lines>
         </class>
-        <class name="StedoMedoTests.TDDUredjivanjeProfilaTest" filename="C:\Users\aNaToMiCaLL\Desktop\Fax\VVS-24-25-Projekat\StedoMedo\StedoMedoTests\TDDUredjivanjeProfilaTest.cs" line-rate="1" branch-rate="1" complexity="2">
+        <class name="StedoMedoTests.TDDEditovanjeProfilaTest" filename="C:\Users\aNaToMiCaLL\Desktop\Fax\VVS-24-25-Projekat\StedoMedo\StedoMedoTests\TDDUredjivanjeProfilaTest.cs" line-rate="0.938775510204082" branch-rate="1" complexity="11">
           <methods>
             <method name="Setup" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="20" hits="1" branch="false" />
-                <line number="22" hits="1" branch="false" />
-                <line number="24" hits="1" branch="false" />
-                <line number="26" hits="1" branch="false" />
-                <line number="27" hits="1" branch="false" />
+                <line number="21" hits="10" branch="false" />
+                <line number="23" hits="10" branch="false" />
+                <line number="25" hits="10" branch="false" />
+                <line number="27" hits="10" branch="false" />
+                <line number="28" hits="10" branch="false" />
+                <line number="29" hits="10" branch="false" />
               </lines>
             </method>
-            <method name="proba" signature="()" line-rate="1" branch-rate="1" complexity="1">
+            <method name="TestPromjeneBrojaTelefona" signature="()" line-rate="0.8" branch-rate="1" complexity="1">
               <lines>
-                <line number="31" hits="1" branch="false" />
-                <line number="32" hits="1" branch="false" />
                 <line number="33" hits="1" branch="false" />
                 <line number="34" hits="1" branch="false" />
+                <line number="35" hits="1" branch="false" />
+                <line number="36" hits="1" branch="false" />
+                <line number="37" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="TestNevalidniBrojTelefona" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="41" hits="1" branch="false" />
+                <line number="42" hits="1" branch="false" />
+                <line number="43" hits="1" branch="false" />
+                <line number="44" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="TestLosFormatBrojTelefona" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="48" hits="1" branch="false" />
+                <line number="49" hits="1" branch="false" />
+                <line number="50" hits="1" branch="false" />
+                <line number="51" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="TestPredugBrojTelefona" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="56" hits="1" branch="false" />
+                <line number="57" hits="1" branch="false" />
+                <line number="58" hits="1" branch="false" />
+                <line number="59" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="TestPrekratakBrojTelefona" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="63" hits="1" branch="false" />
+                <line number="64" hits="1" branch="false" />
+                <line number="65" hits="1" branch="false" />
+                <line number="66" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="TestPromjeneEmailAdrese" signature="()" line-rate="0.8" branch-rate="1" complexity="1">
+              <lines>
+                <line number="69" hits="1" branch="false" />
+                <line number="70" hits="1" branch="false" />
+                <line number="71" hits="1" branch="false" />
+                <line number="72" hits="1" branch="false" />
+                <line number="73" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="TestNevalidnaEmailAdresa" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="78" hits="1" branch="false" />
+                <line number="79" hits="1" branch="false" />
+                <line number="80" hits="1" branch="false" />
+                <line number="81" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="TestEmailAdreseBezDomene" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="85" hits="1" branch="false" />
+                <line number="86" hits="1" branch="false" />
+                <line number="87" hits="1" branch="false" />
+                <line number="88" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="TestPromjeneSifre" signature="()" line-rate="0.8" branch-rate="1" complexity="1">
+              <lines>
+                <line number="91" hits="1" branch="false" />
+                <line number="92" hits="1" branch="false" />
+                <line number="93" hits="1" branch="false" />
+                <line number="94" hits="1" branch="false" />
+                <line number="95" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="TestPrekratkaSifre" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="99" hits="1" branch="false" />
+                <line number="100" hits="1" branch="false" />
+                <line number="101" hits="1" branch="false" />
+                <line number="102" hits="1" branch="false" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="20" hits="1" branch="false" />
-            <line number="22" hits="1" branch="false" />
-            <line number="24" hits="1" branch="false" />
-            <line number="26" hits="1" branch="false" />
-            <line number="27" hits="1" branch="false" />
-            <line number="31" hits="1" branch="false" />
-            <line number="32" hits="1" branch="false" />
+            <line number="21" hits="10" branch="false" />
+            <line number="23" hits="10" branch="false" />
+            <line number="25" hits="10" branch="false" />
+            <line number="27" hits="10" branch="false" />
+            <line number="28" hits="10" branch="false" />
+            <line number="29" hits="10" branch="false" />
             <line number="33" hits="1" branch="false" />
             <line number="34" hits="1" branch="false" />
+            <line number="35" hits="1" branch="false" />
+            <line number="36" hits="1" branch="false" />
+            <line number="37" hits="0" branch="false" />
+            <line number="41" hits="1" branch="false" />
+            <line number="42" hits="1" branch="false" />
+            <line number="43" hits="1" branch="false" />
+            <line number="44" hits="1" branch="false" />
+            <line number="48" hits="1" branch="false" />
+            <line number="49" hits="1" branch="false" />
+            <line number="50" hits="1" branch="false" />
+            <line number="51" hits="1" branch="false" />
+            <line number="56" hits="1" branch="false" />
+            <line number="57" hits="1" branch="false" />
+            <line number="58" hits="1" branch="false" />
+            <line number="59" hits="1" branch="false" />
+            <line number="63" hits="1" branch="false" />
+            <line number="64" hits="1" branch="false" />
+            <line number="65" hits="1" branch="false" />
+            <line number="66" hits="1" branch="false" />
+            <line number="69" hits="1" branch="false" />
+            <line number="70" hits="1" branch="false" />
+            <line number="71" hits="1" branch="false" />
+            <line number="72" hits="1" branch="false" />
+            <line number="73" hits="0" branch="false" />
+            <line number="78" hits="1" branch="false" />
+            <line number="79" hits="1" branch="false" />
+            <line number="80" hits="1" branch="false" />
+            <line number="81" hits="1" branch="false" />
+            <line number="85" hits="1" branch="false" />
+            <line number="86" hits="1" branch="false" />
+            <line number="87" hits="1" branch="false" />
+            <line number="88" hits="1" branch="false" />
+            <line number="91" hits="1" branch="false" />
+            <line number="92" hits="1" branch="false" />
+            <line number="93" hits="1" branch="false" />
+            <line number="94" hits="1" branch="false" />
+            <line number="95" hits="0" branch="false" />
+            <line number="99" hits="1" branch="false" />
+            <line number="100" hits="1" branch="false" />
+            <line number="101" hits="1" branch="false" />
+            <line number="102" hits="1" branch="false" />
           </lines>
         </class>
         <class name="StedoMedoTests.TrosakTest" filename="C:\Users\aNaToMiCaLL\Desktop\Fax\VVS-24-25-Projekat\StedoMedo\StedoMedoTests\TrosakTest.cs" line-rate="1" branch-rate="1" complexity="1">

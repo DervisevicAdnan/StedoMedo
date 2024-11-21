@@ -7,12 +7,16 @@
       "RelativeMoniker": "D:0:0:{6BCE2282-9B98-4285-A59F-B20828DE7041}|StedoMedoTests\\StedoMedoTests.csproj|solutionrelative:stedomedotests\\tdduredjivanjeprofilatest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|c:\\users\\anatomicall\\desktop\\fax\\vvs-24-25-projekat\\stedomedo\\stedomedo\\models\\korisnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|solutionrelative:stedomedo\\models\\korisnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6BCE2282-9B98-4285-A59F-B20828DE7041}|StedoMedoTests\\StedoMedoTests.csproj|c:\\users\\anatomicall\\desktop\\fax\\vvs-24-25-projekat\\stedomedo\\stedomedotests\\tddispisizvjestajatest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BCE2282-9B98-4285-A59F-B20828DE7041}|StedoMedoTests\\StedoMedoTests.csproj|solutionrelative:stedomedotests\\tddispisizvjestajatest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|c:\\users\\anatomicall\\desktop\\fax\\vvs-24-25-projekat\\stedomedo\\stedomedo\\services\\servisautentifikacija\\servisautentifikacija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|solutionrelative:stedomedo\\services\\servisautentifikacija\\servisautentifikacija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|c:\\users\\anatomicall\\desktop\\fax\\vvs-24-25-projekat\\stedomedo\\stedomedo\\models\\korisnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|solutionrelative:stedomedo\\models\\korisnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|c:\\users\\anatomicall\\desktop\\fax\\vvs-24-25-projekat\\stedomedo\\stedomedo\\services\\servispredvidjanjetroskova.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,10 +55,6 @@
       "RelativeMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|solutionrelative:stedomedo\\models\\budzet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6BCE2282-9B98-4285-A59F-B20828DE7041}|StedoMedoTests\\StedoMedoTests.csproj|c:\\users\\anatomicall\\desktop\\fax\\vvs-24-25-projekat\\stedomedo\\stedomedotests\\tddispisizvjestajatest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BCE2282-9B98-4285-A59F-B20828DE7041}|StedoMedoTests\\StedoMedoTests.csproj|solutionrelative:stedomedotests\\tddispisizvjestajatest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|c:\\users\\anatomicall\\desktop\\fax\\vvs-24-25-projekat\\stedomedo\\stedomedo\\data\\idbclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2786ED65-925B-434A-8170-71DA7E787B88}|StedoMedo\\StedoMedo.csproj|solutionrelative:stedomedo\\data\\idbclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -70,36 +70,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ServisPredvidjanjeTroskova.cs",
               "DocumentMoniker": "C:\\Users\\aNaToMiCaLL\\Desktop\\Fax\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Services\\ServisPredvidjanjeTroskova.cs",
               "RelativeDocumentMoniker": "StedoMedo\\Services\\ServisPredvidjanjeTroskova.cs",
               "ToolTip": "C:\\Users\\aNaToMiCaLL\\Desktop\\Fax\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Services\\ServisPredvidjanjeTroskova.cs",
               "RelativeToolTip": "StedoMedo\\Services\\ServisPredvidjanjeTroskova.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAIwBAAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T08:39:39.237Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T08:39:39.237Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ServisUpravljanjeTroskovima.cs",
-              "DocumentMoniker": "C:\\Users\\aNaToMiCaLL\\Desktop\\Fax\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Services\\UpravljanjeTroskovima\\ServisUpravljanjeTroskovima.cs",
-              "RelativeDocumentMoniker": "StedoMedo\\Services\\UpravljanjeTroskovima\\ServisUpravljanjeTroskovima.cs",
-              "ToolTip": "C:\\Users\\aNaToMiCaLL\\Desktop\\Fax\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Services\\UpravljanjeTroskovima\\ServisUpravljanjeTroskovima.cs",
-              "RelativeToolTip": "StedoMedo\\Services\\UpravljanjeTroskovima\\ServisUpravljanjeTroskovima.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T08:39:25.336Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ServisStatistika.cs",
               "DocumentMoniker": "C:\\Users\\aNaToMiCaLL\\Desktop\\Fax\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Services\\Statistika\\ServisStatistika.cs",
               "RelativeDocumentMoniker": "StedoMedo\\Services\\Statistika\\ServisStatistika.cs",
@@ -117,14 +104,14 @@
               "RelativeDocumentMoniker": "StedoMedo\\Services\\ServisAutentifikacija\\ServisAutentifikacija.cs",
               "ToolTip": "C:\\Users\\aNaToMiCaLL\\Desktop\\Fax\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Services\\ServisAutentifikacija\\ServisAutentifikacija.cs",
               "RelativeToolTip": "StedoMedo\\Services\\ServisAutentifikacija\\ServisAutentifikacija.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAgwL0AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-21T08:39:06.855Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "IServisAutentifikacija.cs",
               "DocumentMoniker": "C:\\Users\\aNaToMiCaLL\\Desktop\\Fax\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Services\\ServisAutentifikacija\\IServisAutentifikacija.cs",
               "RelativeDocumentMoniker": "StedoMedo\\Services\\ServisAutentifikacija\\IServisAutentifikacija.cs",
@@ -136,7 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Trosak.cs",
               "DocumentMoniker": "C:\\Users\\aNaToMiCaLL\\Desktop\\Fax\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Models\\Trosak.cs",
               "RelativeDocumentMoniker": "StedoMedo\\Models\\Trosak.cs",
@@ -148,7 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "KriterijSortiranja.cs",
               "DocumentMoniker": "C:\\Users\\aNaToMiCaLL\\Desktop\\Fax\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Models\\KriterijSortiranja.cs",
               "RelativeDocumentMoniker": "StedoMedo\\Models\\KriterijSortiranja.cs",
@@ -160,16 +147,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Korisnik.cs",
               "DocumentMoniker": "C:\\Users\\aNaToMiCaLL\\Desktop\\Fax\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Models\\Korisnik.cs",
               "RelativeDocumentMoniker": "StedoMedo\\Models\\Korisnik.cs",
               "ToolTip": "C:\\Users\\aNaToMiCaLL\\Desktop\\Fax\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Models\\Korisnik.cs",
               "RelativeToolTip": "StedoMedo\\Models\\Korisnik.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T08:38:50.255Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T08:38:50.255Z"
             },
             {
               "$type": "Document",
@@ -179,14 +165,39 @@
               "RelativeDocumentMoniker": "StedoMedoTests\\TDDUredjivanjeProfilaTest.cs",
               "ToolTip": "C:\\Users\\aNaToMiCaLL\\Desktop\\Fax\\VVS-24-25-Projekat\\StedoMedo\\StedoMedoTests\\TDDUredjivanjeProfilaTest.cs*",
               "RelativeToolTip": "StedoMedoTests\\TDDUredjivanjeProfilaTest.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADoAAAAAAAAAAAAwwDkAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-21T07:54:40.304Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
+              "Title": "TDDIspisIzvjestajaTest.cs",
+              "DocumentMoniker": "C:\\Users\\aNaToMiCaLL\\Desktop\\Fax\\VVS-24-25-Projekat\\StedoMedo\\StedoMedoTests\\TDDIspisIzvjestajaTest.cs",
+              "RelativeDocumentMoniker": "StedoMedoTests\\TDDIspisIzvjestajaTest.cs",
+              "ToolTip": "C:\\Users\\aNaToMiCaLL\\Desktop\\Fax\\VVS-24-25-Projekat\\StedoMedo\\StedoMedoTests\\TDDIspisIzvjestajaTest.cs",
+              "RelativeToolTip": "StedoMedoTests\\TDDIspisIzvjestajaTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T08:18:55.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ServisUpravljanjeTroskovima.cs",
+              "DocumentMoniker": "C:\\Users\\aNaToMiCaLL\\Desktop\\Fax\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Services\\UpravljanjeTroskovima\\ServisUpravljanjeTroskovima.cs",
+              "RelativeDocumentMoniker": "StedoMedo\\Services\\UpravljanjeTroskovima\\ServisUpravljanjeTroskovima.cs",
+              "ToolTip": "C:\\Users\\aNaToMiCaLL\\Desktop\\Fax\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Services\\UpravljanjeTroskovima\\ServisUpravljanjeTroskovima.cs",
+              "RelativeToolTip": "StedoMedo\\Services\\UpravljanjeTroskovima\\ServisUpravljanjeTroskovima.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T08:39:25.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "BudzetService.cs",
               "DocumentMoniker": "C:\\Users\\aNaToMiCaLL\\Desktop\\Fax\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Services\\BudzetService.cs",
               "RelativeDocumentMoniker": "StedoMedo\\Services\\BudzetService.cs",
@@ -198,7 +209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "KategorijaTroska.cs",
               "DocumentMoniker": "C:\\Users\\aNaToMiCaLL\\Desktop\\Fax\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Models\\KategorijaTroska.cs",
               "RelativeDocumentMoniker": "StedoMedo\\Models\\KategorijaTroska.cs",
@@ -210,7 +221,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Budzet.cs",
               "DocumentMoniker": "C:\\Users\\aNaToMiCaLL\\Desktop\\Fax\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Models\\Budzet.cs",
               "RelativeDocumentMoniker": "StedoMedo\\Models\\Budzet.cs",
@@ -243,18 +254,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-21T08:22:47.052Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "TDDIspisIzvjestajaTest.cs",
-              "DocumentMoniker": "C:\\Users\\aNaToMiCaLL\\Desktop\\Fax\\VVS-24-25-Projekat\\StedoMedo\\StedoMedoTests\\TDDIspisIzvjestajaTest.cs",
-              "RelativeDocumentMoniker": "StedoMedoTests\\TDDIspisIzvjestajaTest.cs",
-              "ToolTip": "C:\\Users\\aNaToMiCaLL\\Desktop\\Fax\\VVS-24-25-Projekat\\StedoMedo\\StedoMedoTests\\TDDIspisIzvjestajaTest.cs",
-              "RelativeToolTip": "StedoMedoTests\\TDDIspisIzvjestajaTest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T08:18:55.903Z"
             }
           ]
         }
