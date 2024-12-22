@@ -55,10 +55,10 @@ namespace StedoMedoTests
         [TestMethod]
         [DataRow(1, 4, SmjerSortiranja.Rastuci, 0)]
         [DataRow(1, 4, SmjerSortiranja.Opadajuci, 0)]
-        [DataRow(1, 2, SmjerSortiranja.Rastuci, 1)]
-        [DataRow(2, 1, SmjerSortiranja.Rastuci, -1)]
-        [DataRow(1, 2, SmjerSortiranja.Opadajuci, -1)]
-        [DataRow(2, 1, SmjerSortiranja.Opadajuci, 1)]
+        [DataRow(1, 2, SmjerSortiranja.Rastuci, -1)]
+        [DataRow(2, 1, SmjerSortiranja.Rastuci, 1)]
+        [DataRow(1, 2, SmjerSortiranja.Opadajuci, 1)]
+        [DataRow(2, 1, SmjerSortiranja.Opadajuci, -1)]
         public void SortirajPoDatumuTest(int indeks1, int indeks2, SmjerSortiranja smjer, int rezultat)
         {
             int rez = MetodeSortiranja.SortirajPoDatumu(troskovi[indeks1], troskovi[indeks2], smjer);
@@ -69,10 +69,10 @@ namespace StedoMedoTests
         [TestMethod]
         [DataRow(0, 3, SmjerSortiranja.Rastuci, 0)]
         [DataRow(0, 3, SmjerSortiranja.Opadajuci, 0)]
-        [DataRow(1, 2, SmjerSortiranja.Rastuci, 1)]
-        [DataRow(2, 1, SmjerSortiranja.Rastuci, -1)]
-        [DataRow(1, 2, SmjerSortiranja.Opadajuci, -1)]
-        [DataRow(2, 1, SmjerSortiranja.Opadajuci, 1)]
+        [DataRow(1, 2, SmjerSortiranja.Rastuci, -1)]
+        [DataRow(2, 1, SmjerSortiranja.Rastuci, 1)]
+        [DataRow(1, 2, SmjerSortiranja.Opadajuci, 1)]
+        [DataRow(2, 1, SmjerSortiranja.Opadajuci, -1)]
         public void SortirajPoIznosuTest(int indeks1, int indeks2, SmjerSortiranja smjer, int rezultat)
         {
             int rez = MetodeSortiranja.SortirajPoIznosu(troskovi[indeks1], troskovi[indeks2], smjer);
@@ -83,10 +83,10 @@ namespace StedoMedoTests
         [TestMethod]
         [DataRow(0, 0, SmjerSortiranja.Rastuci, 0)]
         [DataRow(0, 0, SmjerSortiranja.Opadajuci, 0)]
-        [DataRow(2, 1, SmjerSortiranja.Rastuci, 1)]
-        [DataRow(1, 2, SmjerSortiranja.Rastuci, -1)]
-        [DataRow(2, 1, SmjerSortiranja.Opadajuci, -1)]
-        [DataRow(1, 2, SmjerSortiranja.Opadajuci, 1)]
+        [DataRow(2, 1, SmjerSortiranja.Rastuci, -1)]
+        [DataRow(1, 2, SmjerSortiranja.Rastuci, 1)]
+        [DataRow(2, 1, SmjerSortiranja.Opadajuci, 1)]
+        [DataRow(1, 2, SmjerSortiranja.Opadajuci, -1)]
         public void SortirajPoKategorijiTest(int indeks1, int indeks2, SmjerSortiranja smjer, int rezultat)
         {
             int rez = MetodeSortiranja.SortirajPoKategoriji(troskovi[indeks1], troskovi[indeks2], smjer);

@@ -70,26 +70,12 @@ namespace StedoMedo.Services.UpravljanjeTroskovima
             }
             return false;
         }
-        public bool PrikaziTroskove(Korisnik korisnik, DateTime? odDatuma = null, DateTime? doDatuma = null,
-            List<KategorijaTroska>? kategorijeTroskova = null, List<KriterijSortiranja>? kriterijiSortiranja = null, bool spasiIzvjestaj = false)
+        public List<Trosak> DohvatiTroskove(Korisnik korisnik, ParametriFiltriranja parametriFiltriranja,
+            List<KriterijSortiranja>? kriterijiSortiranja = null)
         {
-            try
-            {
-                if (kategorijeTroskova == null || !kategorijeTroskova.Any())
-                    kategorijeTroskova = [
-                        KategorijaTroska.Hrana,
-                        KategorijaTroska.Rezije,
-                        KategorijaTroska.Prijevoz,
-                        KategorijaTroska.Izlasci,
-                        KategorijaTroska.Odjeca,
-                        KategorijaTroska.Ostalo
-                    ];
-                if (odDatuma == null) odDatuma = DateTime.MinValue;
-                if (doDatuma == null) doDatuma = DateTime.Now;
-                var troskovi = db.Troskovi.Where(t => t.Korisnik == korisnik &&
-                    t.DatumIVrijeme >= odDatuma && t.DatumIVrijeme <= doDatuma && kategorijeTroskova.Contains(t.KategorijaTroska)).ToList();
+                var troskovi = db.Troskovi.Where(t => FilterCondition(t, korisnik, parametriFiltriranja)).ToList();
 
-                if (kriterijiSortiranja != null && kriterijiSortiranja.Any())
+                if (NotNullNotEmpty(kriterijiSortiranja))
                     troskovi.Sort((x,y) => {
                         foreach (KriterijSortiranja kriterij1 in kriterijiSortiranja)
                         {
@@ -99,107 +85,19 @@ namespace StedoMedo.Services.UpravljanjeTroskovima
                         return 0;
                     });
 
-                Console.WriteLine($"{"Id",15}|{"Iznos",10:F2}|{"Kategorija troska",25}|{"Datum",15}|Opis");
-
-                Console.WriteLine("----------------------------------------------------------------------");
-
-                foreach (var trosak in troskovi) {
-                    Console.WriteLine($"{trosak.Id,15}|{trosak.Iznos,10:F2}|{trosak.KategorijaTroska,25}|{trosak.DatumIVrijeme.ToShortDateString(),15}|{trosak.Opis}");
-                }
-
-                if (spasiIzvjestaj)
-                {
-                    string documentsPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
-
-                    // Kreiraj putanju za novu datoteku
-                    string filePath = Path.Combine(documentsPath, korisnik.Ime + korisnik.Prezime + "Izvjestaj.txt");
-
-                    using (StreamWriter writer = new StreamWriter(filePath))
-                    {
-                        // Preusmjeravanje Console.Out na datoteku
-                        Console.SetOut(writer);
-
-                        // Sve što bi inače išlo na konzolu sada ide u datoteku
-                        Console.WriteLine(korisnik.Ime + " " + korisnik.Prezime + " " + DateTime.Now.ToString("dd/MM/yyyy"));
-                        Console.WriteLine("Izvjestaj");
-                        Console.WriteLine($"{"Id",15}|{"Iznos",10:F2}|{"Kategorija troska",25}|{"Datum",15}|Opis");
-                        Console.WriteLine("----------------------------------------------------------------------");
-                        foreach (var trosak in troskovi)
-                        {
-                            Console.WriteLine($"{trosak.Id,15}|{trosak.Iznos,10:F2}|{trosak.KategorijaTroska,25}|{trosak.DatumIVrijeme.ToShortDateString(),15}|{trosak.Opis}");
-                        }
-                    }
-                    Console.SetOut(new StreamWriter(Console.OpenStandardOutput()) { AutoFlush = true });
-                    Console.WriteLine($"Datoteka kreirana na lokaciji: {filePath}");
-                }
-
-                return true;
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine("Greska prilikom prikazivanja troskova!");
-                Console.WriteLine(ex.ToString());
-            }
-            return false;
+                return troskovi;
         }
 
-        private List<Trosak> SortirajTroskove(List<Trosak> troskovi, List<KriterijSortiranja> kriterijiSortiranja)
+        private bool NotNullNotEmpty(List<KriterijSortiranja>? kriterijiSortiranja)
         {
-            troskovi = QuickSort(troskovi, kriterijiSortiranja, 0, troskovi.Count - 1);
-            return troskovi;
+            return kriterijiSortiranja != null && kriterijiSortiranja.Any();
         }
 
-        private List<Trosak> QuickSort(List<Trosak> troskovi, List<KriterijSortiranja> kriterij, int low, int high)
+        private bool FilterCondition(Trosak t, Korisnik korisnik, ParametriFiltriranja parametriFiltriranja)
         {
-            if (low < high) {
-                int pivotIndex = Partition(troskovi, kriterij, low, high);
-                QuickSort(troskovi, kriterij, low, pivotIndex - 1);
-                QuickSort(troskovi, kriterij, pivotIndex + 1, high);
-            }
-            return troskovi;
-        }
-
-        private int Partition(List<Trosak> troskovi, List<KriterijSortiranja> kriterij, int low, int high) {
-            var pivot = troskovi[high];
-            int i = low - 1;
-
-            for (int j = low; j < high; j++) {
-                bool condition = false;
-
-                foreach(KriterijSortiranja kriterij1 in kriterij) {
-                    int krit = kriterij1.KriterijPoredjenja(troskovi[j], pivot, kriterij1.SmjerSortiranja);
-                    if (krit == 1) condition = true;
-                    if (condition || krit == -1) break;
-                }
-
-                if (condition) {
-                    i++;
-                    (troskovi[i], troskovi[j]) = (troskovi[j], troskovi[i]);
-                }
-            }
-            (troskovi[i + 1], troskovi[high]) = (troskovi[high], troskovi[i + 1]);
-            return i + 1;
-        }
-
-        private List<Trosak> FiltrirajTroskove(List<Trosak> troskovi, List<KategorijaTroska>? kategorijeTroskova, DateTime? odDatuma, DateTime? doDatuma)
-        {
-            if (kategorijeTroskova == null || !kategorijeTroskova.Any())
-                kategorijeTroskova = [
-                    KategorijaTroska.Hrana,
-                    KategorijaTroska.Rezije,
-                    KategorijaTroska.Prijevoz,
-                    KategorijaTroska.Izlasci,
-                    KategorijaTroska.Odjeca,
-                    KategorijaTroska.Ostalo
-                ];
-            if(odDatuma == null) odDatuma = DateTime.MinValue;
-            if(doDatuma == null) doDatuma = DateTime.Now;
-            List<Trosak> filtriraniTroskovi = [];
-            foreach(var trosak in troskovi) {
-                if (kategorijeTroskova.Contains(trosak.KategorijaTroska) && odDatuma <= trosak.DatumIVrijeme && doDatuma >= trosak.DatumIVrijeme)
-                    filtriraniTroskovi.Add(trosak);
-            }
-            return filtriraniTroskovi;
+            return t.Korisnik == korisnik &&
+                    t.DatumIVrijeme >= parametriFiltriranja.odDatuma && t.DatumIVrijeme <= parametriFiltriranja.doDatuma &&
+                    parametriFiltriranja.kategorijeTroskova.Contains(t.KategorijaTroska);
         }
     }
 }

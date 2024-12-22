@@ -171,7 +171,7 @@ namespace StedoMedo.UI
                 }
             }
 
-            Console.WriteLine("Da li želite da Vam se ivzještaj ispiše i u datoteku? (Y/N)");
+            Console.WriteLine("Da li želite da Vam se izvještaj ispiše i u datoteku? (Y/N)");
             bool spasiIzvjestaj = false;
             string izvjestaj = Console.ReadLine();
             switch (izvjestaj)
@@ -187,8 +187,51 @@ namespace StedoMedo.UI
                     break;
             }
 
-            bool prikazano = _servis.PrikaziTroskove(Korisnik, odDatuma, doDatuma, kategorijeTroskova, kriterijSortiranja, spasiIzvjestaj);
-            if (!prikazano) Console.WriteLine("Prikaz troškova nije uspio.");
+            try
+            {
+                var troskovi = _servis.DohvatiTroskove(Korisnik, new ParametriFiltriranja(odDatuma, doDatuma, kategorijeTroskova), kriterijSortiranja);
+                IspisiTroskove(troskovi);
+                if (spasiIzvjestaj) IspisiIzvjestajTroskova(Korisnik, troskovi);
+            }
+            catch(Exception e)
+            {
+                Console.WriteLine("Prikaz troškova nije uspio.");
+                Console.WriteLine(e.ToString());
+            }
+        }
+
+        private void IspisiTroskove(List<Trosak> troskovi)
+        {
+            Console.WriteLine($"{"Id",15}|{"Iznos",10:F2}|{"Kategorija troska",25}|{"Datum",15}|Opis");
+
+            Console.WriteLine("----------------------------------------------------------------------");
+
+            foreach (var trosak in troskovi)
+            {
+                Console.WriteLine($"{trosak.Id,15}|{trosak.Iznos,10:F2}|{trosak.KategorijaTroska,25}|{trosak.DatumIVrijeme.ToShortDateString(),15}|{trosak.Opis}");
+            }
+            
+        }
+        private void IspisiIzvjestajTroskova(Korisnik korisnik, List<Trosak> troskovi)
+        {
+            string documentsPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+
+            // Kreiraj putanju za novu datoteku
+            string filePath = Path.Combine(documentsPath, korisnik.Ime + korisnik.Prezime + "Izvjestaj.txt");
+
+            using (StreamWriter writer = new StreamWriter(filePath))
+            {
+                // Preusmjeravanje Console.Out na datoteku
+                Console.SetOut(writer);
+
+                Console.WriteLine(korisnik.Ime + " " + korisnik.Prezime + " " + DateTime.Now.ToString("dd/MM/yyyy"));
+                Console.WriteLine("Izvjestaj");
+
+                IspisiTroskove(troskovi);
+            }
+            Console.SetOut(new StreamWriter(Console.OpenStandardOutput()) { AutoFlush = true });
+            Console.WriteLine($"Datoteka kreirana na lokaciji: {filePath}");
+
         }
 
         private void IzmijeniTrosakKonzola()

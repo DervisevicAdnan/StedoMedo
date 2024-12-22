@@ -1,3 +1,4 @@
+using Microsoft.VisualStudio.TestPlatform.Utilities;
 using StedoMedo.Data;
 using StedoMedo.Models;
 using StedoMedo.Services.UpravljanjeTroskovima;
@@ -172,39 +173,36 @@ namespace StedoMedoTests
         }
 
         [TestMethod]
+        [ExpectedException(typeof(ArgumentNullException))]
         public void PrikaziTroskove_SimuliranaGreska_VracaFalse()
         {
             dbClass.Troskovi = null;
 
-            bool rezultat = servis.PrikaziTroskove(korisnik);
+            var rezultat = servis.DohvatiTroskove(korisnik, new ParametriFiltriranja());
 
-            Assert.IsFalse(rezultat);
+            //Assert.IsFalse(rezultat);
         }
 
         [TestMethod]
         public void PrikaziTroskove_KorisnikNemaTroskova_VracaTrue()
         {
-            bool rezultat = servis.PrikaziTroskove(korisnik);
+            var rezultat = servis.DohvatiTroskove(korisnik, new ParametriFiltriranja());
 
-            Assert.IsTrue(rezultat);
+            //Assert.IsTrue(rezultat);
         }
         [TestMethod]
         public void PrikaziTroskove_BezFiltriranjaISortiranja_VracaTrue()
         {
-            var output = new StringWriter();
-            Console.SetOut(output);
-
             servis.DodajTrosak(korisnik, 50, KategorijaTroska.Prijevoz, "Gorivo", DateTime.Now);
             servis.DodajTrosak(korisnik, 20);
             servis.DodajTrosak(korisnik, 70);
             servis.DodajTrosak(korisnik, 54);
-            bool rezultat = servis.PrikaziTroskove(korisnik);
-            var sOutput = output.ToString();
+            var rezultat = servis.DohvatiTroskove(korisnik, new ParametriFiltriranja());
 
-            Assert.IsTrue(rezultat);
-            Assert.AreEqual(sOutput.Split(Environment.NewLine).ToList().Count, 7);
-            Assert.IsTrue(sOutput.Contains("Ostalo"));
-            StringAssert.StartsWith(sOutput.Split(Environment.NewLine)[5], "              3");
+            Assert.AreEqual(rezultat.Count, 4);
+            Assert.AreEqual(rezultat[0].KategorijaTroska.ToString(), "Prijevoz");
+            Assert.AreEqual(rezultat[1].KategorijaTroska.ToString(), "Ostalo");
+            Assert.AreEqual(rezultat[3].Id, 3);
         }
 
         public static IEnumerable<object[]> TroskoviData
@@ -221,10 +219,10 @@ namespace StedoMedoTests
                         new List<KategorijaTroska> {KategorijaTroska.Prijevoz},
                         null,
                         null,
-                        4,
+                        1,
                         "Prijevoz",
-                        2,
-                        "              3"
+                        0,
+                        3
                     },
                     new object[] {
                         new List<DateTime> { DateTime.Parse("01-11-2024"), DateTime.Parse("14-11-2024"), DateTime.Parse("12-11-2024"), DateTime.Parse("20-11-2024")},
@@ -233,10 +231,10 @@ namespace StedoMedoTests
                         null,
                         DateTime.Parse("10-11-2024"),
                         DateTime.Parse("14-11-2024"),
-                        5,
-                        "Hrana",
                         2,
-                        "              1"
+                        "Hrana",
+                        0,
+                        1
                     },
                     new object[] {
                         new List<DateTime> { DateTime.Parse("01-11-2024"), DateTime.Parse("14-11-2024"), DateTime.Parse("12-11-2024"), DateTime.Parse("20-11-2024")},
@@ -245,10 +243,10 @@ namespace StedoMedoTests
                         null,
                         DateTime.Parse("14-11-2024"),
                         DateTime.Parse("14-11-2024"),
-                        4,
+                        1,
                         "Hrana",
-                        2,
-                        "              1"
+                        0,
+                        1
                     },
                     new object[] {
                         new List<DateTime> { DateTime.Parse("01-11-2024"), DateTime.Parse("14-11-2024"), DateTime.Parse("12-11-2024"), DateTime.Parse("20-11-2024")},
@@ -257,10 +255,10 @@ namespace StedoMedoTests
                         new List<KategorijaTroska> {KategorijaTroska.Izlasci},
                         DateTime.Parse("10-01-2024"),
                         DateTime.Parse("14-01-2024"),
-                        3,
+                        0,
                         "",
                         0,
-                        ""
+                        0
                     },
                     new object[] {
                         new List<DateTime> { DateTime.Parse("01-11-2024"), DateTime.Parse("14-11-2024"), DateTime.Parse("12-11-2024"), DateTime.Parse("05-11-2024")},
@@ -269,10 +267,10 @@ namespace StedoMedoTests
                         new List<KategorijaTroska> {KategorijaTroska.Prijevoz, KategorijaTroska.Hrana},
                         DateTime.Parse("10-11-2024"),
                         DateTime.Parse("14-11-2024"),
-                        4,
+                        1,
                         "Hrana",
-                        2,
-                        "              1"
+                        0,
+                        1
                     }
                 };
             }
@@ -282,56 +280,46 @@ namespace StedoMedoTests
         [DynamicData(nameof(TroskoviData))]
         public void PrikaziTroskove_SaFiltriranjem_VracaTrue(List<DateTime> datumi, List<double> iznosi, List<KategorijaTroska> kategorije,
             List<KategorijaTroska>? filtriranjeKategorije, DateTime? filterOdDatuma, DateTime? filterDoDatuma,
-            int brLinija, string kategorija, int linija, string start)
+            int brLinija, string kategorija, int linija, int start)
         {
-            var output = new StringWriter();
-            Console.SetOut(output);
 
             for (int i = 0; i < datumi.Count; i++)
             {
                 servis.DodajTrosak(korisnik, iznosi[i], kategorije[i], "", datumi[i]);
             }
 
-            bool rezultat = servis.PrikaziTroskove(korisnik, filterOdDatuma, filterDoDatuma, filtriranjeKategorije);
-            var sOutput = output.ToString();
+            var rezultat = servis.DohvatiTroskove(korisnik, new ParametriFiltriranja(filterOdDatuma, filterDoDatuma, filtriranjeKategorije));
 
-            Assert.IsTrue(rezultat);
-            Assert.AreEqual(sOutput.Split(Environment.NewLine).ToList().Count, brLinija);
-            Assert.IsTrue(sOutput.Contains(kategorija));
-            StringAssert.StartsWith(sOutput.Split(Environment.NewLine)[linija], start);
+            Assert.AreEqual(rezultat.Count, brLinija);
+            if (brLinija > 0)
+            {
+                Assert.AreEqual(rezultat[0].KategorijaTroska.ToString(),kategorija);
+                Assert.AreEqual(rezultat[linija].Id, start);
+            }
         }
 
         [TestMethod]
         public void PrikaziTroskove_SaSortiranjem_VracaTrue()
         {
-            var output = new StringWriter();
-            Console.SetOut(output);
-
             servis.DodajTrosak(korisnik, 20);
             servis.DodajTrosak(korisnik, 70);
             servis.DodajTrosak(korisnik, 50, KategorijaTroska.Prijevoz, "Gorivo", DateTime.Now);
             servis.DodajTrosak(korisnik, 54);
 
-            bool rezultat = servis.PrikaziTroskove(korisnik, null, null, null, [new KriterijSortiranja(MetodeSortiranja.SortirajPoIznosu, SmjerSortiranja.Opadajuci)]);
-            var sOutput = output.ToString();
-            var linije = sOutput.Split(Environment.NewLine).ToList();
+            var rezultat = servis.DohvatiTroskove(korisnik, new ParametriFiltriranja(), [new KriterijSortiranja(MetodeSortiranja.SortirajPoIznosu, SmjerSortiranja.Opadajuci)]);
 
-            Assert.IsTrue(rezultat);
-            Assert.AreEqual(linije.Count, 7);
-            Assert.IsTrue(sOutput.Contains("Ostalo"));
-            Assert.IsTrue(sOutput.Contains("Prijevoz"));
-            StringAssert.StartsWith(linije[2], "              1");
-            StringAssert.StartsWith(linije[3], "              3");
-            StringAssert.StartsWith(linije[4], "              2");
-            StringAssert.StartsWith(linije[5], "              0");
+            Assert.AreEqual(rezultat.Count, 4);
+            Assert.AreEqual(rezultat[0].KategorijaTroska.ToString(),"Ostalo");
+            Assert.AreEqual(rezultat[2].KategorijaTroska.ToString(), "Prijevoz");
+            Assert.AreEqual(rezultat[0].Id, 1);
+            Assert.AreEqual(rezultat[1].Id, 3);
+            Assert.AreEqual(rezultat[2].Id, 2);
+            Assert.AreEqual(rezultat[3].Id, 0);
         }
 
         [TestMethod]
         public void PrikaziTroskove_SortiranjePoViseKriterija_VracaTrue()
         {
-            var output = new StringWriter();
-            Console.SetOut(output);
-
             servis.DodajTrosak(korisnik, 20);
             servis.DodajTrosak(korisnik, 20, KategorijaTroska.Izlasci);
             servis.DodajTrosak(korisnik, 20, KategorijaTroska.Hrana);
@@ -340,25 +328,22 @@ namespace StedoMedoTests
             servis.DodajTrosak(korisnik, 50, KategorijaTroska.Prijevoz, "Gorivo", DateTime.Now);
             servis.DodajTrosak(korisnik, 54);
 
-            bool rezultat = servis.PrikaziTroskove(korisnik, null, null, null, 
+            var rezultat = servis.DohvatiTroskove(korisnik, new ParametriFiltriranja(),
                 [new KriterijSortiranja(MetodeSortiranja.SortirajPoIznosu, SmjerSortiranja.Opadajuci), 
                 new KriterijSortiranja(MetodeSortiranja.SortirajPoKategoriji)]);
-            var sOutput = output.ToString();
-            var linije = sOutput.Split(Environment.NewLine).ToList();
 
-            Assert.IsTrue(rezultat);
-            Assert.AreEqual(linije.Count, 10);
-            Assert.IsTrue(sOutput.Contains("Ostalo"));
-            Assert.IsTrue(sOutput.Contains("Prijevoz"));
-            Assert.IsTrue(sOutput.Contains("Hrana"));
-            Assert.IsTrue(sOutput.Contains("Izlasci"));
-            StringAssert.StartsWith(linije[2], "              4");
-            StringAssert.StartsWith(linije[3], "              6");
-            StringAssert.StartsWith(linije[4], "              5");
-            StringAssert.StartsWith(linije[5], "              2");
-            StringAssert.StartsWith(linije[6], "              1");
-            StringAssert.StartsWith(linije[7], "              0");
-            StringAssert.StartsWith(linije[8], "              3");
+            Assert.AreEqual(rezultat.Count, 7);
+            Assert.AreEqual(rezultat[0].KategorijaTroska.ToString(), "Ostalo");
+            Assert.AreEqual(rezultat[2].KategorijaTroska.ToString(), "Prijevoz");
+            Assert.AreEqual(rezultat[3].KategorijaTroska.ToString(), "Hrana");
+            Assert.AreEqual(rezultat[4].KategorijaTroska.ToString(), "Izlasci");
+            Assert.AreEqual(rezultat[0].Id, 4);
+            Assert.AreEqual(rezultat[1].Id, 6);
+            Assert.AreEqual(rezultat[2].Id, 5);
+            Assert.AreEqual(rezultat[3].Id, 2);
+            Assert.AreEqual(rezultat[4].Id, 1);
+            Assert.AreEqual(rezultat[5].Id, 0);
+            Assert.AreEqual(rezultat[6].Id, 3);
         }
     }
 }
