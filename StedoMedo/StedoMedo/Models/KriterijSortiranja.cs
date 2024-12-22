@@ -18,40 +18,40 @@ namespace StedoMedo.Models
             if (t1.Id == t2.Id)
                 return 0;
             if (smjer == SmjerSortiranja.Rastuci && t1.Id < t2.Id)
-                return 1;
+                return -1;
             else if (smjer == SmjerSortiranja.Opadajuci && t1.Id > t2.Id)
-                return 1;
-            return -1;
+                return -1;
+            return 1;
         }
         public static int SortirajPoDatumu(Trosak t1, Trosak t2, SmjerSortiranja smjer)
         {
             if (t1.DatumIVrijeme == t2.DatumIVrijeme)
                 return 0;
             if (smjer == SmjerSortiranja.Rastuci && t1.DatumIVrijeme < t2.DatumIVrijeme)
-                return 1;
+                return -1;
             else if (smjer == SmjerSortiranja.Opadajuci && t1.DatumIVrijeme > t2.DatumIVrijeme)
-                return 1;
-            return -1;
+                return -1;
+            return 1;
         }
         public static int SortirajPoIznosu(Trosak t1, Trosak t2, SmjerSortiranja smjer)
         {
             if (t1.Iznos == t2.Iznos)
                 return 0;
             if (smjer == SmjerSortiranja.Rastuci && t1.Iznos < t2.Iznos)
-                return 1;
+                return -1;
             else if (smjer == SmjerSortiranja.Opadajuci && t1.Iznos > t2.Iznos)
-                return 1;
-            return -1;
+                return -1;
+            return 1;
         }
         public static int SortirajPoKategoriji(Trosak t1, Trosak t2, SmjerSortiranja smjer)
         {
             if (t1.KategorijaTroska == t2.KategorijaTroska)
                 return 0;
             if (smjer == SmjerSortiranja.Rastuci && t1.KategorijaTroska < t2.KategorijaTroska)
-                return 1;
+                return -1;
             else if (smjer == SmjerSortiranja.Opadajuci && t1.KategorijaTroska > t2.KategorijaTroska)
-                return 1;
-            return -1;
+                return -1;
+            return 1;
         }
     }
     public class KriterijSortiranja

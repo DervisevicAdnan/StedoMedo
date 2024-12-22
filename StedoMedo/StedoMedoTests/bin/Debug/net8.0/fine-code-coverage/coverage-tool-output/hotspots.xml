@@ -15,4 +15,19 @@
       </Metric>
     </Metrics>
   </Hotspot>
+  <Hotspot>
+    <Assembly>StedoMedo</Assembly>
+    <Class>StedoMedo.Services.UpravljanjeTroskovima.ServisUpravljanjeTroskovima</Class>
+    <MethodName>PrikaziTroskove(...)</MethodName>
+    <ShortName />
+    <Line>75</Line>
+    <FileIndex>0</FileIndex>
+    <Metrics>
+      <Metric>
+        <Name>Cyclomatic complexity</Name>
+        <Exceeded>true</Exceeded>
+        <Value>32</Value>
+      </Metric>
+    </Metrics>
+  </Hotspot>
 </Hotspots>

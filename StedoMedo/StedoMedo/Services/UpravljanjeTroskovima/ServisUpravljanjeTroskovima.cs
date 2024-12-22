@@ -75,17 +75,34 @@ namespace StedoMedo.Services.UpravljanjeTroskovima
         {
             try
             {
-                var troskovi = db.Troskovi.Where(t => t.Korisnik == korisnik).ToList();
-                troskovi = FiltrirajTroskove(troskovi, kategorijeTroskova, odDatuma, doDatuma);
+                if (kategorijeTroskova == null || !kategorijeTroskova.Any())
+                    kategorijeTroskova = [
+                        KategorijaTroska.Hrana,
+                        KategorijaTroska.Rezije,
+                        KategorijaTroska.Prijevoz,
+                        KategorijaTroska.Izlasci,
+                        KategorijaTroska.Odjeca,
+                        KategorijaTroska.Ostalo
+                    ];
+                if (odDatuma == null) odDatuma = DateTime.MinValue;
+                if (doDatuma == null) doDatuma = DateTime.Now;
+                var troskovi = db.Troskovi.Where(t => t.Korisnik == korisnik &&
+                    t.DatumIVrijeme >= odDatuma && t.DatumIVrijeme <= doDatuma && kategorijeTroskova.Contains(t.KategorijaTroska)).ToList();
 
                 if (kriterijiSortiranja != null && kriterijiSortiranja.Any())
-                    troskovi = SortirajTroskove(troskovi, kriterijiSortiranja);
+                    troskovi.Sort((x,y) => {
+                        foreach (KriterijSortiranja kriterij1 in kriterijiSortiranja)
+                        {
+                            int krit = kriterij1.KriterijPoredjenja(x, y, kriterij1.SmjerSortiranja);
+                            if (krit != 0) return krit;
+                        }
+                        return 0;
+                    });
 
                 Console.WriteLine($"{"Id",15}|{"Iznos",10:F2}|{"Kategorija troska",25}|{"Datum",15}|Opis");
-                for(int i = 0; i <70; i++) {
-                    Console.Write("-");
-                }
-                Console.WriteLine();
+
+                Console.WriteLine("----------------------------------------------------------------------");
+
                 foreach (var trosak in troskovi) {
                     Console.WriteLine($"{trosak.Id,15}|{trosak.Iznos,10:F2}|{trosak.KategorijaTroska,25}|{trosak.DatumIVrijeme.ToShortDateString(),15}|{trosak.Opis}");
                 }
@@ -106,12 +123,7 @@ namespace StedoMedo.Services.UpravljanjeTroskovima
                         Console.WriteLine(korisnik.Ime + " " + korisnik.Prezime + " " + DateTime.Now.ToString("dd/MM/yyyy"));
                         Console.WriteLine("Izvjestaj");
                         Console.WriteLine($"{"Id",15}|{"Iznos",10:F2}|{"Kategorija troska",25}|{"Datum",15}|Opis");
-                        for (int i = 0; i < 70; i++)
-                        {
-                            Console.Write("-");
-                        
-                        }
-                        Console.WriteLine();
+                        Console.WriteLine("----------------------------------------------------------------------");
                         foreach (var trosak in troskovi)
                         {
                             Console.WriteLine($"{trosak.Id,15}|{trosak.Iznos,10:F2}|{trosak.KategorijaTroska,25}|{trosak.DatumIVrijeme.ToShortDateString(),15}|{trosak.Opis}");
