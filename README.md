@@ -1,20 +1,27 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# StedoMedo - Aplikacija za praćenje troškova
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+StedoMedo je aplikacija za praćenje, analizu i optimizaciju ličnih troškova. Korisniku omogućava unos i kategorizaciju finansijskih transakcija, praćenje mjesečnih i godišnjih troškova, te uvid u obrasce potrošnje. Cilj aplikacije je pomoći korisnicima u boljem upravljanju osobnim finansijama, identifikaciji nepotrebnih troškova i postizanju veće razine štednje.
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+Ovaj projekat je primarno razvijen u svrhu demonstracije i implementacije različitih tehnika verifikacije i validacije softvera, kao dio rada na predmetu Verifikacija i validacija softvera.  
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+## Ključne karakteristike aplikacije
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+*   **Upravljanje profilom:** Kreiranje profila, prijava i upravljanje korisničkim podacima.
+*   **Unos troškova:** Jednostavan unos svih financijskih transakcija.
+*   **Kategorizacija troškova:** Definiranje i dodjeljivanje kategorija troškovima za bolji pregled potrošnje.
+*   **Praćenje troškova:** Pregledi i filtriranje troškova prema odabranim kriterijima.
+*   **Praćenje budžeta:** Postavljanje budžeta na određeni period i praćenje njegovog stanja.
+*   **Brisanje i uređivanje troškova:** Jednostavno brisanje ili uređivanje željene transakcije.
+*   **Praćenje trenda potrošnje:** Prikaz trenda potrošnje u odnosu na skorije vrijeme
+
+## Verifikacija i validacija
+Cilj projekta je bio da savladamo sljedeće oblasti:
+
+*  **Unit testiranje**
+*  **Data driven testiranje**
+*  **Test driven development**
+*  **Zamjenski objekti**
+*  **Mjere pokrivenosti koda testovima**
+*  **Metrike koda**
+*  **Code tuning**
+*  **Code refactoring**
