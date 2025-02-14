@@ -12,8 +12,7 @@ namespace StedoMedo.Services.UpravljanjeTroskovima
         public bool DodajTrosak(Korisnik korisnik, double iznos, KategorijaTroska kategorijaTroska = KategorijaTroska.Ostalo, string opis = "", DateTime? dateTime = null);
         public bool ObrisiTrosak(Korisnik korisnik, int idTroska);
         public bool IzmijeniTrosak(Korisnik korisnik, int idTroska, double iznos, KategorijaTroska kategorijaTroska);
-        public bool PrikaziTroskove(Korisnik korisnik, DateTime? odDatuma = null, DateTime? doDatuma = null,
-            List<KategorijaTroska>? kategorijeTroskova = null, List<KriterijSortiranja>? kriterijiSortiranja = null, bool spasiIzvjestaj = false);
+        public List<Trosak> DohvatiTroskove(Korisnik korisnik, ParametriFiltriranja parametriFiltriranja, List<KriterijSortiranja>? kriterijiSortiranja = null);
 
     }
 }

@@ -2,40 +2,10 @@
 <Hotspots>
   <Hotspot>
     <Assembly>StedoMedo</Assembly>
-    <Class>Program</Class>
-    <MethodName>&lt;Main&gt;$(...)</MethodName>
-    <ShortName />
-    <Line>9</Line>
-    <FileIndex>0</FileIndex>
-    <Metrics>
-      <Metric>
-        <Name>Cyclomatic complexity</Name>
-        <Exceeded>true</Exceeded>
-        <Value>38</Value>
-      </Metric>
-    </Metrics>
-  </Hotspot>
-  <Hotspot>
-    <Assembly>StedoMedo</Assembly>
     <Class>StedoMedo.Services.ServisAutentifikacija.ServisAutentifikacija</Class>
     <MethodName>UredjivanjeProfila(...)</MethodName>
     <ShortName />
     <Line>194</Line>
-    <FileIndex>0</FileIndex>
-    <Metrics>
-      <Metric>
-        <Name>Cyclomatic complexity</Name>
-        <Exceeded>true</Exceeded>
-        <Value>34</Value>
-      </Metric>
-    </Metrics>
-  </Hotspot>
-  <Hotspot>
-    <Assembly>StedoMedo</Assembly>
-    <Class>StedoMedo.UI.KonzolaUpravljanjeTroskovima</Class>
-    <MethodName>PrikaziTroskoveKonzola()</MethodName>
-    <ShortName />
-    <Line>85</Line>
     <FileIndex>0</FileIndex>
     <Metrics>
       <Metric>
