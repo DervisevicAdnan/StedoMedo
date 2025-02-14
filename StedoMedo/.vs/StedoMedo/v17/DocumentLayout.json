@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6BCE2282-9B98-4285-A59F-B20828DE7041}|StedoMedoTests\\StedoMedoTests.csproj|c:\\users\\hp compaq\\desktop\\vvs\\vvs-24-25-projekat\\stedomedo\\stedomedotests\\servisstatistikatest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BCE2282-9B98-4285-A59F-B20828DE7041}|StedoMedoTests\\StedoMedoTests.csproj|solutionrelative:stedomedotests\\servisstatistikatest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6BCE2282-9B98-4285-A59F-B20828DE7041}|StedoMedoTests\\StedoMedoTests.csproj|c:\\users\\hp compaq\\desktop\\vvs\\vvs-24-25-projekat\\stedomedo\\stedomedotests\\servisupravljanjetroskovimadrugidiotest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6BCE2282-9B98-4285-A59F-B20828DE7041}|StedoMedoTests\\StedoMedoTests.csproj|solutionrelative:stedomedotests\\servisupravljanjetroskovimadrugidiotest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -42,11 +46,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "ServisStatistikaTest.cs",
+              "DocumentMoniker": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\StedoMedoTests\\ServisStatistikaTest.cs",
+              "RelativeDocumentMoniker": "StedoMedoTests\\ServisStatistikaTest.cs",
+              "ToolTip": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\StedoMedoTests\\ServisStatistikaTest.cs",
+              "RelativeToolTip": "StedoMedoTests\\ServisStatistikaTest.cs",
+              "ViewState": "AgIAAEsBAAAAAAAAAAAgwFkBAABrAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T17:42:04.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "TDDIspisIzvjestajaTest.cs",
               "DocumentMoniker": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\StedoMedoTests\\TDDIspisIzvjestajaTest.cs",
               "RelativeDocumentMoniker": "StedoMedoTests\\TDDIspisIzvjestajaTest.cs",
@@ -54,12 +71,11 @@
               "RelativeToolTip": "StedoMedoTests\\TDDIspisIzvjestajaTest.cs",
               "ViewState": "AgIAACcAAAAAAAAAAAAAAH4AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T10:50:21.941Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-22T10:50:21.941Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "IServisUpravljanjeTroskovima.cs",
               "DocumentMoniker": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Services\\UpravljanjeTroskovima\\IServisUpravljanjeTroskovima.cs",
               "RelativeDocumentMoniker": "StedoMedo\\Services\\UpravljanjeTroskovima\\IServisUpravljanjeTroskovima.cs",
@@ -67,12 +83,11 @@
               "RelativeToolTip": "StedoMedo\\Services\\UpravljanjeTroskovima\\IServisUpravljanjeTroskovima.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T10:23:42.131Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-22T10:23:42.131Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "KonzolaUpravljanjeTroskovima.cs",
               "DocumentMoniker": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\UI\\KonzolaUpravljanjeTroskovima.cs",
               "RelativeDocumentMoniker": "StedoMedo\\UI\\KonzolaUpravljanjeTroskovima.cs",
@@ -80,25 +95,23 @@
               "RelativeToolTip": "StedoMedo\\UI\\KonzolaUpravljanjeTroskovima.cs",
               "ViewState": "AgIAAJgAAAAAAAAAAAAAAMUAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T10:17:33.627Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-22T10:17:33.627Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ServisUpravljanjeTroskovimaDrugiDioTest.cs",
               "DocumentMoniker": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\StedoMedoTests\\ServisUpravljanjeTroskovimaDrugiDioTest.cs",
               "RelativeDocumentMoniker": "StedoMedoTests\\ServisUpravljanjeTroskovimaDrugiDioTest.cs",
               "ToolTip": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\StedoMedoTests\\ServisUpravljanjeTroskovimaDrugiDioTest.cs",
               "RelativeToolTip": "StedoMedoTests\\ServisUpravljanjeTroskovimaDrugiDioTest.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAcwC8AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAowC8AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T12:37:28.198Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-18T12:37:28.198Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ServisUpravljanjeTroskovima.cs",
               "DocumentMoniker": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Services\\UpravljanjeTroskovima\\ServisUpravljanjeTroskovima.cs",
               "RelativeDocumentMoniker": "StedoMedo\\Services\\UpravljanjeTroskovima\\ServisUpravljanjeTroskovima.cs",
@@ -106,12 +119,11 @@
               "RelativeToolTip": "StedoMedo\\Services\\UpravljanjeTroskovima\\ServisUpravljanjeTroskovima.cs",
               "ViewState": "AgIAADUAAAAAAAAAAAA5wBMAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T06:51:13.291Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-18T06:51:13.291Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ServisUpravljanjeTroskovimaTest.cs",
               "DocumentMoniker": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\StedoMedoTests\\ServisUpravljanjeTroskovimaTest.cs",
               "RelativeDocumentMoniker": "StedoMedoTests\\ServisUpravljanjeTroskovimaTest.cs",
@@ -119,12 +131,11 @@
               "RelativeToolTip": "StedoMedoTests\\ServisUpravljanjeTroskovimaTest.cs",
               "ViewState": "AgIAAK0AAAAAAAAAAAApwK8AAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T12:12:08.27Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-18T12:12:08.27Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ParametriFiltriranja.cs",
               "DocumentMoniker": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Models\\ParametriFiltriranja.cs",
               "RelativeDocumentMoniker": "StedoMedo\\Models\\ParametriFiltriranja.cs",
@@ -132,12 +143,11 @@
               "RelativeToolTip": "StedoMedo\\Models\\ParametriFiltriranja.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAwwBgAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T09:29:52.269Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-22T09:29:52.269Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "KriterijSortiranja.cs",
               "DocumentMoniker": "C:\\Users\\HP Compaq\\Desktop\\VVS\\VVS-24-25-Projekat\\StedoMedo\\StedoMedo\\Models\\KriterijSortiranja.cs",
               "RelativeDocumentMoniker": "StedoMedo\\Models\\KriterijSortiranja.cs",

@@ -343,7 +343,7 @@ namespace StedoMedoTests
         [ExpectedException(typeof(ArgumentOutOfRangeException))]
         public void VarijansaTroskova_ShouldThrowArgumentOutOfRangeException_WhenDoDatumaIsInTheFuture()
         {
-            servis.VarijansaTroskova(korisnik, DateTime.Parse("01-01-2024"), DateTime.Parse("01-01-2025"));
+            servis.VarijansaTroskova(korisnik, DateTime.Parse("01-01-2024"), DateTime.Parse("01-01-2028"));
         }
 
         [TestMethod]
